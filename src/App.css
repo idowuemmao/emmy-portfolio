@@ -1,10 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
 .App {
   text-align: center;
+  min-height: 100vh;
+  padding: 1rem 4rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App__logo {
+  cursor: pointer;
+  width: 2.5rem;
+  margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,26 +22,79 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  /* background-color: yellow; */
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0.5rem 0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.scroll {
+  background-color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar__right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+.nav__links li {
+  cursor: pointer;
+}
+.nav__links li:hover {
+  text-decoration: underline;
+}
+.nav-icons {
+  display: flex;
+  gap: 0.4rem;
+}
+.icons {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.icons:hover {
+  color: black;
+  background: white;
+}
+.connect {
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 1px 1px 0px 0px white;
+  opacity: 0.8;
+}
+.connect:hover {
+  background: white;
+  color: black;
+  opacity: 1;
+  transition: 0.3ms ease-in-out;
+}
+.banner {
+  border: 1px solid;
+  display: flex;
+  margin-top: 6rem;
+}
+.welcome-btn {
+  color: white;
+  font-weight: 700;
+  background: url(./images/w00056.jpg);
+  background-size: cover;
+  border: 1px solid white;
+  padding: 0.5rem 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7rem;
+}
+.typewriter {
+  color: blue;
+  font-weight: bold;
 }
