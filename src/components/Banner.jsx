@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Banner = () => {
   return (
     <div className="banner">
-      <div>
+      <div className="banners">
         <button className="welcome-btn">Welcome to my Portfolio</button>
         <p className="intro-text">Hello I'm Emmanuel Idowu, a </p>
         <div className="typewriters">
