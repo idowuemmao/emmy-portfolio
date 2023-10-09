@@ -48,6 +48,7 @@
 }
 .nav__links li:hover {
   text-decoration: underline;
+  color: red;
 }
 .nav-icons {
   display: flex;
@@ -76,19 +77,24 @@
 }
 .connect:hover {
   background: white;
-  color: black;
+  color: red;
+  font-weight: 700;
   opacity: 1;
   transition: 0.3ms ease-in-out;
 }
 .main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 90% 10%;
   justify-content: space-between;
   /* border: 2px solid; */
   width: 100%;
   align-items: center;
   margin-top: 8rem;
 }
-
+.banner {
+  display: flex;
+  /* border: 1px solid red; */
+}
 .welcome-btn {
   color: white;
   font-weight: 700;
@@ -97,10 +103,17 @@
   border: 1px solid white;
   padding: 0.5rem 1rem;
   font-family: "Courier New", Courier, monospace;
-  font-size: 0.7rem;
+  box-shadow: 1px 1px white;
+  font-size: 0.8rem;
+  cursor: pointer;
 }
-.typewriter {
+.typewriters {
   color: blue;
   font-weight: bold;
   font-size: 3rem;
+}
+.intro-text {
+  color: red;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }

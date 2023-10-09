@@ -2,15 +2,6 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
-  const handleType = (count) => {
-    // access word count number
-    // console.log(count);
-  };
-
-  const handleDone = () => {
-    console.log(`Done after 5 loops!`);
-  };
-
   return (
     <div className="banner">
       <div>
@@ -18,7 +9,7 @@ const Banner = () => {
         <p className="intro-text">Hello I'm Emmanuel Idowu, a </p>
         <div className="typewriters">
           <Typewriter
-            className="typewriter"
+            className=""
             words={[
               "ReactJs Developer",
               "TypeScript Developer",
@@ -31,8 +22,6 @@ const Banner = () => {
             typeSpeed={80}
             deleteSpeed={50}
             delaySpeed={1500}
-            onLoopDone={handleDone}
-            onType={handleType}
           />
         </div>
       </div>

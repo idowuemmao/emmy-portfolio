@@ -30,12 +30,12 @@ const Clock = () => {
   };
   return (
     <div className="banner banner-2">
-      <div className="typewriter">
+      <div className="typewriter-2">
         <Typewriter
           words={["The Time is"]}
-          loop={2}
+          loop={5}
           cursor
-          cursorStyle="|"
+          cursorStyle=""
           typeSpeed={350}
           deleteSpeed={50}
           delaySpeed={1500}
