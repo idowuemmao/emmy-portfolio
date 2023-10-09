@@ -8,6 +8,7 @@
   text-align: center;
   min-height: 100vh;
   padding: 1rem 4rem;
+  width: 100%;
 }
 
 .App__logo {
@@ -23,7 +24,6 @@
 }
 
 .navbar {
-  /* background-color: yellow; */
   display: flex;
   align-items: center;
   padding: 0.5rem 0;
@@ -62,7 +62,8 @@
 }
 .icons:hover {
   color: black;
-  background: white;
+  /* background: white; */
+  scale: 1.2;
 }
 .connect {
   padding: 0.5rem 1rem;
@@ -79,22 +80,27 @@
   opacity: 1;
   transition: 0.3ms ease-in-out;
 }
-.banner {
-  border: 1px solid;
+.main {
   display: flex;
-  margin-top: 6rem;
+  justify-content: space-between;
+  /* border: 2px solid; */
+  width: 100%;
+  align-items: center;
+  margin-top: 8rem;
 }
+
 .welcome-btn {
   color: white;
   font-weight: 700;
-  background: url(./images/w00056.jpg);
+  background: url(../images/w00056.jpg);
   background-size: cover;
   border: 1px solid white;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   font-family: "Courier New", Courier, monospace;
   font-size: 0.7rem;
 }
 .typewriter {
   color: blue;
   font-weight: bold;
+  font-size: 3rem;
 }
