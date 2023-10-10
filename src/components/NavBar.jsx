@@ -23,13 +23,19 @@ const NavBar = () => {
   // }, []);
   return (
     // <header className={scroll ? "scroll" : "navbar"}>
-    <header className="navbar" >
+    <header className="navbar">
       <img src={logo} alt="logo" className="App__logo" />
       <div className="navbar__right">
         <ul className="nav__links">
-          <li>Home</li>
-          <li>Skills</li>
-          <li>Projects</li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/">Skills</a>
+          </li>
+          <li>
+            <a href="/">Projects</a>
+          </li>
         </ul>
         <div className="nav-icons">
           <FaLinkedinIn className="icons" />

@@ -42,12 +42,15 @@
   gap: 1rem;
   font-size: 0.9rem;
 }
-.nav__links li {
+.nav__links li a {
   cursor: pointer;
+  color: darkgray;
+  text-decoration: none;
 }
-.nav__links li:hover {
-  text-decoration: underline;
-  color: goldenrod;
+.nav__links li a:hover {
+  text-decoration: underline goldenrod 3px;
+  color: white;
+  font-weight: 500;
 }
 .nav-icons {
   display: flex;
@@ -128,7 +131,7 @@
   max-width: 70%;
   font-size: 0.7rem;
   text-align: left;
-  color: gray;
+  color: darkgray;
 }
 .connect2 {
   align-items: end;
@@ -140,6 +143,8 @@
   gap: 5px;
   font-weight: 700;
   font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 .link {
   padding-top: 7px;

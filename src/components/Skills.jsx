@@ -28,8 +28,8 @@ const Skills = () => {
   return (
     <div className="skill-body">
       <div>
-        <h1>Skills</h1>
-        <p>
+        <h1 className="skill-title">Skills</h1>
+        <p className="skill-intro">
           I am very passionate and skilled with a good problem solving skills, a
           fast learner, a strong team player and excellent communication and
           collaboration skills, eager to contribute my expertise to help drive
@@ -40,7 +40,7 @@ const Skills = () => {
         responsive={responsive}
         className="skill-slider"
         swipeable={false}
-        draggable={false}
+        draggable={true}
         showDots={true}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
@@ -48,10 +48,6 @@ const Skills = () => {
         keyBoardControl={true}
         customTransition="all .5"
         transitionDuration={500}
-        containerClass="carousel-container"
-        // removeArrowOnDeviceType={["tablet", "mobile"]}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
       >
         <div>
           <img src={project1} alt="project1" className="project-pic" />
