@@ -20,6 +20,7 @@
   color: red;
   font-size: 1rem;
   padding-bottom: 0.5rem;
+  width: max-content;
 }
 .clock .number {
   --rotation: 0;
