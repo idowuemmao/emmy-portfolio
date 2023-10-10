@@ -36,12 +36,10 @@ const Banner = () => {
         into emerging technologies and industry trends.
       </p>
       <div className="connect2">
-        <p>
-          Let's Connect{" "}
-          <a href="/">
-            <FaArrowCircleRight />
-          </a>
-        </p>
+        <p>Let's Connect</p>
+        <a href="/" className="link">
+          <FaArrowCircleRight />
+        </a>
       </div>
     </div>
   );
