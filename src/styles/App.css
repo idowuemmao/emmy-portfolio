@@ -47,7 +47,7 @@
 }
 .nav__links li:hover {
   text-decoration: underline;
-  color: red;
+  color: goldenrod;
 }
 .nav-icons {
   display: flex;
@@ -75,9 +75,9 @@
   opacity: 0.8;
 }
 .connect:hover {
-  background: white;
-  color: red;
-  font-weight: 700;
+  background: goldenrod;
+  color: darkblue;
+  /* font-weight: 700; */
   opacity: 1;
   transition: 0.3ms ease-in-out;
 }
@@ -85,7 +85,7 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  border: 2px solid;
+  /* border: 2px solid; */
   width: 100%;
   margin-top: 8rem;
 }
@@ -105,21 +105,21 @@
   font-weight: 700;
   background: url(../images/w00056.jpg);
   background-size: cover;
-  border: 1px solid white;
+  border: 1px solid goldenrod;
   padding: 0.5rem 1rem;
   font-family: "Courier New", Courier, monospace;
-  box-shadow: 1px 1px white;
+  box-shadow: 1px 1px goldenrod;
   font-size: 0.8rem;
   cursor: pointer;
   width: fit-content;
 }
 .typewriters {
-  color: blue;
+  color: goldenrod;
   font-weight: bold;
   font-size: 3rem;
 }
 .intro-text {
-  color: red;
+  color: goldenrod;
   margin-top: 1rem;
   font-size: 1.5rem;
   width: fit-content;
