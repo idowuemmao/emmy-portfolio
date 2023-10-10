@@ -5,6 +5,7 @@
   color: white;
 }
 .App {
+  margin: auto 0;
   text-align: center;
   min-height: 100vh;
   width: 100%;
@@ -88,9 +89,10 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  /* border: 2px solid; */
+  border: 2px solid;
   width: 100%;
   margin-top: 8rem;
+  position: relative;
 }
 .banner {
   display: grid;

@@ -2,10 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../styles/Skills.css";
-import project1 from "../images/project1.png";
-import project2 from "../images/project2.png";
-import project3 from "../images/project3.png";
-import project4 from "../images/project4.png";
+import skill1 from "../images/meter1.svg";
+import skill2 from "../images/meter2.svg";
+import skill3 from "../images/meter3.svg";
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -50,20 +49,32 @@ const Skills = () => {
         transitionDuration={500}
       >
         <div>
-          <img src={project1} alt="project1" className="project-pic" />
-          <h4>Project 1</h4>
+          <img src={skill2} alt="img" className="project-pic" />
+          <h4>TypeScript</h4>
         </div>
         <div>
-          <img src={project2} alt="project1" className="project-pic" />
-          <h4>Project 2</h4>
+          <img src={skill1} alt="img" className="project-pic" />
+          <h4>Javascript</h4>
         </div>
         <div>
-          <img src={project3} alt="project1" className="project-pic" />
-          <h4>Project 3</h4>
+          <img src={skill3} alt="img" className="project-pic" />
+          <h4>NextJs</h4>
         </div>
         <div>
-          <img src={project4} alt="project1" className="project-pic" />
-          <h4>Project 4</h4>
+          <img src={skill1} alt="img" className="project-pic" />
+          <h4>React Js</h4>
+        </div>
+        <div>
+          <img src={skill1} alt="img" className="project-pic" />
+          <h4>HTML</h4>
+        </div>
+        <div>
+          <img src={skill1} alt="img" className="project-pic" />
+          <h4>CSS</h4>
+        </div>
+        <div>
+          <img src={skill1} alt="img" className="project-pic" />
+          <h4>Git and GitHub</h4>
         </div>
       </Carousel>
     </div>

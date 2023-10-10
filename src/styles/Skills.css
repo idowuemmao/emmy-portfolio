@@ -4,10 +4,19 @@
   margin-top: 3.5rem;
   display: grid;
   gap: 2rem;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 3px 2px goldenrod;
 }
 .project-pic {
-  width: 90%;
-  height: 12rem;
+  width: 70%;
+  height: fit;
+  /* border: 2px solid; */
+}
+.skill-slider h4 {
+  margin-bottom: 1.5rem;
+}
+.skill-title {
+  color: goldenrod;
 }
 .skill-intro {
   font-size: 0.8rem;
