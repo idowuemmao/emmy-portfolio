@@ -5,10 +5,11 @@
   color: white;
 }
 .App {
-  margin: auto 0;
   text-align: center;
   min-height: 100vh;
   width: 100%;
+  border: 2px solid;
+  overflow: hidden;
 }
 
 .App__logo {
@@ -31,6 +32,13 @@
 }
 .scroll {
   background-color: red;
+}
+.nav-btn {
+  background: none;
+  font-size: 1.3rem;
+  display: none;
+  border: none;
+  cursor: pointer;
 }
 .navbar__right {
   display: flex;
@@ -89,7 +97,7 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  border: 2px solid;
+  /* border: 2px solid; */
   width: 100%;
   margin-top: 8rem;
   position: relative;
@@ -106,6 +114,7 @@
   /* border: 1px solid; */
 }
 .welcome-btn {
+  display: flex;
   color: white;
   font-weight: 700;
   background: url(../images/w00056.jpg);
@@ -150,4 +159,29 @@
 }
 .link {
   padding-top: 7px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    align-items: center;
+  }
+  .navbar__right {
+    display: none;
+  }
+  .nav-btn {
+    background: none;
+    font-size: 1.3rem;
+    display: block;
+  }
+  .navbar__right2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    position: absolute;
+  }
+  .nav__links {
+    display: flex;
+    flex-direction: column;
+  }
 }

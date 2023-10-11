@@ -9,4 +9,8 @@ body {
   padding: 2rem 4rem ;
 }
 
-
+@media (max-width: 768px) {
+  body {
+   padding: 2rem 3rem;
+  }
+}
