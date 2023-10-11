@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.App__logo {
+  cursor: pointer;
+  width: 2.5rem;
+  margin-right: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.nav__links {
+  display: flex;
+  text-decoration: none;
+  gap: 1rem;
+  list-style: none;
+}
+.nav__links li a {
+  text-decoration: none;
+  color: darkgray;
+}
+.nav__socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.7rem;
+}
+.connect {
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: 1px 1px 0px 0px white;
+  opacity: 0.8;
+}
+.connect:hover {
+  background: goldenrod;
+  color: darkblue;
+  opacity: 1;
+  transition: 0.3ms ease-in-out;
+}
+.navbar__right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 }
 .App {
   text-align: center;
@@ -10,34 +12,6 @@
   width: 100%;
   border: 2px solid;
   overflow: hidden;
-}
-
-.App__logo {
-  cursor: pointer;
-  width: 2.5rem;
-  margin-right: auto;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-.connect {
-  padding: 0.5rem 1rem;
-  background: black;
-  color: white;
-  cursor: pointer;
-  border: 1px solid;
-  box-shadow: 1px 1px 0px 0px white;
-  opacity: 0.8;
-}
-.connect:hover {
-  background: goldenrod;
-  color: darkblue;
-  /* font-weight: 700; */
-  opacity: 1;
-  transition: 0.3ms ease-in-out;
 }
 .main {
   display: flex;
