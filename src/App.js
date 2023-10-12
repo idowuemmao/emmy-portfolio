@@ -7,14 +7,14 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-black text-center min-h-screen w-full m-32 ">
       <NavBar />
-      <div className="main">
+      {/* <div className="flex items-start justify-between w-full mt-32 relative">
         <Banner />
         <Clock />
       </div>
       <Skills />
-      <Projects />
+      <Projects /> */}
     </div>
   );
 }

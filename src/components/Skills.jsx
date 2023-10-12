@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "../styles/Skills.css";
+// import "../styles/Skills.css";
 import skill1 from "../images/meter1.svg";
 import skill2 from "../images/meter2.svg";
 import skill3 from "../images/meter3.svg";

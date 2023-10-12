@@ -3,7 +3,6 @@ import logo from "../images/logo.png";
 import { FaGithub, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { LiaFacebookF } from "react-icons/lia";
 import { AiOutlineMenu } from "react-icons/ai";
-import "../styles/navbar.css";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,38 +12,47 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="navbar">
-      <img src={logo} alt="img" className="App__logo" />
-      <div className="navbar__right">
-        <ul className="nav__links">
+    <nav className="flex items-center p-4">
+      <img src={logo} alt="img" className="w-10 mr-auto cursor-pointer" />
+      <div className="flex gap-4 items-center opacity-60 text-sm">
+        <ul className="flex gap-4 list-none">
           <li>
-            <a href="/">Home</a>
+            <a href="/" className=" text-gray-300 hover:text-white">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/">Skills</a>
+            <a href="/" className=" text-gray-300 hover:text-white">
+              Skills
+            </a>
           </li>
           <li>
-            <a href="/">Projects</a>
+            <a href="/" className=" text-gray-300 hover:text-white">
+              Projects
+            </a>
           </li>
         </ul>
-        <div className="nav__socials">
-          <a href="/">
+        <div className="flex gap-4 text-sm">
+          <a href="/" className=" text-gray-300 hover:text-white">
             <FaInstagram />
           </a>
-          <a href="/">
+          <a href="/" className=" text-gray-300 hover:text-white">
             <FaGithub />
           </a>
-          <a href="/">
+          <a href="/" className=" text-gray-300 hover:text-white">
             <FaTwitter />
           </a>
-          <a href="/">
+          <a href="/" className=" text-gray-300 hover:text-white">
             <FaLinkedinIn />
           </a>
-          <a href="/">
+          <a href="/" className=" text-gray-300 hover:text-white">
             <LiaFacebookF />
           </a>
         </div>
-        <button href="/" className="connect">
+        <button
+          href="/"
+          className="p-4 bg-black text-white cursor-pointer border-[1px] shadow-lg opacity-80"
+        >
           Let's Connect
         </button>
       </div>
@@ -78,7 +86,7 @@ const NavBar = () => {
               <LiaFacebookF />
             </a>
           </div>
-          <button href="/" className="connect">
+          <button href="/" className="">
             Let's Connect
           </button>
         </div>

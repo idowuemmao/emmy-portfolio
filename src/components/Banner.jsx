@@ -4,9 +4,11 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="banner">
-      <div className="banners">
-        <button className="welcome-btn">Welcome to my Portfolio</button>
+    <div className="grid">
+      <div className="flex flex-col items-start justify-start">
+        <button className="text-white p-2  cursor-pointer w-fit">
+          Welcome to my Portfolio
+        </button>
         <p className="intro-text">Hello I'm Emmanuel Idowu, a </p>
         <div className="typewriters">
           <Typewriter
@@ -26,7 +28,7 @@ const Banner = () => {
           />
         </div>
       </div>
-      <p className="about-me">
+      <p className="max-w-[80%] text-sm text-left text-gray-600">
         A Highly motivated and talented Frontend Engineer with more than 1 year
         Enterprise Level Experience Designing and building highly scalable
         system, across the Technology sectors. Armed with a solid foundation in
@@ -36,7 +38,7 @@ const Banner = () => {
         into emerging technologies and industry trends.
       </p>
       <a href="/" className="connect2">
-        <p>Let's Connect</p>
+        <p className="text-red-500">Let's Connect</p>
         <FaArrowCircleRight />
       </a>
     </div>
