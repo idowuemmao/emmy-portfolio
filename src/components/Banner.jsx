@@ -8,13 +8,13 @@ const Banner = () => {
     <div className="grid gap-4 px-10 md:px-20 -mt-10 h-screen pt-20">
       <Clock />
       <div className="flex flex-col items-center justify-center h-full gap-8">
-        <button className="text-white p-2 bg-yellow-800 rounded-full shadow-xl border-[1px] px-4 cursor-pointer w-fit">
+        <button className="text-white p-2 bg-yellow-800 rounded-full px-4 cursor-pointer w-fit">
           Welcome to my Portfolio
         </button>
         <p className="text-center text-xs md:text-lg">
-          Hello I'm Emmanuel Idowu, a{" "}
+          Hello I'm Emmanuel Idowu, a
         </p>
-        <div className="text-4xl md:text-5xl lg:text-7xl text-center w-full">
+        <div className="text-[2rem] sm:text-4xl font-bold md:text-5xl lg:text-7xl text-center w-full">
           <Typewriter
             words={[
               "ReactJs Developer",
@@ -43,7 +43,7 @@ const Banner = () => {
       <div className="flex flex-col items-center justify-start">
         <a
           href="/"
-          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-full border-[1px] bg-yellow-800 w-fit"
+          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-full bg-yellow-800 w-fit"
         >
           Let's Connect
           <FaArrowCircleRight />

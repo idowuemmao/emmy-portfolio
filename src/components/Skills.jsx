@@ -25,10 +25,10 @@ const Skills = () => {
     },
   };
   return (
-    <div className="">
-      <div>
-        <h1 className="skill-title">Skills</h1>
-        <p className="skill-intro">
+    <div className="grid mx-10 mt-20 md:mx-20 gap-12 bg-gray-900 p-8 md:px-24 rounded-3xl">
+      <div className="flex flex-col gap-4 items-center ">
+        <h1 className="text-4xl ">Skills</h1>
+        <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl ">
           I am very passionate and skilled with a good problem solving skills, a
           fast learner, a strong team player and excellent communication and
           collaboration skills, eager to contribute my expertise to help drive
@@ -37,7 +37,7 @@ const Skills = () => {
       </div>
       <Carousel
         responsive={responsive}
-        className="border-4"
+        className=" h-72"
         swipeable={false}
         draggable={true}
         showDots={true}
@@ -48,33 +48,33 @@ const Skills = () => {
         customTransition="all .5"
         transitionDuration={500}
       >
-        <div>
+        <div className="grid place-items-center">
           <img src={skill2} alt="img" className="" />
-          <h4>TypeScript</h4>
+          <h4 className="text-center text-sm ">TypeScript</h4>
         </div>
-        <div>
+        <div className="grid place-items-center">
           <img src={skill1} alt="img" className="" />
-          <h4>Javascript</h4>
+          <h4 className="text-center text-sm ">Javascript</h4>
         </div>
-        <div>
+        <div className="grid place-items-center">
           <img src={skill3} alt="img" className="" />
-          <h4>NextJs</h4>
+          <h4 className="text-center text-sm ">NextJs</h4>
         </div>
-        <div>
+        <div className="grid place-items-center">
           <img src={skill1} alt="img" className="" />
-          <h4>React Js</h4>
+          <h4 className="text-center text-sm ">React Js</h4>
         </div>
-        <div>
+        <div className="grid place-items-center">
           <img src={skill1} alt="img" className="" />
-          <h4>HTML</h4>
+          <h4 className="text-center text-sm ">HTML</h4>
         </div>
-        <div>
+        <div className="grid place-items-center">
           <img src={skill1} alt="img" className="" />
-          <h4>CSS</h4>
+          <h4 className="text-center text-sm ">CSS</h4>
         </div>
-        <div>
+        <div className="grid place-items-center">
           <img src={skill1} alt="img" className="" />
-          <h4>Git and GitHub</h4>
+          <h4 className="text-center text-sm ">Git and GitHub</h4>
         </div>
       </Carousel>
     </div>
