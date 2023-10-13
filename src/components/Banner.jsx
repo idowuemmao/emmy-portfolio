@@ -4,15 +4,14 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="grid">
-      <div className="flex flex-col items-start justify-start">
-        <button className="text-white p-2  cursor-pointer w-fit">
+    <div className="grid px-10 md:px-20">
+      <div className="flex flex-col items-center justify-center h-full gap-4">
+        <button className="text-white p-2 bg-yellow-800 rounded-full shadow-xl border-[1px] px-4 cursor-pointer w-fit">
           Welcome to my Portfolio
         </button>
         <p className="intro-text">Hello I'm Emmanuel Idowu, a </p>
-        <div className="typewriters">
+        <div className="text-4xl">
           <Typewriter
-            className=""
             words={[
               "ReactJs Developer",
               "TypeScript Developer",

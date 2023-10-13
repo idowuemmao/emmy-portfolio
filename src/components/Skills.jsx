@@ -1,10 +1,10 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import "../styles/Skills.css";
 import skill1 from "../images/meter1.svg";
 import skill2 from "../images/meter2.svg";
 import skill3 from "../images/meter3.svg";
+
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -25,7 +25,7 @@ const Skills = () => {
     },
   };
   return (
-    <div className="skill-body">
+    <div className="">
       <div>
         <h1 className="skill-title">Skills</h1>
         <p className="skill-intro">
@@ -37,7 +37,7 @@ const Skills = () => {
       </div>
       <Carousel
         responsive={responsive}
-        className="skill-slider"
+        className="border-4"
         swipeable={false}
         draggable={true}
         showDots={true}
@@ -49,31 +49,31 @@ const Skills = () => {
         transitionDuration={500}
       >
         <div>
-          <img src={skill2} alt="img" className="project-pic" />
+          <img src={skill2} alt="img" className="" />
           <h4>TypeScript</h4>
         </div>
         <div>
-          <img src={skill1} alt="img" className="project-pic" />
+          <img src={skill1} alt="img" className="" />
           <h4>Javascript</h4>
         </div>
         <div>
-          <img src={skill3} alt="img" className="project-pic" />
+          <img src={skill3} alt="img" className="" />
           <h4>NextJs</h4>
         </div>
         <div>
-          <img src={skill1} alt="img" className="project-pic" />
+          <img src={skill1} alt="img" className="" />
           <h4>React Js</h4>
         </div>
         <div>
-          <img src={skill1} alt="img" className="project-pic" />
+          <img src={skill1} alt="img" className="" />
           <h4>HTML</h4>
         </div>
         <div>
-          <img src={skill1} alt="img" className="project-pic" />
+          <img src={skill1} alt="img" className="" />
           <h4>CSS</h4>
         </div>
         <div>
-          <img src={skill1} alt="img" className="project-pic" />
+          <img src={skill1} alt="img" className="" />
           <h4>Git and GitHub</h4>
         </div>
       </Carousel>
