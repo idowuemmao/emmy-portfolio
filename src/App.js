@@ -7,11 +7,10 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className=" bg-black min-h-screen">
-      <div className=" w-full mb-32">
-        <NavBar />
-      </div>
+    <div className=" bg-black min-h-screen relative">
+      <NavBar />
       <Banner />
+      <Skills />
     </div>
   );
 }

@@ -25,12 +25,11 @@ const Clock = () => {
   }
   const setRotation = (element, rotationRatio) => {
     const rotation = rotationRatio * 360;
-    // element.style.transform = `rotate(${rotation}deg)`;
     element.style.setProperty("--rotation", rotation);
   };
   return (
-    <div className="banner banner-2">
-      <div className="typewriter-2">
+    <div className="h-56 absolute flex-col items-center justify-center top-24 right-4 hidden sm:flex">
+      <div className="text-gray-800 w-max p-1">
         <Typewriter
           words={["The Time is"]}
           loop={5}
@@ -41,7 +40,7 @@ const Clock = () => {
           delaySpeed={1500}
         />
       </div>
-      <div className="clock ">
+      <div className="w-40 h-40 rounded-full border-4 border-yellow-800  clock  relative">
         <div className="hand hour" ref={hourHand}></div>
         <div className="hand minute" ref={minuteHand}></div>
         <div className="hand second" ref={secondHand}></div>

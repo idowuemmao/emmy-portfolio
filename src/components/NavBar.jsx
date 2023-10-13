@@ -22,9 +22,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="block mb-10 py-4 justify-between bg-gray-900 w-full px-10 md:px-20 z-50 ">
+    <nav className="sticky top-0 py-4 drop-shadow-lg bg-gray-900 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
-        <img src={logo} alt="img" className="w-10 md:mr-auto  cursor-pointer" />
+        <img src={logo} alt="img" className="w-10 mr-auto cursor-pointer" />
         <div className="sm:flex gap-4 items-center opacity-60 text-sm hidden">
           <ul className="flex gap-4 list-none">
             <li>
@@ -43,7 +43,7 @@ const NavBar = () => {
               </a>
             </li>
           </ul>
-          <div className="gap-4 text-sm hidden md:flex">
+          <div className="gap-4 text-sm hidden md:flex items-center">
             <a href="/" className=" text-gray-300 hover:text-white">
               <FaInstagram />
             </a>
@@ -60,11 +60,8 @@ const NavBar = () => {
               <LiaFacebookF />
             </a>
           </div>
-          <button
-            href="/"
-            className="p-4 bg-black mb-10 text-white cursor-pointer border-[1px] shadow-lg opacity-80"
-          >
-            Let's Connect
+          <button className="p-4 bg-black text-white cursor-pointer border-[1px] shadow-lg opacity-80">
+            <a href="/">Let's Connect</a>
           </button>
         </div>
         <div>
@@ -108,11 +105,8 @@ const NavBar = () => {
               <LiaFacebookF />
             </a>
           </div>
-          <button
-            href="/"
-            className="bg-yellow-800 p-2 shadow-lg rounded-xl px-8"
-          >
-            Let's Connect
+          <button className="bg-yellow-800 p-2 shadow-lg rounded-xl px-8">
+            <a href="/"> Let's Connect</a>
           </button>
         </div>
       )}
