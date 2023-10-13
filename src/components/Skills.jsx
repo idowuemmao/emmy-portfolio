@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <div className="grid mx-10 mt-4 md:mx-20 gap-12 bg-gray-900 p-8 md:px-24 rounded-3xl">
       <div className="flex flex-col gap-4 items-center ">
-        <h1 className="text-4xl ">Skills</h1>
+        <h1 className="text-4xl md:text-6xl ">Skills</h1>
         <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl ">
           I am very passionate and skilled with a good problem solving skills, a
           fast learner, a strong team player and excellent communication and

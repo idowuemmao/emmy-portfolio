@@ -1,12 +1,16 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import project1 from "../images/project1.png";
-import project2 from "../images/project2.png";
-import project3 from "../images/project3.png";
-import project4 from "../images/project4.png";
+import ProjectData from "./ProjectDB";
 
 const Projects = () => {
+  const allProjects = ProjectData.map((item) => (
+    <a key={item.id} href={item.url} className="grid place-items-center">
+      <img src={item.pic} alt={item.title} className="rounded-lg w-11/12" />
+      <h4 className="text-center text-sm mt-8">{item.title}</h4>
+    </a>
+  ));
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -26,10 +30,10 @@ const Projects = () => {
     },
   };
   return (
-    <div className="skill-body">
-      <div>
-        <h1 className="skill-title">Projects</h1>
-        <p className="skill-intro">
+    <div className="grid mt-4 gap-12 bg-gray-900 p-8 md:px-24">
+      <div className="flex flex-col gap-4 items-center">
+        <h1 className="text-4xl md:text-6xl">Projects</h1>
+        <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl">
           My objective is to work alongside a team of experienced developers,
           collaborating on projects to create engaging web experiences that meet
           the needs of users across different browser and device.
@@ -37,7 +41,7 @@ const Projects = () => {
       </div>
       <Carousel
         responsive={responsive}
-        className="skill-slider"
+        className="h-fit grid gap-8 "
         swipeable={false}
         draggable={true}
         showDots={true}
@@ -48,22 +52,7 @@ const Projects = () => {
         customTransition="all .5"
         transitionDuration={500}
       >
-        <div>
-          <img src={project1} alt="project1" className="project-pic" />
-          <h4>Project 1</h4>
-        </div>
-        <div>
-          <img src={project2} alt="project1" className="project-pic" />
-          <h4>Project 2</h4>
-        </div>
-        <div>
-          <img src={project3} alt="project1" className="project-pic" />
-          <h4>Project 3</h4>
-        </div>
-        <div>
-          <img src={project4} alt="project1" className="project-pic" />
-          <h4>Project 4</h4>
-        </div>
+        {allProjects}
       </Carousel>
     </div>
   );
