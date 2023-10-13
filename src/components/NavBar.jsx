@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import logo from "../images/logo.png";
-import { FaGithub, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { LiaFacebookF } from "react-icons/lia";
+import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import { TiTimes } from "react-icons/ti";
 
@@ -44,20 +43,23 @@ const NavBar = () => {
             </li>
           </ul>
           <div className="gap-4 text-sm hidden md:flex items-center">
-            <a href="/" className=" text-gray-300 hover:text-white">
-              <FaInstagram />
-            </a>
-            <a href="/" className=" text-gray-300 hover:text-white">
+            <a
+              href="https://github.com/idowuemmao"
+              className=" text-gray-300 hover:text-white"
+            >
               <FaGithub />
             </a>
-            <a href="/" className=" text-gray-300 hover:text-white">
+            <a
+              href="https://twitter.com/emmygreatmusic"
+              className=" text-gray-300 hover:text-white"
+            >
               <FaTwitter />
             </a>
-            <a href="/" className=" text-gray-300 hover:text-white">
+            <a
+              href="https://linkedin.com/in/emmanuel-idowu-973626249"
+              className=" text-gray-300 hover:text-white"
+            >
               <FaLinkedinIn />
-            </a>
-            <a href="/" className=" text-gray-300 hover:text-white">
-              <LiaFacebookF />
             </a>
           </div>
           <button className="p-4 bg-black text-white cursor-pointer border-[1px] shadow-lg opacity-80">
@@ -76,7 +78,7 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="sm:hidden flex flex-col w-full py-4 -z-50 h-fit gap-8 items-center ">
+        <div className="sm:hidden flex flex-col w-full py-4 -z-50 h-fit gap-8 items-center animate-bounce motion-safe: ">
           <ul className="flex flex-col text-lg gap-4 items-center ">
             <li>
               <a href="/">Home</a>
@@ -89,20 +91,23 @@ const NavBar = () => {
             </li>
           </ul>
           <div className="flex justify-around w-full">
-            <a href="/">
-              <FaInstagram />
-            </a>
-            <a href="/">
+            <a
+              href="https://github.com/idowuemmao"
+              className=" text-gray-300 hover:text-white"
+            >
               <FaGithub />
             </a>
-            <a href="/">
+            <a
+              href="https://twitter.com/emmygreatmusic"
+              className=" text-gray-300 hover:text-white"
+            >
               <FaTwitter />
             </a>
-            <a href="/">
+            <a
+              href="https://linkedin.com/in/emmanuel-idowu-973626249"
+              className=" text-gray-300 hover:text-white"
+            >
               <FaLinkedinIn />
-            </a>
-            <a href="/">
-              <LiaFacebookF />
             </a>
           </div>
           <button className="bg-yellow-800 p-2 shadow-lg rounded-xl px-8">

@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "../styles/Skills.css";
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";

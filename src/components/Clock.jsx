@@ -28,7 +28,7 @@ const Clock = () => {
     element.style.setProperty("--rotation", rotation);
   };
   return (
-    <div className="h-56 absolute flex-col items-center justify-center top-24 right-4 hidden sm:flex">
+    <div className="h-72 absolute flex-col items-center justify-center top-24 right-8 md:right-16 hidden sm:flex">
       <div className="text-gray-800 w-max p-1">
         <Typewriter
           words={["The Time is"]}
@@ -40,7 +40,7 @@ const Clock = () => {
           delaySpeed={1500}
         />
       </div>
-      <div className="w-40 h-40 rounded-full border-4 border-yellow-800  clock  relative">
+      <div className="w-40 h-40 lg:w-56 lg:h-56 rounded-full border-4 border-yellow-800 clock relative">
         <div className="hand hour" ref={hourHand}></div>
         <div className="hand minute" ref={minuteHand}></div>
         <div className="hand second" ref={secondHand}></div>
