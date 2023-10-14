@@ -7,12 +7,12 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className=" bg-black min-h-screen relative">
+    <div className="body bg-black min-h-screen relative">
       <NavBar />
       <Banner />
       <Skills />
       <Projects />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

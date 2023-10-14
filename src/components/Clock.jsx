@@ -40,7 +40,7 @@ const Clock = () => {
           delaySpeed={1500}
         />
       </div>
-      <div className="w-40 h-40 lg:w-56 lg:h-56 rounded-full border-4 border-yellow-800 clock relative">
+      <div className="w-40 h-40 lg:w-56 lg:h-56 rounded-full border-4 border-[#fc4d5b] clock relative">
         <div className="hand hour" ref={hourHand}></div>
         <div className="hand minute" ref={minuteHand}></div>
         <div className="hand second" ref={secondHand}></div>

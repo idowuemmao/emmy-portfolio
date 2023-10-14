@@ -21,7 +21,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky top-0 py-4 drop-shadow-lg bg-gray-900 w-full px-10 md:px-20 z-50 ">
+    <nav className="sticky top-0 py-4 bg-gray-900 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
         <img
           src={logo}
@@ -66,8 +66,8 @@ const NavBar = () => {
               <FaLinkedinIn />
             </a>
           </div>
-          <button className="p-4 bg-black text-white cursor-pointer border-[1px] shadow-lg opacity-80">
-            <a href="/">Let's Connect</a>
+          <button className="bg-[#fc4d5b] p-4 shadow-lg rounded-xl px-8">
+            <a href="/"> Let's Connect</a>
           </button>
         </div>
         <div>
@@ -114,7 +114,7 @@ const NavBar = () => {
               <FaLinkedinIn />
             </a>
           </div>
-          <button className="bg-yellow-800 p-2 shadow-lg rounded-xl px-8">
+          <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8">
             <a href="/"> Let's Connect</a>
           </button>
         </div>

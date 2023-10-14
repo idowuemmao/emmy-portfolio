@@ -4,7 +4,7 @@ import vanhire from "../images/vanhire.png";
 import realestate from "../images/realestate.png";
 import portfolio from "../images/portfolio.png";
 import agecalc from "../images/agecalc.png";
-import pathtaxi from "../images/pathtaxi";
+import pathtaxi from "../images/pathtaxi.png";
 
 const ProjectData = [
   {
