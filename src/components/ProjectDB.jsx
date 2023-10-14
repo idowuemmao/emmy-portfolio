@@ -4,6 +4,8 @@ import vanhire from "../images/vanhire.png";
 import realestate from "../images/realestate.png";
 import portfolio from "../images/portfolio.png";
 import agecalc from "../images/agecalc.png";
+import pathtaxi from "../images/pathtaxi";
+
 const ProjectData = [
   {
     id: "1",
@@ -40,6 +42,12 @@ const ProjectData = [
     title: "Age Calculator",
     url: "https://age-calculator-gamma-rosy.vercel.app/",
     pic: agecalc,
+  },
+  {
+    id: "7",
+    title: "Path Taxi",
+    url: "https://path-taxi.vercel.app/",
+    pic: pathtaxi,
   },
 ];
 export default ProjectData;
