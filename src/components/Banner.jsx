@@ -8,7 +8,7 @@ const Banner = () => {
     <div className="grid gap-4 px-10 md:px-20 -mt-10 h-screen pt-20 mb-16">
       <Clock />
       <div className="flex flex-col items-center justify-center h-full gap-8">
-        <button className="text-white p-2 bg-[#fc4d5b] rounded-full px-4 cursor-pointer w-fit">
+        <button className="text-white p-2 bg-[#fc4d5b] rounded-xl px-4 cursor-pointer w-fit">
           Welcome to my Portfolio
         </button>
         <p className="text-center text-xs md:text-lg">
@@ -44,7 +44,7 @@ const Banner = () => {
       <div className="flex flex-col items-center justify-start ">
         <a
           href="/"
-          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-full bg-[#fc4d5b] w-fit "
+          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-[#fc4d5b] w-fit "
         >
           Let's Connect
           <FaArrowCircleRight />

@@ -26,7 +26,7 @@ const NavBar = () => {
         <img
           src={logo}
           alt="img"
-          className="w-20 h-fit border-2 rounded-full mr-auto cursor-pointer"
+          className="w-12 max-h-16 border-2 rounded-full mr-auto cursor-pointer"
         />
         <div className="sm:flex gap-4 items-center opacity-60 text-sm hidden">
           <ul className="flex gap-4 list-none">
