@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Footer/>
     </div>
   );
 }

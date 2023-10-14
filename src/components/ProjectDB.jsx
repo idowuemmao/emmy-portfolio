@@ -14,7 +14,7 @@ const ProjectData = [
   {
     id: "2",
     title: "Airbnb Clone",
-    url: "https://my-airbnb-clone-idowuemmao.vercel.app/",
+    url: "https://airbnb-clone-one-mauve.vercel.app/",
     pic: airbnb,
   },
   {
@@ -38,7 +38,7 @@ const ProjectData = [
   {
     id: "6",
     title: "Age Calculator",
-    url: "https://my-real-estate-idowuemmao.vercel.app/",
+    url: "https://age-calculator-gamma-rosy.vercel.app/",
     pic: agecalc,
   },
 ];
