@@ -37,7 +37,7 @@ const Skills = () => {
       </div>
       <Carousel
         responsive={responsive}
-        className=" h-72"
+        className="h-72"
         swipeable={false}
         draggable={true}
         showDots={true}

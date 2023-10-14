@@ -1,5 +1,5 @@
 .clock {
-  background: url(../images/w00056.jpg);
+  background: url(../images/ggg.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -10,7 +10,7 @@
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .clock .number1 {
   --rotation: 30deg;
