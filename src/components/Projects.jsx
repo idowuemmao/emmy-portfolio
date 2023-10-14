@@ -6,7 +6,11 @@ import ProjectData from "./ProjectDB";
 const Projects = () => {
   const allProjects = ProjectData.map((item) => (
     <a key={item.id} href={item.url} className="grid place-items-center">
-      <img src={item.pic} alt={item.title} className="rounded-lg w-11/12" />
+      <img
+        src={item.pic}
+        alt={item.title}
+        className="rounded-lg w-11/12 lg:h-64 md:h-48 h-40"
+      />
       <h4 className="text-center text-sm mt-8">{item.title}</h4>
     </a>
   ));
@@ -41,7 +45,7 @@ const Projects = () => {
       </div>
       <Carousel
         responsive={responsive}
-        className="h-fit grid gap-8 "
+        className="md:h-96 h-80 grid gap-8 "
         swipeable={false}
         draggable={true}
         showDots={true}

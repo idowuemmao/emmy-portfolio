@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../images/logo.png";
+import logo from "../images/profile1.jpg";
 import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import { TiTimes } from "react-icons/ti";
@@ -23,7 +23,11 @@ const NavBar = () => {
   return (
     <nav className="sticky top-0 py-4 drop-shadow-lg bg-gray-900 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
-        <img src={logo} alt="img" className="w-10 mr-auto cursor-pointer" />
+        <img
+          src={logo}
+          alt="img"
+          className="w-20 h-fit border-2 rounded-full mr-auto cursor-pointer"
+        />
         <div className="sm:flex gap-4 items-center opacity-60 text-sm hidden">
           <ul className="flex gap-4 list-none">
             <li>

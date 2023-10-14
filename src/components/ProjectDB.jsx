@@ -2,7 +2,8 @@ import memeGen from "../images/memegen.png";
 import airbnb from "../images/airbnb.png";
 import vanhire from "../images/vanhire.png";
 import realestate from "../images/realestate.png";
-
+import portfolio from "../images/portfolio.png";
+import agecalc from "../images/agecalc.png";
 const ProjectData = [
   {
     id: "1",
@@ -27,6 +28,18 @@ const ProjectData = [
     title: "Real Estate",
     url: "https://my-real-estate-idowuemmao.vercel.app/",
     pic: realestate,
+  },
+  {
+    id: "5",
+    title: "My Portfolio",
+    url: "https://emmy-portfolio.vercel.app/",
+    pic: portfolio,
+  },
+  {
+    id: "6",
+    title: "Age Calculator",
+    url: "https://my-real-estate-idowuemmao.vercel.app/",
+    pic: agecalc,
   },
 ];
 export default ProjectData;
