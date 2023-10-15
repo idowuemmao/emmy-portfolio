@@ -25,7 +25,10 @@ const Skills = () => {
     },
   };
   return (
-    <div className="grid mx-10 mt-4 md:mx-20 gap-12 bg-gray-900 p-8 md:px-24 rounded-3xl">
+    <div
+      id="skills"
+      className="grid mx-10 md:mx-20 gap-12 bg-gray-900 p-8 md:px-24 rounded-3xl"
+    >
       <div className="flex flex-col gap-4 items-center ">
         <h1 className="text-4xl md:text-6xl text-[#fc4d5b] ">Skills</h1>
         <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl ">

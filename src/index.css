@@ -9,9 +9,8 @@
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.body{
-   background: url(./images/w00056.jpg);
-  background-position: center;
+.body {
+  background: url(./images/w00056.jpg);
+  background-position: top;
   background-size: contain;
-
 }

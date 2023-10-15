@@ -36,12 +36,12 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a href="/" className=" text-gray-300 hover:text-white">
+              <a href="#skills" className=" text-gray-300 hover:text-white">
                 Skills
               </a>
             </li>
             <li>
-              <a href="/" className=" text-gray-300 hover:text-white">
+              <a href="#projects" className=" text-gray-300 hover:text-white">
                 Projects
               </a>
             </li>
@@ -88,10 +88,10 @@ const NavBar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           </ul>
           <div className="flex justify-around w-full">

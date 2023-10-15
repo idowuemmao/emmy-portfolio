@@ -34,7 +34,7 @@ const Projects = () => {
     },
   };
   return (
-    <div className="grid mt-24 gap-12 bg-gray-900 p-8 md:px-24">
+    <div id="projects" className="grid gap-12 bg-gray-900 p-8 md:px-24">
       <div className="flex flex-col gap-4 items-center">
         <h1 className="text-4xl md:text-6xl text-[#fc4d5b]">Projects</h1>
         <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl">

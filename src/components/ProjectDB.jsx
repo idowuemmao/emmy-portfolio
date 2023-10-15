@@ -5,6 +5,7 @@ import realestate from "../images/realestate.png";
 import portfolio from "../images/portfolio.png";
 import agecalc from "../images/agecalc.png";
 import pathtaxi from "../images/pathtaxi.png";
+import wallclock from "../images/wallclock.png";
 
 const ProjectData = [
   {
@@ -48,6 +49,12 @@ const ProjectData = [
     title: "Path Taxi",
     url: "https://path-taxi.vercel.app/",
     pic: pathtaxi,
+  },
+  {
+    id: "8",
+    title: "Wall Clock",
+    url: "https://wallclock-woad.vercel.app/",
+    pic: wallclock,
   },
 ];
 export default ProjectData;
