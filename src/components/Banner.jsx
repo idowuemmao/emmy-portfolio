@@ -1,10 +1,17 @@
 import React from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Banner = () => {
   return (
-    <div className="grid gap-4 px-10 md:px-20 h-screen pt-16">
+    <div
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      className="grid gap-4 px-10 md:px-20 h-screen pt-16"
+    >
       <div className="flex flex-col items-center justify-center h-full gap-4">
         <button className="text-white p-2 bg-[#fc4d5b] rounded-xl px-4 cursor-pointer w-fit">
           Welcome to my Portfolio
@@ -53,3 +60,4 @@ const Banner = () => {
 };
 
 export default Banner;
+AOS.init();

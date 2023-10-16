@@ -34,7 +34,13 @@ const Projects = () => {
     },
   };
   return (
-    <div id="projects">
+    <div
+      id="projects"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+    >
       <div className="grid gap-12 mt-24 bg-gray-900 p-8 md:px-24">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-4xl md:text-6xl text-[#fc4d5b]">Projects</h1>
