@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="grid gap-4 px-10 md:px-20 -mt-10 h-screen pt-20 mb-16">
+    <div className="grid gap-4 px-10 md:px-20 h-screen pt-20 mb-16">
       <div className="flex flex-col items-center justify-center h-full gap-8">
         <button className="text-white p-2 bg-[#fc4d5b] rounded-xl px-4 cursor-pointer w-fit">
           Welcome to my Portfolio

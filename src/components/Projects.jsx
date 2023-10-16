@@ -34,30 +34,32 @@ const Projects = () => {
     },
   };
   return (
-    <div id="projects" className="grid gap-12 bg-gray-900 p-8 md:px-24">
-      <div className="flex flex-col gap-4 items-center">
-        <h1 className="text-4xl md:text-6xl text-[#fc4d5b]">Projects</h1>
-        <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl">
-          My objective is to work alongside a team of experienced developers,
-          collaborating on projects to create engaging web experiences that meet
-          the needs of users across different browser and device.
-        </p>
+    <div id="projects">
+      <div className="grid gap-12 mt-24 bg-gray-900 p-8 md:px-24">
+        <div className="flex flex-col gap-4 items-center">
+          <h1 className="text-4xl md:text-6xl text-[#fc4d5b]">Projects</h1>
+          <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl">
+            My objective is to work alongside a team of experienced developers,
+            collaborating on projects to create engaging web experiences that
+            meet the needs of users across different browser and device.
+          </p>
+        </div>
+        <Carousel
+          responsive={responsive}
+          className="md:h-96 h-80 grid gap-8 z-0 "
+          swipeable={false}
+          draggable={true}
+          showDots={true}
+          ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          autoPlaySpeed={1000}
+          keyBoardControl={true}
+          customTransition="all .5"
+          transitionDuration={500}
+        >
+          {allProjects}
+        </Carousel>
       </div>
-      <Carousel
-        responsive={responsive}
-        className="md:h-96 h-80 grid gap-8 z-0 "
-        swipeable={false}
-        draggable={true}
-        showDots={true}
-        ssr={true} // means to render carousel on server-side.
-        infinite={true}
-        autoPlaySpeed={1000}
-        keyBoardControl={true}
-        customTransition="all .5"
-        transitionDuration={500}
-      >
-        {allProjects}
-      </Carousel>
     </div>
   );
 };

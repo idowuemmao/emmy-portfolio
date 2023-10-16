@@ -25,61 +25,60 @@ const Skills = () => {
     },
   };
   return (
-    <div
-      id="skills"
-      className="grid mx-10 md:mx-20 gap-12 bg-gray-900 p-8 md:px-24 rounded-3xl"
-    >
-      <div className="flex flex-col gap-4 items-center ">
-        <h1 className="text-4xl md:text-6xl text-[#fc4d5b] ">Skills</h1>
-        <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl ">
-          I am very passionate and skilled with a good problem solving skills, a
-          fast learner, a strong team player and excellent communication and
-          collaboration skills, eager to contribute my expertise to help drive
-          the success of any particular project I am involved in.
-        </p>
+    <div id="skills">
+      <div className="grid mx-10 md:mx-20 gap-12 mt-24 bg-gray-900 p-8 md:px-24 rounded-3xl">
+        <div className="flex flex-col gap-4 items-center ">
+          <h1 className="text-4xl md:text-6xl text-[#fc4d5b] ">Skills</h1>
+          <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl ">
+            I am very passionate and skilled with a good problem solving skills,
+            a fast learner, a strong team player and excellent communication and
+            collaboration skills, eager to contribute my expertise to help drive
+            the success of any particular project I am involved in.
+          </p>
+        </div>
+        <Carousel
+          responsive={responsive}
+          className="h-72 z-0"
+          swipeable={false}
+          draggable={true}
+          showDots={true}
+          ssr={true} // means to render carousel on server-side.
+          infinite={true}
+          autoPlaySpeed={1000}
+          keyBoardControl={true}
+          customTransition="all .5"
+          transitionDuration={500}
+        >
+          <div className="grid place-items-center">
+            <img src={skill2} alt="img" className="" />
+            <h4 className="text-center text-sm ">TypeScript</h4>
+          </div>
+          <div className="grid place-items-center">
+            <img src={skill1} alt="img" className="" />
+            <h4 className="text-center text-sm ">Javascript</h4>
+          </div>
+          <div className="grid place-items-center">
+            <img src={skill3} alt="img" className="" />
+            <h4 className="text-center text-sm ">NextJs</h4>
+          </div>
+          <div className="grid place-items-center">
+            <img src={skill1} alt="img" className="" />
+            <h4 className="text-center text-sm ">React Js</h4>
+          </div>
+          <div className="grid place-items-center">
+            <img src={skill1} alt="img" className="" />
+            <h4 className="text-center text-sm ">HTML</h4>
+          </div>
+          <div className="grid place-items-center">
+            <img src={skill1} alt="img" className="" />
+            <h4 className="text-center text-sm ">CSS</h4>
+          </div>
+          <div className="grid place-items-center">
+            <img src={skill1} alt="img" className="" />
+            <h4 className="text-center text-sm ">Git and GitHub</h4>
+          </div>
+        </Carousel>
       </div>
-      <Carousel
-        responsive={responsive}
-        className="h-72 z-0"
-        swipeable={false}
-        draggable={true}
-        showDots={true}
-        ssr={true} // means to render carousel on server-side.
-        infinite={true}
-        autoPlaySpeed={1000}
-        keyBoardControl={true}
-        customTransition="all .5"
-        transitionDuration={500}
-      >
-        <div className="grid place-items-center">
-          <img src={skill2} alt="img" className="" />
-          <h4 className="text-center text-sm ">TypeScript</h4>
-        </div>
-        <div className="grid place-items-center">
-          <img src={skill1} alt="img" className="" />
-          <h4 className="text-center text-sm ">Javascript</h4>
-        </div>
-        <div className="grid place-items-center">
-          <img src={skill3} alt="img" className="" />
-          <h4 className="text-center text-sm ">NextJs</h4>
-        </div>
-        <div className="grid place-items-center">
-          <img src={skill1} alt="img" className="" />
-          <h4 className="text-center text-sm ">React Js</h4>
-        </div>
-        <div className="grid place-items-center">
-          <img src={skill1} alt="img" className="" />
-          <h4 className="text-center text-sm ">HTML</h4>
-        </div>
-        <div className="grid place-items-center">
-          <img src={skill1} alt="img" className="" />
-          <h4 className="text-center text-sm ">CSS</h4>
-        </div>
-        <div className="grid place-items-center">
-          <img src={skill1} alt="img" className="" />
-          <h4 className="text-center text-sm ">Git and GitHub</h4>
-        </div>
-      </Carousel>
     </div>
   );
 };

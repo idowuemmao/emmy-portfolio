@@ -67,7 +67,7 @@ const NavBar = () => {
             </a>
           </div>
           <button className="bg-[#fc4d5b] p-4 shadow-lg rounded-xl px-8">
-            <a href="/"> Let's Connect</a>
+            <a href="#connect"> Let's Connect</a>
           </button>
         </div>
         <div>
@@ -115,7 +115,7 @@ const NavBar = () => {
             </a>
           </div>
           <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8">
-            <a href="/"> Let's Connect</a>
+            <a href="#connect"> Let's Connect</a>
           </button>
         </div>
       )}
