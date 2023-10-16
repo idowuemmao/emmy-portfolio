@@ -4,8 +4,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="grid gap-4 px-10 md:px-20 h-screen pt-20 mb-16">
-      <div className="flex flex-col items-center justify-center h-full gap-8">
+    <div className="grid gap-4 px-10 md:px-20 h-screen pt-16">
+      <div className="flex flex-col items-center justify-center h-full gap-4">
         <button className="text-white p-2 bg-[#fc4d5b] rounded-xl px-4 cursor-pointer w-fit">
           Welcome to my Portfolio
         </button>
@@ -41,7 +41,7 @@ const Banner = () => {
       </p>
       <div className="flex flex-col items-center justify-start ">
         <a
-          href="/"
+          href="#connect"
           className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-[#fc4d5b] w-fit "
         >
           Let's Connect

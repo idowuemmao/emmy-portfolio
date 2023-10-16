@@ -23,25 +23,28 @@ const NavBar = () => {
   return (
     <nav className="sticky top-0 py-4 bg-gray-900 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
-        <img
-          src={logo}
-          alt="img"
-          className="w-12 max-h-16 border-2 rounded-full mr-auto cursor-pointer"
-        />
-        <div className="sm:flex gap-4 items-center opacity-60 text-sm hidden">
+        <a href="/" className="w-12 max-h-16   mr-auto cursor-pointer">
+          <img
+            src={logo}
+            alt="img"
+            href="/"
+            className="rounded-full border-2"
+          />
+        </a>
+        <div className="sm:flex gap-4 items-center text-sm hidden">
           <ul className="flex gap-4 list-none">
             <li>
-              <a href="/" className=" text-gray-300 hover:text-white">
+              <a href="/" className=" text-gray-500 hover:text-white">
                 Home
               </a>
             </li>
             <li>
-              <a href="#skills" className=" text-gray-300 hover:text-white">
+              <a href="#skills" className=" text-gray-500 hover:text-white">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#projects" className=" text-gray-300 hover:text-white">
+              <a href="#projects" className=" text-gray-500 hover:text-white">
                 Projects
               </a>
             </li>
@@ -49,24 +52,24 @@ const NavBar = () => {
           <div className="gap-4 text-sm hidden md:flex items-center">
             <a
               href="https://github.com/idowuemmao"
-              className=" text-gray-300 hover:text-white"
+              className=" text-gray-500 hover:text-white"
             >
               <FaGithub />
             </a>
             <a
               href="https://twitter.com/emmygreatmusic"
-              className=" text-gray-300 hover:text-white"
+              className=" text-gray-500 hover:text-white"
             >
               <FaTwitter />
             </a>
             <a
               href="https://linkedin.com/in/emmanuel-idowu-973626249"
-              className=" text-gray-300 hover:text-white"
+              className=" text-gray-500 hover:text-white"
             >
               <FaLinkedinIn />
             </a>
           </div>
-          <button className="bg-[#fc4d5b] p-4 shadow-lg rounded-xl px-8">
+          <button className="bg-[#fc4d5b] p-4 shadow-lg text-white hover:bg-white hover:text-[#fc4d5b] rounded-xl px-8">
             <a href="#connect"> Let's Connect</a>
           </button>
         </div>
@@ -85,13 +88,19 @@ const NavBar = () => {
         <div className="sm:hidden flex flex-col w-full py-4 -z-50 h-fit gap-8 items-center">
           <ul className="flex flex-col text-lg gap-4 items-center ">
             <li>
-              <a href="/">Home</a>
+              <a href="/" className="text-gray-500 hover:text-white">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" className="text-gray-500 hover:text-white">
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" className="text-gray-500 hover:text-white">
+                Projects
+              </a>
             </li>
           </ul>
           <div className="flex justify-around w-full">
@@ -114,7 +123,7 @@ const NavBar = () => {
               <FaLinkedinIn />
             </a>
           </div>
-          <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8">
+          <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8 text-white hover:bg-white hover:text-[#fc4d5b]">
             <a href="#connect"> Let's Connect</a>
           </button>
         </div>
