@@ -120,24 +120,28 @@ const NavBar = () => {
           </ul>
           <div className="flex justify-around w-full">
             <a
+              onClick={toggleMenuShow}
               href="https://github.com/idowuemmao"
               className=" text-gray-300 hover:text-white"
             >
               <FaGithub />
             </a>
             <a
+              onClick={toggleMenuShow}
               href="https://twitter.com/emmygreatmusic"
               className=" text-gray-300 hover:text-white"
             >
               <FaTwitter />
             </a>
             <a
+              onClick={toggleMenuShow}
               href="https://linkedin.com/in/emmanuel-idowu-973626249"
               className=" text-gray-300 hover:text-white"
             >
               <FaLinkedinIn />
             </a>
             <a
+              onClick={toggleMenuShow}
               href="https://idowuemmao@gmail.com"
               className=" text-gray-300 hover:text-white"
             >
@@ -145,7 +149,9 @@ const NavBar = () => {
             </a>
           </div>
           <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8 text-white hover:bg-white hover:text-[#fc4d5b]">
-            <a href="#connect"> Let's Connect</a>
+            <a onClick={toggleMenuShow} href="#connect">
+              Let's Connect
+            </a>
           </button>
         </div>
       )}

@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <footer
       data-aos="fade-left"
-      data-aos-offset="500"
       data-aos-duration="1000"
       id="connect"
       className="bg-gray-900 mt-24"
