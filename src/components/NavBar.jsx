@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../images/profile1.jpg";
+import logo from "../images/profile1.png";
 import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import { TiTimes } from "react-icons/ti";
@@ -22,9 +22,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky top-0 py-4 bg-tertiary w-full px-10 md:px-20 z-50 ">
+    <nav className="sticky bg-tertiary top-0 py-4 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
-        <a href="/" className="w-12 max-h-16 mr-auto cursor-pointer">
+        <a href="/" className="w-20 max-h-16 mr-auto cursor-pointer">
           <img
             src={logo}
             alt="img"

@@ -8,7 +8,7 @@ export default function Footer() {
       data-aos="flip-left"
       data-aos-duration="1000"
       id="connect"
-      className="bg-tertiary mt-24"
+      className="bg-[url('./images/background.jpg')] bg-cover bg-top text-black mt-24"
     >
       <div className=" px-10 md:px-20  pb-20 w-full">
         <h2 className="text-2xl md:text-4xl text-primary text-center pt-4 ">

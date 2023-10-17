@@ -29,7 +29,7 @@ const Skills = () => {
       <div
         data-aos="zoom-in-right"
         data-aos-duration="1000"
-        className="grid mx-10 md:mx-20 gap-12 mt-24 bg-tertiary p-8 md:px-24 rounded-3xl"
+        className="grid mx-10 md:mx-20 gap-12 mt-24 bg-[url('./images/project.jpg')] bg-cover p-8 md:px-24 rounded-3xl"
       >
         <div className="flex flex-col gap-4 items-center ">
           <h1 className="text-4xl md:text-6xl text-primary ">Skills</h1>
