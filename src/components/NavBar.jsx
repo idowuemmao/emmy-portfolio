@@ -93,12 +93,20 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a href="#skills" className="text-gray-500 hover:text-white">
+              <a
+                onClick={toggleMenuShow}
+                href="#skills"
+                className="text-gray-500 hover:text-white"
+              >
                 Skills
               </a>
             </li>
             <li>
-              <a href="#projects" className="text-gray-500 hover:text-white">
+              <a
+                onClick={toggleMenuShow}
+                href="#projects"
+                className="text-gray-500 hover:text-white"
+              >
                 Projects
               </a>
             </li>

@@ -8,7 +8,8 @@ const Banner = () => {
   return (
     <div
       data-aos="fade-right"
-      data-aos-offset="300"
+      data-aos-offset="500"
+      data-aos-duration="1000"
       data-aos-easing="ease-in-sine"
       className="grid gap-4 px-10 md:px-20 h-screen pt-16"
     >
