@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 export default function Footer() {
   return (
     <footer
-      data-aos="fade-left"
+      data-aos="flip-left"
       data-aos-duration="1000"
       id="connect"
       className="bg-tertiary mt-24"
