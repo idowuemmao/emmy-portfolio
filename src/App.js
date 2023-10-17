@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="grid body min-h-screen relative gap-4">
+    <div className="grid min-h-screen relative gap-4 bg-[url('./images/w000562.jpg')] bg-center bg-cover">
       <NavBar />
       <Banner />
       <Skills />
