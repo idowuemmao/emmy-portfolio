@@ -95,7 +95,7 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="sm:hidden flex flex-col w-full py-4 -z-50 h-fit gap-8 items-center">
+        <div className="sm:hidden flex flex-col w-full py-4 z-50 h-fit gap-8 items-center absolute bg-tertiary left-0">
           <ul className="flex flex-col text-lg gap-4 items-center ">
             <li>
               <a href="/" className="text-shading hover:text-secondary">
