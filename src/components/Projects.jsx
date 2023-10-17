@@ -34,7 +34,7 @@ const Projects = () => {
     },
   };
   return (
-    <div id="projects" data-aos="fade-up-right" data-aos-duration="1000">
+    <div id="projects" data-aos="zoom-in" data-aos-duration="2000">
       <div className="grid gap-12 mt-24 bg-gray-900 p-8 md:px-24">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-4xl md:text-6xl text-[#fc4d5b]">Projects</h1>

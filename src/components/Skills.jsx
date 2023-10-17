@@ -37,7 +37,7 @@ const Skills = () => {
             I am very passionate and skilled with a good problem solving skills,
             a fast learner, a strong team player and excellent communication and
             collaboration skills, eager to contribute my expertise to help drive
-            the success of any particular project I am involved in.
+            the success of any particular project or company I am involved in.
           </p>
         </div>
         <Carousel

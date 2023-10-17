@@ -49,8 +49,11 @@ const Banner = () => {
       </p>
       <div className="flex flex-col items-center justify-start ">
         <a
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1500"
           href="https://drive.google.com/file/d/1tKqxf03QwokG0OvOBY2aH7eB5zFsxCu0/view?usp=drive_link"
-          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-[#fc4d5b] w-fit "
+          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-[#fc4d5b] w-fit hover:underline"
         >
           Download Resume
           <FaArrowCircleRight />
