@@ -18,13 +18,14 @@ export default function Footer() {
           {/* left */}
           <div className="grid gap-4">
             <h4 className="flex items-center gap-4">
-              PHONE: <span>+2348144778796</span>
+              PHONE:<a href="tel:08144778796">+2348144778796</a>
             </h4>
             <h4 className="flex items-center gap-4">
-              EMAIL: <span>idowuemmao@gmail.com</span>
+              EMAIL:
+              <a href="mailto:idowuemmao@gmail.com">idowuemmao@gmail.com</a>
             </h4>
             <h4 className="flex items-center gap-4">
-              PHONE: <span>+2348144778796</span>
+              PHONE:<a href="tel:08144778796">+2348144778796</a>
             </h4>
           </div>
           {/* middle */}

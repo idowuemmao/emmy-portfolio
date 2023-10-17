@@ -73,7 +73,7 @@ const NavBar = () => {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://idowuemmao@gmail.com"
+              href="mailto:idowuemmao@gmail.com"
               className=" text-shading hover:text-secondary"
             >
               <IoMdMail />
@@ -145,7 +145,7 @@ const NavBar = () => {
             </a>
             <a
               onClick={toggleMenuShow}
-              href="https://idowuemmao@gmail.com"
+              href="mailto:idowuemmao@gmail.com"
               className=" text-shading hover:text-secondary"
             >
               <IoMdMail />
