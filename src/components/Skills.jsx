@@ -29,11 +29,11 @@ const Skills = () => {
       <div
         data-aos="zoom-in-right"
         data-aos-duration="1000"
-        className="grid mx-10 md:mx-20 gap-12 mt-24 bg-gray-900 p-8 md:px-24 rounded-3xl"
+        className="grid mx-10 md:mx-20 gap-12 mt-24 bg-tertiary p-8 md:px-24 rounded-3xl"
       >
         <div className="flex flex-col gap-4 items-center ">
-          <h1 className="text-4xl md:text-6xl text-[#fc4d5b] ">Skills</h1>
-          <p className="text-gray-600 text-center text-sm md:text-base lg:text-xl ">
+          <h1 className="text-4xl md:text-6xl text-primary ">Skills</h1>
+          <p className="text-shading text-center text-sm md:text-base lg:text-xl ">
             I am very passionate and skilled with a good problem solving skills,
             a fast learner, a strong team player and excellent communication and
             collaboration skills, eager to contribute my expertise to help drive
@@ -53,7 +53,7 @@ const Skills = () => {
           customTransition="all .5"
           transitionDuration={500}
         >
-          <div className="grid place-items-center">
+          <div className="grid place-items-center ">
             <img src={skill2} alt="img" className="" />
             <h4 className="text-center text-sm ">TypeScript</h4>
           </div>

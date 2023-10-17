@@ -8,13 +8,13 @@ export default function Footer() {
       data-aos="fade-left"
       data-aos-duration="1000"
       id="connect"
-      className="bg-gray-900 mt-24"
+      className="bg-tertiary mt-24"
     >
       <div className=" px-10 md:px-20  pb-20 w-full">
-        <h2 className="text-2xl md:text-4xl text-[#fc4d5b] text-center pt-4 ">
+        <h2 className="text-2xl md:text-4xl text-primary text-center pt-4 ">
           Get in touch
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-items-center mt-8 w-full text-xs md:text-base ">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-items-center mt-8 w-full text-xs md:text-base text-shading ">
           {/* left */}
           <div className="grid gap-4">
             <h4 className="flex items-center gap-4">
@@ -39,7 +39,7 @@ export default function Footer() {
                 ]}
                 loop={50}
                 cursor
-                className="text-[#fc4d5b] flex border-2"
+                className="text-primary flex border-2"
                 cursorStyle="|"
                 typeSpeed={80}
                 deleteSpeed={50}
@@ -52,8 +52,9 @@ export default function Footer() {
               placeholder="Your name"
             />
             <input
+              required
               className="bg-transparent border-[1px] text-xs p-2"
-              type="text"
+              type="email"
               placeholder="Your email"
             />
             <textarea
@@ -66,7 +67,8 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="w-full mt-8 py-2 rounded-xl bg-[#fc4d5b] hover:underline"
+              // onSubmit={}
+              className="w-full mt-8 py-2 rounded-xl bg-primary hover:underline"
             >
               Send
             </button>

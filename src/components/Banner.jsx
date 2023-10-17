@@ -14,13 +14,13 @@ const Banner = () => {
       className="grid gap-4 px-10 md:px-20 h-screen pt-16"
     >
       <div className="flex flex-col items-center justify-center h-full gap-4">
-        <button className="text-white p-2 bg-[#fc4d5b] rounded-xl px-4 cursor-pointer w-fit">
+        <button className="text-secondary p-2 bg-primary rounded-xl px-4 cursor-pointer w-fit">
           Welcome to my Portfolio
         </button>
         <p className="text-center text-xs md:text-lg">
           Hello I'm Emmanuel Idowu, a
         </p>
-        <div className="text-[2rem] text-[#fc4d5b] sm:text-4xl font-bold md:text-5xl lg:text-7xl text-center w-full">
+        <div className="text-[2rem] text-primary sm:text-4xl font-bold md:text-5xl lg:text-7xl text-center w-full">
           <Typewriter
             words={[
               "ReactJs Developer",
@@ -30,7 +30,7 @@ const Banner = () => {
             ]}
             loop={5}
             cursor
-            className="text-[#fc4d5b]"
+            className="text-primary"
             cursorStyle="|"
             typeSpeed={80}
             deleteSpeed={50}
@@ -38,7 +38,7 @@ const Banner = () => {
           />
         </div>
       </div>
-      <p className="w-full text-sm md:text-lg lg:text-xl xl:text-2xl text-center text-white">
+      <p className="w-full text-sm md:text-lg lg:text-xl xl:text-2xl text-center text-secondary">
         A Highly motivated and talented Frontend Engineer with more than 1 year
         Enterprise Level Experience Designing and building highly scalable
         system, across the Technology sectors. Armed with a solid foundation in
@@ -53,7 +53,7 @@ const Banner = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1500"
           href="https://drive.google.com/file/d/1tKqxf03QwokG0OvOBY2aH7eB5zFsxCu0/view?usp=drive_link"
-          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-[#fc4d5b] w-fit hover:underline"
+          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-primary w-fit hover:underline"
         >
           Download Resume
           <FaArrowCircleRight />

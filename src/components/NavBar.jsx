@@ -22,9 +22,9 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky top-0 py-4 bg-gray-900 w-full px-10 md:px-20 z-50 ">
+    <nav className="sticky top-0 py-4 bg-tertiary w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
-        <a href="/" className="w-12 max-h-16   mr-auto cursor-pointer">
+        <a href="/" className="w-12 max-h-16 mr-auto cursor-pointer">
           <img
             src={logo}
             alt="img"
@@ -35,17 +35,20 @@ const NavBar = () => {
         <div className="sm:flex gap-4 items-center text-sm hidden">
           <ul className="flex gap-4 list-none">
             <li>
-              <a href="/" className=" text-gray-500 hover:text-white">
+              <a href="/" className=" text-shading hover:text-secondary">
                 Home
               </a>
             </li>
             <li>
-              <a href="#skills" className=" text-gray-500 hover:text-white">
+              <a href="#skills" className=" text-shading hover:text-secondary">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#projects" className=" text-gray-500 hover:text-white">
+              <a
+                href="#projects"
+                className=" text-shading hover:text-secondary"
+              >
                 Projects
               </a>
             </li>
@@ -53,30 +56,30 @@ const NavBar = () => {
           <div className="gap-4 text-sm hidden md:flex items-center">
             <a
               href="https://github.com/idowuemmao"
-              className=" text-gray-500 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <FaGithub />
             </a>
             <a
               href="https://twitter.com/emmygreatmusic"
-              className=" text-gray-500 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <FaTwitter />
             </a>
             <a
               href="https://linkedin.com/in/emmanuel-idowu-973626249"
-              className=" text-gray-500 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <FaLinkedinIn />
             </a>
             <a
               href="https://idowuemmao@gmail.com"
-              className=" text-gray-500 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <IoMdMail />
             </a>
           </div>
-          <button className="bg-[#fc4d5b] p-4 shadow-lg text-white hover:bg-white hover:text-[#fc4d5b] rounded-xl px-8">
+          <button className="bg-primary p-4 shadow-lg text-secondary hover:bg-secondary hover:text-primary rounded-xl px-8">
             <a href="#connect"> Let's Connect</a>
           </button>
         </div>
@@ -95,7 +98,7 @@ const NavBar = () => {
         <div className="sm:hidden flex flex-col w-full py-4 -z-50 h-fit gap-8 items-center">
           <ul className="flex flex-col text-lg gap-4 items-center ">
             <li>
-              <a href="/" className="text-gray-500 hover:text-white">
+              <a href="/" className="text-shading hover:text-secondary">
                 Home
               </a>
             </li>
@@ -103,7 +106,7 @@ const NavBar = () => {
               <a
                 onClick={toggleMenuShow}
                 href="#skills"
-                className="text-gray-500 hover:text-white"
+                className="text-shading hover:text-secondary"
               >
                 Skills
               </a>
@@ -112,7 +115,7 @@ const NavBar = () => {
               <a
                 onClick={toggleMenuShow}
                 href="#projects"
-                className="text-gray-500 hover:text-white"
+                className="text-shading hover:text-secondary"
               >
                 Projects
               </a>
@@ -122,33 +125,33 @@ const NavBar = () => {
             <a
               onClick={toggleMenuShow}
               href="https://github.com/idowuemmao"
-              className=" text-gray-300 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <FaGithub />
             </a>
             <a
               onClick={toggleMenuShow}
               href="https://twitter.com/emmygreatmusic"
-              className=" text-gray-300 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <FaTwitter />
             </a>
             <a
               onClick={toggleMenuShow}
               href="https://linkedin.com/in/emmanuel-idowu-973626249"
-              className=" text-gray-300 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <FaLinkedinIn />
             </a>
             <a
               onClick={toggleMenuShow}
               href="https://idowuemmao@gmail.com"
-              className=" text-gray-300 hover:text-white"
+              className=" text-shading hover:text-secondary"
             >
               <IoMdMail />
             </a>
           </div>
-          <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8 text-white hover:bg-white hover:text-[#fc4d5b]">
+          <button className="bg-primary p-2 shadow-lg rounded-xl px-8 text-secondary hover:bg-secondary hover:text-primary">
             <a onClick={toggleMenuShow} href="#connect">
               Let's Connect
             </a>
