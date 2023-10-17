@@ -4,7 +4,13 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Footer() {
   return (
-    <footer id="connect" className="bg-gray-900 mt-24">
+    <footer
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="1000"
+      id="connect"
+      className="bg-gray-900 mt-24"
+    >
       <div className=" px-10 md:px-20  pb-20 w-full">
         <h2 className="text-2xl md:text-4xl text-[#fc4d5b] text-center pt-4 ">
           Get in touch
