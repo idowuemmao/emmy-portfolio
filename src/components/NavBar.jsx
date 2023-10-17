@@ -3,6 +3,7 @@ import logo from "../images/profile1.jpg";
 import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import { TiTimes } from "react-icons/ti";
+import { IoMdMail } from "react-icons/io";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,6 +69,12 @@ const NavBar = () => {
             >
               <FaLinkedinIn />
             </a>
+            <a
+              href="https://idowuemmao@gmail.com"
+              className=" text-gray-500 hover:text-white"
+            >
+              <IoMdMail />
+            </a>
           </div>
           <button className="bg-[#fc4d5b] p-4 shadow-lg text-white hover:bg-white hover:text-[#fc4d5b] rounded-xl px-8">
             <a href="#connect"> Let's Connect</a>
@@ -129,6 +136,12 @@ const NavBar = () => {
               className=" text-gray-300 hover:text-white"
             >
               <FaLinkedinIn />
+            </a>
+            <a
+              href="https://idowuemmao@gmail.com"
+              className=" text-gray-300 hover:text-white"
+            >
+              <IoMdMail />
             </a>
           </div>
           <button className="bg-[#fc4d5b] p-2 shadow-lg rounded-xl px-8 text-white hover:bg-white hover:text-[#fc4d5b]">
