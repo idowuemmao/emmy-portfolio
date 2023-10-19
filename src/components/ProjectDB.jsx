@@ -6,6 +6,7 @@ import portfolio from "../images/portfolio.png";
 import agecalc from "../images/agecalc.png";
 import pathtaxi from "../images/pathtaxi.png";
 import wallclock from "../images/wallclock.png";
+import summarizeAI from "../images/summarizesAi.png";
 
 const ProjectData = [
   {
@@ -55,6 +56,12 @@ const ProjectData = [
     title: "Wall Clock",
     url: "https://wallclock-woad.vercel.app/",
     pic: wallclock,
+  },
+  {
+    id: "9",
+    title: "Open AI Article Summarizer",
+    url: "https://ai-summarizer-phi-coral.vercel.app/",
+    pic: summarizeAI,
   },
 ];
 export default ProjectData;
