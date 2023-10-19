@@ -7,6 +7,7 @@ import agecalc from "../images/agecalc.png";
 import pathtaxi from "../images/pathtaxi.png";
 import wallclock from "../images/wallclock.png";
 import summarizeAI from "../images/summarizesAi.png";
+import resultSum from "../images/resultSum.png";
 
 const ProjectData = [
   {
@@ -62,6 +63,12 @@ const ProjectData = [
     title: "Open AI Article Summarizer",
     url: "https://ai-summarizer-phi-coral.vercel.app/",
     pic: summarizeAI,
+  },
+  {
+    id: "10",
+    title: "Result Summary Component",
+    url: "https://results-summary-component-main-lime.vercel.app/",
+    pic: resultSum,
   },
 ];
 export default ProjectData;
