@@ -8,6 +8,7 @@ import pathtaxi from "../images/pathtaxi.png";
 import wallclock from "../images/wallclock.png";
 import summarizeAI from "../images/summarizesAi.png";
 import resultSum from "../images/resultSum.png";
+import mokad from "../images/mokad.png";
 
 const ProjectData = [
   {
@@ -69,6 +70,12 @@ const ProjectData = [
     title: "Result Summary Component",
     url: "https://results-summary-component-main-lime.vercel.app/",
     pic: resultSum,
+  },
+  {
+    id: "11",
+    title: "Mokad Foods Website",
+    url: "https://www.mokadfoods.co.uk/",
+    pic: mokad,
   },
 ];
 export default ProjectData;
