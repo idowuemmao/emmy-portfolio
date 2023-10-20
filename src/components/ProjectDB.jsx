@@ -9,6 +9,7 @@ import wallclock from "../images/wallclock.png";
 import summarizeAI from "../images/summarizesAi.png";
 import resultSum from "../images/resultSum.png";
 import mokad from "../images/mokad.png";
+import carhire from "../images/carhire.png";
 
 const ProjectData = [
   {
@@ -76,6 +77,12 @@ const ProjectData = [
     title: "Mokad Foods Website",
     url: "https://www.mokadfoods.co.uk/",
     pic: mokad,
+  },
+  {
+    id: "12",
+    title: "Car Hire App",
+    url: "https://car-hire-beta.vercel.app/",
+    pic: carhire,
   },
 ];
 export default ProjectData;
