@@ -1,11 +1,22 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import skill1 from "../images/meter1.svg";
-import skill2 from "../images/meter2.svg";
-import skill3 from "../images/meter3.svg";
+import SkillData from "./SkillsDB";
 
 const Skills = () => {
+  const mySkills = SkillData.map((skill) => (
+    <div
+      key={skill.id}
+      className="grid place-items-center min-h-fit cursor-pointer w-full "
+    >
+      <img
+        src={skill.pic}
+        alt={skill.title}
+        className="w-9/12 h-52 object-contain "
+      />
+      <h2 className="font-bold font-mono">{skill.title}</h2>
+    </div>
+  ));
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -29,7 +40,7 @@ const Skills = () => {
       <div
         data-aos="zoom-in-right"
         data-aos-duration="1000"
-        className="grid mx-10 md:mx-20 gap-12 mt-24 bg-[url('./images/project.jpg')] bg-cover p-8 md:px-24 rounded-3xl"
+        className="grid mx-10 md:mx-20 gap-12 mt-24 bg-[url('./images/w000562.jpg')] bg-contain p-8 md:px-24 rounded-3xl"
       >
         <div className="flex flex-col gap-4 items-center ">
           <h1 className="text-4xl md:text-6xl text-primary ">Skills</h1>
@@ -53,34 +64,11 @@ const Skills = () => {
           customTransition="all .5"
           transitionDuration={500}
         >
-          <div className="grid place-items-center ">
-            <img src={skill2} alt="img" className="" />
-            <h4 className="text-center text-sm ">TypeScript</h4>
-          </div>
-          <div className="grid place-items-center">
-            <img src={skill1} alt="img" className="" />
-            <h4 className="text-center text-sm ">Javascript</h4>
-          </div>
-          <div className="grid place-items-center">
-            <img src={skill3} alt="img" className="" />
-            <h4 className="text-center text-sm ">NextJs</h4>
-          </div>
-          <div className="grid place-items-center">
-            <img src={skill1} alt="img" className="" />
-            <h4 className="text-center text-sm ">React Js</h4>
-          </div>
-          <div className="grid place-items-center">
-            <img src={skill1} alt="img" className="" />
-            <h4 className="text-center text-sm ">HTML</h4>
-          </div>
-          <div className="grid place-items-center">
-            <img src={skill1} alt="img" className="" />
-            <h4 className="text-center text-sm ">CSS</h4>
-          </div>
-          <div className="grid place-items-center">
+          {mySkills}
+          {/* <div className="grid place-items-center">
             <img src={skill1} alt="img" className="" />
             <h4 className="text-center text-sm ">Git and GitHub</h4>
-          </div>
+          </div> */}
         </Carousel>
       </div>
     </div>

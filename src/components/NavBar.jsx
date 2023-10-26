@@ -22,7 +22,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="sticky bg-tertiary top-0 py-4 w-full px-10 md:px-20 z-50 ">
+    <nav className="sticky bg-gradient-to-r to-tertiary from-cyan-900 top-0 py-4 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
         <a href="/" className="w-20 max-h-16 mr-auto cursor-pointer">
           <img
@@ -32,7 +32,7 @@ const NavBar = () => {
             className="rounded-full border-2"
           />
         </a>
-        <div className="sm:flex gap-4 items-center text-sm hidden">
+        <div className="sm:flex gap-4 items-center hidden">
           <ul className="flex gap-4 list-none">
             <li>
               <a href="/" className=" text-shading hover:text-secondary">
@@ -95,7 +95,7 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="sm:hidden flex flex-col w-full py-4 z-50 h-fit gap-8 items-center absolute bg-tertiary left-0">
+        <div className="sm:hidden flex flex-col w-full py-4 z-50 h-fit gap-8 items-center absolute bg-gradient-to-r to-tertiary from-cyan-900 left-0 top-24">
           <ul className="flex flex-col text-lg gap-4 items-center ">
             <li>
               <a href="/" className="text-shading hover:text-secondary">
