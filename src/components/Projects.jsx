@@ -35,7 +35,7 @@ const Projects = () => {
   };
   return (
     <div id="projects" data-aos="fade-zoom-in" data-aos-duration="2000">
-      <div className="grid gap-12 mt-28 bg-[url('./images/skills.jpg')] bg-contain p-8 md:px-24">
+      <div className="grid gap-12 mt-28 bg-[url('./images/skills.jpg')] bg-cover p-8 md:px-24">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-4xl md:text-6xl text-primary">Projects</h1>
           <p className="text-shading text-center text-sm md:text-base lg:text-xl">
