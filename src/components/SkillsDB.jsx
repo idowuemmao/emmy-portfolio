@@ -8,6 +8,9 @@ import next from "../images/next.png";
 import git from "../images/git.png";
 import github from "../images/github.png";
 import reactNative from "../images/react-native-1.svg";
+import vscode from "../images/vscode.svg";
+import reactRouter from "../images/react-router.svg";
+import figma from "../images/Figma-logo.svg";
 
 const SkillData = [
   {
@@ -54,21 +57,39 @@ const SkillData = [
   },
   {
     id: "8",
-    title: "NEXT JS",
-    proficiency: "Intermediate",
-    pic: next,
+    title: "React Router",
+    proficiency: "Advance",
+    pic: reactRouter,
   },
   {
     id: "9",
-    title: "GITHUB",
-    proficiency: "Advance",
-    pic: github,
+    title: "NEXT JS",
+    proficiency: "Intermediate",
+    pic: next,
   },
   {
     id: "10",
     title: "GIT",
     proficiency: "Advance",
     pic: git,
+  },
+  {
+    id: "11",
+    title: "GITHUB",
+    proficiency: "Advance",
+    pic: github,
+  },
+  {
+    id: "12",
+    title: "Figma",
+    proficiency: "Advance",
+    pic: figma,
+  },
+  {
+    id: "13",
+    title: "VS Code",
+    proficiency: "Advance",
+    pic: vscode,
   },
 ];
 
