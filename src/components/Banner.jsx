@@ -39,7 +39,7 @@ const Banner = () => {
         </div>
       </div>
       <p className="w-full text-sm md:text-lg lg:text-xl xl:text-2xl text-center text-secondary">
-        A Highly motivated and talented Frontend Engineer with more than 1 year
+        A Highly motivated and talented Frontend Engineer with almost 2 year
         Enterprise Level Experience Designing and building highly scalable
         system, across the Technology sectors. Armed with a solid foundation in
         HTML, CSS, JavaScript, Next JS and React JS Framework. Focused on

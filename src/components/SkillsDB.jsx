@@ -7,6 +7,7 @@ import typescript from "../images/Typescript_logo.png";
 import next from "../images/next.png";
 import git from "../images/git.png";
 import github from "../images/github.png";
+import reactNative from "../images/react-native-1.svg";
 
 const SkillData = [
   {
@@ -47,18 +48,24 @@ const SkillData = [
   },
   {
     id: "7",
+    title: "React Native",
+    proficiency: "Beginner",
+    pic: reactNative,
+  },
+  {
+    id: "8",
     title: "NEXT JS",
     proficiency: "Intermediate",
     pic: next,
   },
   {
-    id: "8",
+    id: "9",
     title: "GITHUB",
     proficiency: "Advance",
     pic: github,
   },
   {
-    id: "9",
+    id: "10",
     title: "GIT",
     proficiency: "Advance",
     pic: git,
