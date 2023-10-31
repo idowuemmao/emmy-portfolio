@@ -12,7 +12,9 @@ export default function Footer() {
   } = useForm();
 
   const onSubmit = (formData) => {
-    window.location.href = `mailto:idowuemmao@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message}. ${formData.email}`;
+    window.location.href = `mailto:idowuemmao@gmail.com?subject=${
+      formData.subject
+    }&body=Hi, my name is ${formData.name}, ${(<br />)} ${formData.message}.`;
     reset();
   };
   return (
@@ -20,7 +22,7 @@ export default function Footer() {
       data-aos="flip-left"
       data-aos-duration="1000"
       id="connect"
-      className="bg-[url('./images/background.jpg')] bg-cover bg-top text-black mt-24"
+      className="bg-gradient-to-r to-tertiary from-cyan-900 text-black mt-24"
     >
       <div className=" px-10 md:px-20  pb-20 w-full">
         <h2 className="text-2xl md:text-4xl text-primary text-center pt-4 ">
@@ -67,6 +69,12 @@ export default function Footer() {
               className="bg-transparent border-[1px] text-xs p-2"
               type="text"
               placeholder="Your name"
+            />
+            <input
+              {...register("subject")}
+              className="bg-transparent border-[1px] text-xs p-2"
+              type="text"
+              placeholder="The Subject"
             />
             <input
               {...register("email")}
