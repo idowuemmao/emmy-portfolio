@@ -1,8 +1,20 @@
 import React from "react";
 import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
+import { useForm } from "react-hook-form";
 
 export default function Footer() {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (formData) => {
+    window.location.href = `mailto:idowuemmao@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message}. ${formData.email}`;
+    reset();
+  };
   return (
     <footer
       data-aos="flip-left"
@@ -29,7 +41,10 @@ export default function Footer() {
             </h4>
           </div>
           {/* middle */}
-          <form className="grid gap-4 col-span-2 w-10/12">
+          <form
+            className="grid gap-4 col-span-2 w-10/12"
+            onSubmit={handleSubmit(onSubmit)}
+          >
             <div className="text-center">
               <Typewriter
                 words={[
@@ -48,17 +63,20 @@ export default function Footer() {
               />
             </div>
             <input
+              {...register("name")}
               className="bg-transparent border-[1px] text-xs p-2"
               type="text"
               placeholder="Your name"
             />
             <input
+              {...register("email")}
               required
               className="bg-transparent border-[1px] text-xs p-2"
               type="email"
               placeholder="Your email"
             />
             <textarea
+              {...register("message")}
               name="message"
               id="message"
               cols="10"
@@ -68,7 +86,6 @@ export default function Footer() {
             />
             <button
               type="submit"
-              // onSubmit={}
               className="w-full mt-8 py-2 rounded-xl bg-primary hover:underline"
             >
               Send
