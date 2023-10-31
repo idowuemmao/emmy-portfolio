@@ -12,6 +12,7 @@ import vscode from "../images/vscode.svg";
 import reactRouter from "../images/react-router.png";
 import figma from "../images/Figma-logo.svg";
 import wix from "../images/wix.png";
+import sass from "../images/sass.png";
 
 const SkillData = [
   {
@@ -28,72 +29,78 @@ const SkillData = [
   },
   {
     id: "3",
+    title: "SASS",
+    proficiency: "Intermediate",
+    pic: sass,
+  },
+  {
+    id: "4",
     title: "TAILWIND CSS",
     proficiency: "Advance",
     pic: tailwindcss,
   },
   {
-    id: "4",
+    id: "5",
     title: "JAVASCRIPT",
     proficiency: "Advance",
     pic: javascript,
   },
   {
-    id: "5",
+    id: "6",
     title: "TYPESCRIPT",
     proficiency: "Intermediate",
     pic: typescript,
   },
   {
-    id: "6",
+    id: "7",
     title: "REACT JS",
     proficiency: "Intermediate",
     pic: react,
   },
   {
-    id: "7",
+    id: "8",
     title: "React Native",
     proficiency: "Beginner",
     pic: reactNative,
   },
   {
-    id: "8",
+    id: "9",
     title: "React Router",
     proficiency: "Advance",
     pic: reactRouter,
   },
   {
-    id: "9",
+    id: "10",
     title: "NEXT JS",
     proficiency: "Intermediate",
     pic: next,
   },
   {
-    id: "10",
+    id: "11",
     title: "GIT",
     proficiency: "Advance",
     pic: git,
   },
   {
-    id: "11",
+    id: "12",
     title: "GITHUB",
     proficiency: "Advance",
     pic: github,
   },
   {
-    id: "12",
+    id: "13",
     title: "Figma",
     proficiency: "Advance",
     pic: figma,
   },
   {
-    id: "13",
+    id: "14",
     title: "WIX",
     proficiency: "Advance",
     pic: wix,
   },
   {
-    id: "14",
+    id: "15",
     title: "VS Code",
     proficiency: "Advance",
     pic: vscode,
