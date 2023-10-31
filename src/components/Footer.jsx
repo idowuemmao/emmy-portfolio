@@ -12,8 +12,7 @@ export default function Footer() {
   } = useForm();
 
   const onSubmit = (formData) => {
-    window.location.href = `mailto:idowuemmao@gmail.com?subject=${formData.subject}&body=Hello, my name is ${formData.name},
-     ${formData.message}.`;
+    window.location.href = `mailto:idowuemmao@gmail.com?subject=${formData.subject}&body=Hello, my name is ${formData.name}, ${formData.message}.`;
     reset();
   };
   return (
