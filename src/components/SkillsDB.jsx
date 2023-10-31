@@ -9,7 +9,7 @@ import git from "../images/git.png";
 import github from "../images/github.png";
 import reactNative from "../images/react-native-1.svg";
 import vscode from "../images/vscode.svg";
-import reactRouter from "../images/react-router.svg";
+import reactRouter from "../images/react-router.png";
 import figma from "../images/Figma-logo.svg";
 
 const SkillData = [
