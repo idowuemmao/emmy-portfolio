@@ -11,6 +11,7 @@ import reactNative from "../images/react-native-1.svg";
 import vscode from "../images/vscode.svg";
 import reactRouter from "../images/react-router.png";
 import figma from "../images/Figma-logo.svg";
+import wix from "../images/wix.png";
 
 const SkillData = [
   {
@@ -87,6 +88,12 @@ const SkillData = [
   },
   {
     id: "13",
+    title: "WIX",
+    proficiency: "Advance",
+    pic: wix,
+  },
+  {
+    id: "14",
     title: "VS Code",
     proficiency: "Advance",
     pic: vscode,

@@ -32,7 +32,7 @@ const NavBar = () => {
             className="rounded-full border-2"
           />
         </a>
-        <div className="sm:flex gap-4 items-center hidden">
+        <div className="sm:flex text-sm lg:text-base gap-2 lg:gap-4 items-center hidden">
           <ul className="flex gap-4 list-none">
             <li>
               <a href="/" className=" text-shading hover:text-secondary">
@@ -52,8 +52,16 @@ const NavBar = () => {
                 Projects
               </a>
             </li>
+            <li>
+              <a
+                href="#experience"
+                className=" text-shading hover:text-secondary"
+              >
+                Experience
+              </a>
+            </li>
           </ul>
-          <div className="gap-4 text-sm hidden md:flex items-center">
+          <div className=" gap-2 lg:gap-4 text-sm hidden md:flex items-center">
             <a
               href="https://github.com/idowuemmao"
               className=" text-shading hover:text-secondary"
@@ -79,7 +87,7 @@ const NavBar = () => {
               <IoMdMail />
             </a>
           </div>
-          <button className="bg-primary p-4 shadow-lg text-secondary hover:bg-secondary hover:text-primary rounded-xl px-8">
+          <button className="bg-primary p-4 shadow-lg text-secondary text-sm hover:bg-secondary hover:text-primary rounded-xl px-8">
             <a href="#connect"> Let's Connect</a>
           </button>
         </div>
@@ -118,6 +126,15 @@ const NavBar = () => {
                 className="text-shading hover:text-secondary"
               >
                 Projects
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={toggleMenuShow}
+                href="#experience"
+                className="text-shading hover:text-secondary"
+              >
+                Experience
               </a>
             </li>
           </ul>
