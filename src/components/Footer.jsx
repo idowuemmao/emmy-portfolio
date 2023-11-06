@@ -36,9 +36,6 @@ export default function Footer() {
                 EMAIL:
                 <a href="mailto:idowuemmao@gmail.com">idowuemmao@gmail.com</a>
               </h4>
-              <h4 className="flex items-center gap-4">
-                PHONE:<a href="tel:08144778796">+2348144778796</a>
-              </h4>
             </div>
             {/* middle */}
             <form

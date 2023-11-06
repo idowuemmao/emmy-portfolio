@@ -7,7 +7,7 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div className="grid min-h-screen relative gap-4 bg-gradient-to-r from-blue-950 to-cyan-800">
+    <div className="grid min-h-screen relative bg-gradient-to-r from-blue-950 to-cyan-800">
       <NavBar />
       <Banner />
       <Skills />

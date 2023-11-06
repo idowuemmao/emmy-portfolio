@@ -65,10 +65,6 @@ const Skills = () => {
           transitionDuration={500}
         >
           {mySkills}
-          {/* <div className="grid place-items-center">
-            <img src={skill1} alt="img" className="" />
-            <h4 className="text-center text-sm ">Git and GitHub</h4>
-          </div> */}
         </Carousel>
       </div>
     </div>

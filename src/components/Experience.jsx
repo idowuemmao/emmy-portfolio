@@ -31,7 +31,7 @@ const Experience = () => {
 
         <div className="ml-8 text-sm text-justify ">
           {Description.map((item) => (
-            <li key={id} className="list-disc md:p-2 text-gray-300">
+            <li key={id} className="list-disc p-1 md:p-2 text-gray-300">
               {item}
             </li>
           ))}
@@ -44,7 +44,7 @@ const Experience = () => {
     <div id="experience" data-aos="fade-in" data-aos-duration="2000">
       <div className="grid mx-10 md:mx-20 mt-28 gap-8 bg-[url('./images/grass.jpg')] bg-cover bg-no-repeat p-8 md:px-10 rounded-3xl">
         <h2 className="text-4xl sm:text-5xl md:text-6xl text-primary text-center">
-          Work Experience
+          Experience
         </h2>
         <div className="grid gap-8">{myExperience}</div>
       </div>
