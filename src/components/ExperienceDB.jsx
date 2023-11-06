@@ -3,7 +3,7 @@ const ExperienceDB = [
     id: "1",
     JobRole: "FrontEnd Developer",
     JobType: "Freelancing",
-    StartDay: "November 2021",
+    StartDay: "January 2022",
     EndDay: "Present",
     Company: "Self Employed",
     Nature: "Remote",
