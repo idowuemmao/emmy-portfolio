@@ -10,13 +10,14 @@ import summarizeAI from "../images/summarizesAi.png";
 import resultSum from "../images/resultSum.png";
 import mokad from "../images/mokad.png";
 import carhire from "../images/carhire.png";
+import pathfinder from "../images/pathfinderscent.png";
 
 const ProjectData = [
   {
     id: "1",
-    title: "Meme Generator",
-    url: "https://meme-generator-idowuemmao.vercel.app/",
-    pic: memeGen,
+    title: "Pathfinder Scent Website",
+    url: "https://pathfinder-scent-shopping-cart.vercel.app/",
+    pic: pathfinder,
   },
   {
     id: "2",
@@ -83,6 +84,12 @@ const ProjectData = [
     title: "Car Hire App",
     url: "https://car-hire-beta.vercel.app/",
     pic: carhire,
+  },
+  {
+    id: "13",
+    title: "Meme Generator",
+    url: "https://meme-generator-idowuemmao.vercel.app/",
+    pic: memeGen,
   },
 ];
 export default ProjectData;
