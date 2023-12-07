@@ -11,6 +11,7 @@ import resultSum from "../images/resultSum.png";
 import mokad from "../images/mokad.png";
 import carhire from "../images/carhire.png";
 import pathfinder from "../images/pathfinderscent.png";
+import tictactoe from "../images/tic-tac-toe.png";
 
 const ProjectData = [
   {
@@ -90,6 +91,12 @@ const ProjectData = [
     title: "Meme Generator",
     url: "https://meme-generator-idowuemmao.vercel.app/",
     pic: memeGen,
+  },
+  {
+    id: "13",
+    title: "Tic-Tac-Toe",
+    url: "https://tic-tac-toe-game-five.vercel.app/",
+    pic: tictactoe,
   },
 ];
 export default ProjectData;
