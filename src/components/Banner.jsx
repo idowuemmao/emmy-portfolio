@@ -52,7 +52,7 @@ const Banner = () => {
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1500"
-          href="https://drive.google.com/file/d/1EYSaMjOUa3VbHZZ5iI9tS8DU5PJDk5wf/view?usp=sharing"
+          href="https://drive.google.com/file/d/1eF_hhN8PHac5vANNu2Zk1nIyuywpb5pq/view?usp=drive_link"
           className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-primary w-fit hover:underline"
         >
           Download Resume
