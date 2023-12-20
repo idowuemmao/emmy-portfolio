@@ -12,6 +12,7 @@ import mokad from "../images/mokad.png";
 import carhire from "../images/carhire.png";
 import pathfinder from "../images/pathfinderscent.png";
 import tictactoe from "../images/tic-tac-toe.png";
+import signin from "../images/signin.png";
 
 const ProjectData = [
   {
@@ -97,6 +98,12 @@ const ProjectData = [
     title: "Tic-Tac-Toe",
     url: "https://tic-tac-toe-game-five.vercel.app/",
     pic: tictactoe,
+  },
+  {
+    id: "14",
+    title: "Sign In Page",
+    url: "https://sign-in-wheat-six.vercel.app/",
+    pic: signin,
   },
 ];
 export default ProjectData;
