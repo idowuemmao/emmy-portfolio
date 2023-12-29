@@ -2,17 +2,37 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ProjectData from "./ProjectDB";
+import { IoLogoGithub } from "react-icons/io";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const allProjects = ProjectData.map((item) => (
-    <a key={item.id} href={item.url} className="grid place-items-center">
+    <div key={item.id} className="grid place-items-center">
       <img
         src={item.pic}
         alt={item.title}
-        className="rounded-lg w-11/12 lg:h-64 md:h-48 h-40"
+        className="rounded-lg w-11/12 lg:h-52 md:h-48 h-44"
       />
-      <h4 className="text-center text-sm mt-8">{item.title}</h4>
-    </a>
+      <h4 className="text-center text-lg uppercase font-black mt-8">
+        {item.title}
+      </h4>
+      <div className="w-full flex justify-center gap-4 py-4 text-xs items-center">
+        <a
+          href={item.url}
+          className="flex gap-1 items-center bg-primary p-1 rounded-2xl px-3"
+        >
+          <FaExternalLinkAlt />
+          View Site
+        </a>
+        <a
+          href={item.code}
+          className="flex gap-1 items-center bg-primary p-1 rounded-2xl px-3"
+        >
+          <IoLogoGithub />
+          View Code
+        </a>
+      </div>
+    </div>
   ));
 
   const responsive = {
