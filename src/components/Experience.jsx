@@ -1,6 +1,7 @@
 import React from "react";
 import allExperience from "./ExperienceDB";
-import { TiWorld } from "react-icons/ti";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 const Experience = () => {
   const myExperience = allExperience.map(
     ({
@@ -17,7 +18,10 @@ const Experience = () => {
       <div key={id} className="grid gap-1">
         <div className="flex md:flex-row flex-col text-center md:justify-start justify-center items-center text-primary font-bold">
           <a href={url}>
-            <TiWorld href={url} className="cursor-pointer text-xl" />
+            <FaExternalLinkAlt
+              href={url}
+              className="cursor-pointer text-xl pr-1"
+            />
           </a>
           <h2 className="text-3xl lg:text-5xl"> {Company}</h2>
           <span className="hidden md:block lg:px-2 md:self-end">|</span>

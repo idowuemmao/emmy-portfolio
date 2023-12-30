@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../images/profile1.png";
-import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineMenu } from "react-icons/ai";
 import { TiTimes } from "react-icons/ti";
 import { IoMdMail } from "react-icons/io";
@@ -72,7 +73,7 @@ const NavBar = () => {
               href="https://twitter.com/emmygreatmusic"
               className=" text-shading hover:text-secondary"
             >
-              <FaTwitter />
+              <FaXTwitter />
             </a>
             <a
               href="https://linkedin.com/in/emmanuel-idowu-973626249"
@@ -151,7 +152,7 @@ const NavBar = () => {
               href="https://twitter.com/emmygreatmusic"
               className=" text-shading hover:text-secondary"
             >
-              <FaTwitter />
+              <FaXTwitter />
             </a>
             <a
               onClick={toggleMenuShow}

@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { Typewriter } from "react-simple-typewriter";
 import { useForm } from "react-hook-form";
 
@@ -23,7 +24,7 @@ export default function Footer() {
         className="bg-gradient-to-r to-tertiary from-cyan-900 text-black mt-24"
       >
         <div className=" px-10 md:px-20  pb-20 w-full">
-          <h2 className="text-2xl md:text-4xl text-primary text-center pt-4 ">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl text-primary text-center pt-4 ">
             Get in touch
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-items-center mt-8 w-full text-xs md:text-base text-shading ">
@@ -106,7 +107,7 @@ export default function Footer() {
                 href="https://twitter.com/emmygreatmusic"
                 className="flex gap-2 items-center"
               >
-                <FaTwitter /> Twitter
+                <FaXTwitter /> Twitter
               </a>
               <a
                 href="https://linkedin.com/in/emmanuel-idowu-973626249"
