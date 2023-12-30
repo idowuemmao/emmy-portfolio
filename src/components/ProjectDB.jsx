@@ -139,13 +139,7 @@ const ProjectData = [
     url: "https://tic-tac-toe-game-five.vercel.app/",
     pic: tictactoe,
     code: "https://github.com/idowuemmao/tic-tac-toe-game",
-    stack: [
-      "TypeScript",
-      "Next Js",
-      "React Js",
-      "JavaScript",
-      "Tailwind",
-    ],
+    stack: ["TypeScript", "Next Js", "React Js", "JavaScript", "Tailwind"],
   },
   {
     id: "14",
