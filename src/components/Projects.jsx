@@ -13,20 +13,32 @@ const Projects = () => {
         alt={item.title}
         className="rounded-lg w-11/12 lg:h-52 md:h-48 h-44"
       />
-      <h4 className="text-center text-lg uppercase font-black mt-8">
+      <h4 className="text-center text-lg uppercase font-black mt-8 mb-4">
         {item.title}
       </h4>
+      <div className="text-[0.5rem] text-center flex flex-col items-center">
+        <div className="flex gap-2 flex-wrap">
+          {item.stack.map((ind) => (
+            <p
+              key={ind}
+              className="bg-gradient-to-r to-tertiary from-cyan-900 p-1 rounded-lg min-w-max"
+            >
+              {ind}
+            </p>
+          ))}
+        </div>
+      </div>
       <div className="w-full flex justify-center gap-4 py-4 text-xs items-center">
         <a
           href={item.url}
-          className="flex gap-1 items-center bg-primary p-1 rounded-2xl px-3"
+          className="flex gap-1 items-center bg-gradient-to-r to-tertiary from-cyan-900 p-1 rounded-2xl px-3"
         >
           <FaExternalLinkAlt />
           View Site
         </a>
         <a
           href={item.code}
-          className="flex gap-1 items-center bg-primary p-1 rounded-2xl px-3"
+          className="flex gap-1 items-center bg-gradient-to-r to-tertiary from-cyan-900 p-1 rounded-2xl px-3"
         >
           <IoLogoGithub />
           View Code
@@ -66,7 +78,7 @@ const Projects = () => {
         </div>
         <Carousel
           responsive={responsive}
-          className="md:h-96 h-80 grid gap-8 z-0 "
+          className="md:h-[30rem] h-96 grid gap-8 z-0 "
           swipeable={false}
           draggable={true}
           showDots={true}

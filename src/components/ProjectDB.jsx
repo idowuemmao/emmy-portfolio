@@ -21,6 +21,14 @@ const ProjectData = [
     url: "https://pathfinder-scent-shopping-cart.vercel.app/",
     pic: pathfinder,
     code: "https://github.com/idowuemmao/pathfinder-scent-shopping-cart",
+    stack: [
+      "React Js",
+      "JavaScript",
+      "Tailwind",
+      "AOS",
+      "Typewriter",
+      "Carousel",
+    ],
   },
   {
     id: "2",
@@ -28,6 +36,7 @@ const ProjectData = [
     url: "https://airbnb-clone-one-mauve.vercel.app/",
     pic: airbnb,
     code: "https://github.com/idowuemmao/airbnb-clone",
+    stack: ["React Js", "JavaScript", "Carousel", "HTML", "Tailwind"],
   },
   {
     id: "3",
@@ -35,6 +44,14 @@ const ProjectData = [
     url: "https://vanlife-app-idowuemmao.vercel.app/",
     pic: vanhire,
     code: "https://github.com/idowuemmao/vanlife-app",
+    stack: [
+      "React Js",
+      "JavaScript",
+      "Carousel",
+      "Typewriter",
+      "React Router",
+      "AOS",
+    ],
   },
   {
     id: "4",
@@ -42,6 +59,7 @@ const ProjectData = [
     url: "https://my-real-estate-idowuemmao.vercel.app/",
     pic: realestate,
     code: "https://github.com/idowuemmao/my-real-estate",
+    stack: ["Next Js", "React Js", "Javascript", "MapBox", "Tailwind", "MapGL"],
   },
   {
     id: "5",
@@ -49,6 +67,7 @@ const ProjectData = [
     url: "https://emmy-portfolio.vercel.app/",
     pic: portfolio,
     code: "https://github.com/idowuemmao/emmy-portfolio",
+    stack: ["React Js", "JavaScript", "Carousel", "Typewriter", "HTML", "AOS"],
   },
   {
     id: "6",
@@ -56,6 +75,7 @@ const ProjectData = [
     url: "https://age-calculator-gamma-rosy.vercel.app/",
     pic: agecalc,
     code: "https://github.com/idowuemmao/age-calculator",
+    stack: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: "7",
@@ -63,6 +83,7 @@ const ProjectData = [
     url: "https://path-taxi.vercel.app/",
     pic: pathtaxi,
     code: "https://github.com/idowuemmao/path-taxi",
+    stack: ["TypeScript", "Next Js", "React Js", "MapBox", "Tailwind"],
   },
   {
     id: "8",
@@ -70,6 +91,7 @@ const ProjectData = [
     url: "https://wallclock-woad.vercel.app/",
     pic: wallclock,
     code: "https://github.com/idowuemmao/my-clock",
+    stack: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: "9",
@@ -77,6 +99,7 @@ const ProjectData = [
     url: "https://ai-summarizer-phi-coral.vercel.app/",
     pic: summarizeAI,
     code: "https://github.com/idowuemmao/ai-summarizer",
+    stack: ["Vite", "React Js", "React Redux", "Tailwind"],
   },
   {
     id: "10",
@@ -84,6 +107,7 @@ const ProjectData = [
     url: "https://results-summary-component-main-lime.vercel.app/",
     pic: resultSum,
     code: "https://github.com/idowuemmao/results-summary-component-main",
+    stack: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: "11",
@@ -91,6 +115,7 @@ const ProjectData = [
     url: "https://www.mokadfoods.co.uk/",
     pic: mokad,
     code: "",
+    stack: ["Wix"],
   },
   {
     id: "12",
@@ -98,6 +123,7 @@ const ProjectData = [
     url: "https://car-hire-beta.vercel.app/",
     pic: carhire,
     code: "https://github.com/idowuemmao/car-hire",
+    stack: ["TypeScript", "Next Js", "React Js", "HeadlessUI", "Tailwind"],
   },
   {
     id: "13",
@@ -105,6 +131,7 @@ const ProjectData = [
     url: "https://meme-generator-idowuemmao.vercel.app/",
     pic: memeGen,
     code: "https://github.com/idowuemmao/meme-generator",
+    stack: ["React Js", "JavaScript", "Tailwind"],
   },
   {
     id: "13",
@@ -112,6 +139,13 @@ const ProjectData = [
     url: "https://tic-tac-toe-game-five.vercel.app/",
     pic: tictactoe,
     code: "https://github.com/idowuemmao/tic-tac-toe-game",
+    stack: [
+      "TypeScript",
+      "Next Js",
+      "React Js",
+      "JavaScript",
+      "Tailwind",
+    ],
   },
   {
     id: "14",
@@ -119,6 +153,15 @@ const ProjectData = [
     url: "https://sign-in-wheat-six.vercel.app/",
     pic: signin,
     code: "https://github.com/idowuemmao/sign_in",
+    stack: [
+      "React Js",
+      "JavaScript",
+      "Yup",
+      "Formik",
+      "AOS",
+      "React Router",
+      "Tailwind",
+    ],
   },
 ];
 export default ProjectData;
