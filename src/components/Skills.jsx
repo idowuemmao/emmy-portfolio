@@ -45,10 +45,9 @@ const Skills = () => {
         <div className="flex flex-col gap-4 items-center ">
           <h1 className="text-4xl md:text-6xl text-primary ">Skills</h1>
           <p className="text-shading text-center text-sm md:text-base lg:text-xl ">
-            I am very passionate and skilled with a good problem solving skills,
-            a fast learner, a strong team player and excellent communication and
-            collaboration skills, eager to contribute my expertise to help drive
-            the success of any particular project or company I am involved in.
+            I employ a systematic and analytical approach to interpret data
+            effectively. Skilled in the use of tools such as Microsoft Excel,
+            SQL, Power BI and Tableau.
           </p>
         </div>
         <Carousel
