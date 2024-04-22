@@ -12,7 +12,7 @@ const Skills = () => {
       <img
         src={skill.pic}
         alt={skill.title}
-        className="w-9/12 h-52 object-contain "
+        className="w-9/12 h-52 object-contain"
       />
       <h2 className="font-bold font-mono">{skill.title}</h2>
     </div>

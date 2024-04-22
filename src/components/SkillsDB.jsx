@@ -1,8 +1,8 @@
-import html from "../images/html.png";
-import css from "../images/css.png";
-import javascript from "../images/javascript1.png";
-import react from "../images/react.png";
-import tailwindcss from "../images/tailwind.png";
+import postgre from "../images/postgre2.png";
+import mysql from "../images/mysql2.png";
+import excel from "../images/excel.png";
+import tableau from "../images/tableau.svg";
+import powerbi from "../images/powerbi.png";
 import typescript from "../images/Typescript_logo.png";
 import next from "../images/next.png";
 import git from "../images/git.png";
@@ -12,38 +12,37 @@ import vscode from "../images/vscode.svg";
 import reactRouter from "../images/react-router.png";
 import figma from "../images/Figma-logo.svg";
 import wix from "../images/wix.png";
-import sass from "../images/sass.png";
 
 const SkillData = [
   {
     id: "1",
-    title: "HTML",
+    title: "POSTGRE SQL",
     proficiency: "Advance",
-    pic: html,
+    pic: postgre,
   },
   {
     id: "2",
-    title: "CSS3",
+    title: "MY SQL",
     proficiency: "Advance",
-    pic: css,
+    pic: mysql,
   },
   {
     id: "3",
-    title: "SASS",
+    title: "MS Excel",
     proficiency: "Intermediate",
-    pic: sass,
+    pic: excel,
   },
   {
     id: "4",
-    title: "TAILWIND CSS",
+    title: "Tableau",
     proficiency: "Advance",
-    pic: tailwindcss,
+    pic: tableau,
   },
   {
     id: "5",
-    title: "JAVASCRIPT",
+    title: "POWER BI",
     proficiency: "Advance",
-    pic: javascript,
+    pic: powerbi,
   },
   {
     id: "6",
@@ -55,7 +54,7 @@ const SkillData = [
     id: "7",
     title: "REACT JS",
     proficiency: "Intermediate",
-    pic: react,
+    pic: excel,
   },
   {
     id: "8",
