@@ -23,10 +23,10 @@ const Banner = () => {
         <div className="text-[2rem] text-primary sm:text-4xl font-bold md:text-5xl lg:text-7xl text-center w-full">
           <Typewriter
             words={[
-              "ReactJs Developer",
-              "TypeScript Developer",
-              "JavaScript Developer",
-              "NextJs Developer",
+              "Data Analyst",
+              "Microsoft Excel Expert",
+              "SQL Developer",
+              "PowerBI Analyst",
             ]}
             loop={5}
             cursor
@@ -38,14 +38,20 @@ const Banner = () => {
           />
         </div>
       </div>
-      <p className="w-full text-sm md:text-lg lg:text-xl xl:text-2xl text-center text-secondary">
-        A Highly motivated and talented Frontend Engineer with almost 2 year
-        Enterprise Level Experience Designing and building highly scalable
-        system, across the Technology sectors. Armed with a solid foundation in
-        HTML, CSS, JavaScript, Next JS and React JS Framework. Focused on
-        customer satisfaction, actively collaborating and eager to learn to
-        enhance customer satisfaction in the deliverables of products plugged
-        into emerging technologies and industry trends.
+      <p className="w-full text-xs md:text-sm lg:text-lg xl:text-xl text-center text-secondary">
+        As a proficient and meticulous Data Analyst, I specialize in
+        transforming intricate datasets into actionable insights that drive
+        well-informed business decisions. Drawing on a robust foundation in Data
+        Analysis, Statistics, and Mathematics. I excel
+        in the collection, analysis, interpretation and visualization of data to
+        discern patterns and trends, thereby aiding my organization in strategic
+        decision-making. My collaborative nature, combined with effective
+        communication skills, enables me to work seamlessly with
+        cross-functional teams and present intricate findings in a clear and
+        concise manner. Demonstrating a strong commitment to continuous learning
+        and staying updated on industry trends, I am devoted to making valuable
+        contributions that enhance business performance through data-driven
+        strategies.
       </p>
       <div className="flex flex-col items-center justify-start ">
         <a
