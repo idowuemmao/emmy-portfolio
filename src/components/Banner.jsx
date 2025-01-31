@@ -24,11 +24,13 @@ const Banner = () => {
           <Typewriter
             words={[
               "Data Analyst",
+              "Business Intelligence Analyst",
               "Microsoft Excel Expert",
               "SQL Developer",
               "PowerBI Analyst",
+              "Python Developer",
             ]}
-            loop={5}
+            loop={10}
             cursor
             className="text-primary"
             cursorStyle="|"
@@ -42,16 +44,15 @@ const Banner = () => {
         As a proficient and meticulous Data Analyst, I specialize in
         transforming intricate datasets into actionable insights that drive
         well-informed business decisions. Drawing on a robust foundation in Data
-        Analysis, Statistics, and Mathematics. I excel
-        in the collection, analysis, interpretation and visualization of data to
-        discern patterns and trends, thereby aiding my organization in strategic
-        decision-making. My collaborative nature, combined with effective
-        communication skills, enables me to work seamlessly with
-        cross-functional teams and present intricate findings in a clear and
-        concise manner. Demonstrating a strong commitment to continuous learning
-        and staying updated on industry trends, I am devoted to making valuable
-        contributions that enhance business performance through data-driven
-        strategies.
+        Analysis, Statistics, and Mathematics. I excel in the collection,
+        analysis, interpretation and visualization of data to discern patterns
+        and trends, thereby aiding my organization in strategic decision-making.
+        My collaborative nature, combined with effective communication skills,
+        enables me to work seamlessly with cross-functional teams and present
+        intricate findings in a clear and concise manner. Demonstrating a strong
+        commitment to continuous learning and staying updated on industry
+        trends, I am devoted to making valuable contributions that enhance
+        business performance through data-driven strategies.
       </p>
       <div className="flex flex-col items-center justify-start ">
         <a
