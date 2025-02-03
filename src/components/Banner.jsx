@@ -54,15 +54,25 @@ const Banner = () => {
         trends, I am devoted to making valuable contributions that enhance
         business performance through data-driven strategies.
       </p>
-      <div className="flex flex-col items-center justify-start ">
+      <div className="flex flex-col  items-center justify-center gap-4 md:flex-row ">
         <a
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1500"
-          href="https://drive.google.com/file/d/1eF_hhN8PHac5vANNu2Zk1nIyuywpb5pq/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1DnRQlXs-ntvHrL0PfQseE-2VUd0xyGNt/view?usp=drive_link"
           className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-primary w-fit hover:underline"
         >
           Download Resume
+          <FaArrowCircleRight />
+        </a>
+        <a
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1500"
+          href="https://www.linkedin.com/in/emmanuel-idowu-analyst/"
+          className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-primary w-fit hover:underline"
+        >
+          Visit my LinkedIn Page
           <FaArrowCircleRight />
         </a>
       </div>

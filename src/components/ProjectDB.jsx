@@ -1,11 +1,11 @@
-import memeGen from "../images/memegen.png";
-import airbnb from "../images/airbnb.png";
-import vanhire from "../images/vanhire.png";
-import realestate from "../images/realestate.png";
-import portfolio from "../images/portfolio.png";
-import agecalc from "../images/agecalc.png";
-import pathtaxi from "../images/pathtaxi.png";
-import wallclock from "../images/wallclock.png";
+import Merchandise from "../images/merchandise.png";
+import adventurework from "../images/adventureworks.png";
+import KPI from "../images/KPI Dashboard image.png";
+import regional from "../images/Regional Dashboard picture.png";
+import halloween from "../images/halloween.png";
+import christmas from "../images/christmas.png";
+import employee from "../images/employee.png";
+import candy from "../images/candy.png";
 import summarizeAI from "../images/summarizesAi.png";
 import resultSum from "../images/resultSum.png";
 import mokad from "../images/mokad.png";
@@ -17,145 +17,68 @@ import signin from "../images/signin.png";
 const ProjectData = [
   {
     id: "1",
-    title: "Pathfinder Scent Website",
-    url: "https://pathfinder-scent-shopping-cart.vercel.app/",
-    pic: pathfinder,
-    code: "https://github.com/idowuemmao/pathfinder-scent-shopping-cart",
-    stack: [
-      "React Js",
-      "JavaScript",
-      "Tailwind",
-      "AOS",
-      "Typewriter",
-      "Carousel",
-    ],
+    title: "Merchandise Sale Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYjBjMGViZWUtNGNlYS00MGVhLTlkNzUtMGU2NjJkMzk1NmRjIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: Merchandise,
+    code: "https://github.com/idowuemmao/Merchandise_Sale_Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
     id: "2",
-    title: "Airbnb Clone",
-    url: "https://airbnb-clone-one-mauve.vercel.app/",
-    pic: airbnb,
-    code: "https://github.com/idowuemmao/airbnb-clone",
-    stack: ["React Js", "JavaScript", "Carousel", "HTML", "Tailwind"],
+    title: "Adventure Works Report",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_my-adventure-work-activity-7247515756182069248-VbCK",
+    pic: adventurework,
+    code: "https://github.com/idowuemmao/AdventureWorksDashboard",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
+
   {
     id: "3",
-    title: "Van Hire",
-    url: "https://vanlife-app-idowuemmao.vercel.app/",
-    pic: vanhire,
-    code: "https://github.com/idowuemmao/vanlife-app",
-    stack: [
-      "React Js",
-      "JavaScript",
-      "Carousel",
-      "Typewriter",
-      "React Router",
-      "AOS",
-    ],
+    title: "KPI Dashboard",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_dataanalytics-excel-kpidashboard-activity-7219012388312801280-dOij",
+    pic: KPI,
+    code: "https://github.com/idowuemmao/KPI-Dashboard",
+    stack: ["Advanced Excel", "Google Sheet", "VBA", "Canva"],
   },
   {
     id: "4",
-    title: "Real Estate",
-    url: "https://my-real-estate-idowuemmao.vercel.app/",
-    pic: realestate,
-    code: "https://github.com/idowuemmao/my-real-estate",
-    stack: ["Next Js", "React Js", "Javascript", "MapBox", "Tailwind", "MapGL"],
+    title: "Regional Sales Dashboard",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_dataanalytics-excel-datavisualization-activity-7221061450386010112-YBsB",
+    pic: regional,
+    code: "https://github.com/idowuemmao/Regional-Sales-Dashboard",
+    stack: ["Advanced Excel", "Google Sheet", "VBA", "Canva"],
   },
   {
     id: "5",
-    title: "My Portfolio",
-    url: "https://emmy-portfolio.vercel.app/",
-    pic: portfolio,
-    code: "https://github.com/idowuemmao/emmy-portfolio",
-    stack: ["React Js", "JavaScript", "Carousel", "Typewriter", "HTML", "AOS"],
+    title: "Candy Research Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYjA0Y2IxZmMtZWU1OC00OWUzLWEwNjQtYTQ0ZmQ1NTc3YzdlIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: candy,
+    code: "https://github.com/idowuemmao/Candy_Research_Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
     id: "6",
-    title: "Age Calculator",
-    url: "https://age-calculator-gamma-rosy.vercel.app/",
-    pic: agecalc,
-    code: "https://github.com/idowuemmao/age-calculator",
-    stack: ["HTML", "CSS", "JavaScript"],
+    title: "Employees Performance Report",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_datadna-dashboard-visualizations-activity-7255597262561509376-tzJe",
+    pic: employee,
+    code: "https://github.com/idowuemmao/Employee_Performance",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
     id: "7",
-    title: "Path Taxi",
-    url: "https://path-taxi.vercel.app/",
-    pic: pathtaxi,
-    code: "https://github.com/idowuemmao/path-taxi",
-    stack: ["TypeScript", "Next Js", "React Js", "MapBox", "Tailwind"],
+    title: "Halloween Candy Report",
+    url: "https://mavenanalytics.io/project/20500",
+    pic: halloween,
+    code: "https://github.com/idowuemmao/Mavin-Halloween-Candy-Dashboard",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
     id: "8",
-    title: "Wall Clock",
-    url: "https://wallclock-woad.vercel.app/",
-    pic: wallclock,
-    code: "https://github.com/idowuemmao/my-clock",
-    stack: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: "9",
-    title: "Open AI Article Summarizer",
-    url: "https://ai-summarizer-phi-coral.vercel.app/",
-    pic: summarizeAI,
-    code: "https://github.com/idowuemmao/ai-summarizer",
-    stack: ["Vite", "React Js", "React Redux", "Tailwind"],
-  },
-  {
-    id: "10",
-    title: "Result Summary Component",
-    url: "https://results-summary-component-main-lime.vercel.app/",
-    pic: resultSum,
-    code: "https://github.com/idowuemmao/results-summary-component-main",
-    stack: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: "11",
-    title: "Mokad Foods Website",
-    url: "https://www.mokadfoods.co.uk/",
-    pic: mokad,
-    code: "",
-    stack: ["Wix"],
-  },
-  {
-    id: "12",
-    title: "Car Hire App",
-    url: "https://car-hire-beta.vercel.app/",
-    pic: carhire,
-    code: "https://github.com/idowuemmao/car-hire",
-    stack: ["TypeScript", "Next Js", "React Js", "HeadlessUI", "Tailwind"],
-  },
-  {
-    id: "13",
-    title: "Meme Generator",
-    url: "https://meme-generator-idowuemmao.vercel.app/",
-    pic: memeGen,
-    code: "https://github.com/idowuemmao/meme-generator",
-    stack: ["React Js", "JavaScript", "Tailwind"],
-  },
-  {
-    id: "13",
-    title: "Tic-Tac-Toe",
-    url: "https://tic-tac-toe-game-five.vercel.app/",
-    pic: tictactoe,
-    code: "https://github.com/idowuemmao/tic-tac-toe-game",
-    stack: ["TypeScript", "Next Js", "React Js", "JavaScript", "Tailwind"],
-  },
-  {
-    id: "14",
-    title: "Sign In Page",
-    url: "https://sign-in-wheat-six.vercel.app/",
-    pic: signin,
-    code: "https://github.com/idowuemmao/sign_in",
-    stack: [
-      "React Js",
-      "JavaScript",
-      "Yup",
-      "Formik",
-      "AOS",
-      "React Router",
-      "Tailwind",
-    ],
+    title: "Christmas Holiday Sales Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiMTcyMzUyZTktNWZlYy00OWVmLWFiYjMtMWJlMDU2OTA0NTk2IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: christmas,
+    code: "https://github.com/idowuemmao/Mavin-Halloween-Candy-Dashboard",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
 ];
 export default ProjectData;

@@ -46,8 +46,7 @@ const Skills = () => {
           <h1 className="text-4xl md:text-6xl text-primary ">Skills</h1>
           <p className="text-shading text-center text-sm md:text-base lg:text-xl ">
             I employ a systematic and analytical approach to interpret data
-            effectively. Skilled in the use of tools such as Microsoft Excel,
-            SQL, Power BI and Tableau.
+            effectively. Skilled in the use of the following tools:
           </p>
         </div>
         <Carousel

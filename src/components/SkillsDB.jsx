@@ -3,106 +3,72 @@ import mysql from "../images/mysql2.png";
 import excel from "../images/excel.png";
 import tableau from "../images/tableau.svg";
 import powerbi from "../images/powerbi.png";
-import typescript from "../images/Typescript_logo.png";
-import next from "../images/next.png";
+import Python from "../images/Python-logo.png";
 import git from "../images/git.png";
 import github from "../images/github.png";
-import reactNative from "../images/react-native-1.svg";
-import vscode from "../images/vscode.svg";
-import reactRouter from "../images/react-router.png";
-import figma from "../images/Figma-logo.svg";
-import wix from "../images/wix.png";
+import canva from "../images/canva.svg";
+import powerquery from "../images/PowerQuery-Logo.png";
 
 const SkillData = [
   {
     id: "1",
+    title: "MS EXCEL",
+    proficiency: "Intermediate",
+    pic: excel,
+  },
+  {
+    id: "2",
     title: "POSTGRE SQL",
     proficiency: "Advance",
     pic: postgre,
   },
   {
-    id: "2",
+    id: "3",
     title: "MY SQL",
     proficiency: "Advance",
     pic: mysql,
   },
   {
-    id: "3",
-    title: "MS Excel",
-    proficiency: "Intermediate",
-    pic: excel,
-  },
-  {
     id: "4",
-    title: "Tableau",
-    proficiency: "Advance",
-    pic: tableau,
-  },
-  {
-    id: "5",
     title: "POWER BI",
     proficiency: "Advance",
     pic: powerbi,
   },
   {
+    id: "5",
+    title: "TABLEAU",
+    proficiency: "Advance",
+    pic: tableau,
+  },
+  {
     id: "6",
-    title: "TYPESCRIPT",
-    proficiency: "Intermediate",
-    pic: typescript,
+    title: "PYTHON",
+    proficiency: "Beginner",
+    pic: Python,
   },
   {
     id: "7",
-    title: "REACT JS",
-    proficiency: "Intermediate",
-    pic: excel,
-  },
-  {
-    id: "8",
-    title: "React Native",
-    proficiency: "Beginner",
-    pic: reactNative,
-  },
-  {
-    id: "9",
-    title: "React Router",
-    proficiency: "Advance",
-    pic: reactRouter,
-  },
-  {
-    id: "10",
-    title: "NEXT JS",
-    proficiency: "Intermediate",
-    pic: next,
-  },
-  {
-    id: "11",
     title: "GIT",
     proficiency: "Advance",
     pic: git,
   },
   {
-    id: "12",
+    id: "8",
     title: "GITHUB",
     proficiency: "Advance",
     pic: github,
   },
   {
-    id: "13",
-    title: "Figma",
+    id: "9",
+    title: "POWER QUERY",
     proficiency: "Advance",
-    pic: figma,
+    pic: powerquery,
   },
   {
-    id: "14",
-    title: "WIX",
+    id: "10",
+    title: "CANVA",
     proficiency: "Advance",
-    pic: wix,
-  },
-  {
-    id: "15",
-    title: "VS Code",
-    proficiency: "Advance",
-    pic: vscode,
+    pic: canva,
   },
 ];
 
