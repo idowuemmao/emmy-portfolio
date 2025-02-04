@@ -1,14 +1,14 @@
 import Merchandise from "../images/merchandise.png";
-import adventurework from "../images/adventureworks.png";
+import adventureworks from "../images/adventureworks.png";
 import KPI from "../images/KPI Dashboard image.png";
 import regional from "../images/Regional Dashboard picture.png";
 import halloween from "../images/halloween.png";
 import christmas from "../images/christmas.png";
 import employee from "../images/employee.png";
 import candy from "../images/candy.png";
-import summarizeAI from "../images/summarizesAi.png";
-import resultSum from "../images/resultSum.png";
-import mokad from "../images/mokad.png";
+import spotify from "../images/Spotify.png";
+import email from "../images/email.png";
+import india from "../images/india.png";
 import carhire from "../images/carhire.png";
 import pathfinder from "../images/pathfinderscent.png";
 import tictactoe from "../images/tic-tac-toe.png";
@@ -27,7 +27,7 @@ const ProjectData = [
     id: "2",
     title: "Adventure Works Report",
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_my-adventure-work-activity-7247515756182069248-VbCK",
-    pic: adventurework,
+    pic: adventureworks,
     code: "https://github.com/idowuemmao/AdventureWorksDashboard",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
@@ -78,6 +78,30 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiMTcyMzUyZTktNWZlYy00OWVmLWFiYjMtMWJlMDU2OTA0NTk2IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: christmas,
     code: "https://github.com/idowuemmao/Mavin-Halloween-Candy-Dashboard",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "9",
+    title: "Spotify Streaming Report",
+    url: "https://mavenanalytics.io/project/26185",
+    pic: spotify,
+    code: "https://github.com/idowuemmao/Spotify-Streaming-Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "10",
+    title: "Email Campaign Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZGNiNjc5MWUtNjkxZi00ZTBlLTg5Y2QtMDU5NzI3NTlmMjc1IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: email,
+    code: "https://github.com/idowuemmao/Email_Campaign_Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "11",
+    title: "Indian Box Office Report",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_indian-box-office-analysis-activity-7285719296196943872-ZJvk",
+    pic: india,
+    code: "https://github.com/idowuemmao/India-Box-Office-Report",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
 ];
