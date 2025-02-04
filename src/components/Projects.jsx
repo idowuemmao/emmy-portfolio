@@ -31,6 +31,8 @@ const Projects = () => {
       <div className="w-full flex justify-center gap-4 py-4 text-xs items-center">
         <a
           href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex gap-1 items-center bg-gradient-to-r to-tertiary from-cyan-900 p-1 rounded-2xl px-3"
         >
           <FaExternalLinkAlt />
@@ -38,6 +40,8 @@ const Projects = () => {
         </a>
         <a
           href={item.code}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex gap-1 items-center bg-gradient-to-r to-tertiary from-cyan-900 p-1 rounded-2xl px-3"
         >
           <IoLogoGithub />
@@ -71,9 +75,8 @@ const Projects = () => {
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-4xl md:text-6xl text-primary">Projects</h1>
           <p className="text-shading text-center text-sm md:text-base lg:text-xl">
-            My objective is to work alongside a team of experienced developers,
-            collaborating on projects to create engaging web experiences that
-            meet the needs of users across different browser and device.
+            My objective is to help organizations make informed, data-driven
+            decisions, ultimately driving business growth and efficiency.
           </p>
         </div>
         <Carousel

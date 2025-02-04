@@ -10,8 +10,8 @@ function App() {
     <div className="grid min-h-screen relative bg-gradient-to-r from-blue-950 to-cyan-800">
       <NavBar />
       <Banner />
-      <Skills />
       <Projects />
+      <Skills />
       <Experience />
       <Footer />
     </div>

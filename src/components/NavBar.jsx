@@ -41,16 +41,16 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a href="#skills" className=" text-shading hover:text-secondary">
-                Skills
-              </a>
-            </li>
-            <li>
               <a
                 href="#projects"
                 className=" text-shading hover:text-secondary"
               >
                 Projects
+              </a>
+            </li>
+            <li>
+              <a href="#skills" className=" text-shading hover:text-secondary">
+                Skills
               </a>
             </li>
             <li>

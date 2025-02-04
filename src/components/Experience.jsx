@@ -17,7 +17,7 @@ const Experience = () => {
     }) => (
       <div key={id} className="grid gap-1">
         <div className="flex md:flex-row flex-col text-center md:justify-start justify-center items-center text-primary font-bold">
-          <a href={url}>
+          <a href={url} target="_blank" rel="noopener noreferrer">
             <FaExternalLinkAlt
               href={url}
               className="cursor-pointer text-xl pr-1"

@@ -9,10 +9,8 @@ import candy from "../images/candy.png";
 import spotify from "../images/Spotify.png";
 import email from "../images/email.png";
 import india from "../images/india.png";
-import carhire from "../images/carhire.png";
-import pathfinder from "../images/pathfinderscent.png";
-import tictactoe from "../images/tic-tac-toe.png";
-import signin from "../images/signin.png";
+import supply from "../images/supply.png";
+
 
 const ProjectData = [
   {
@@ -99,9 +97,17 @@ const ProjectData = [
   {
     id: "11",
     title: "Indian Box Office Report",
-    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_indian-box-office-analysis-activity-7285719296196943872-ZJvk",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7287108125193646080",
     pic: india,
     code: "https://github.com/idowuemmao/India-Box-Office-Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "12",
+    title: "Supply Chain Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiNDI2NTIxNjYtNTdmMi00NWRjLWE4NmQtMjE3YTU4NTliNjU4IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: supply,
+    code: "https://github.com/idowuemmao/Supply_chain_Report",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
 ];
