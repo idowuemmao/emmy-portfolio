@@ -114,19 +114,19 @@ const NavBar = () => {
             <li>
               <a
                 onClick={toggleMenuShow}
-                href="#skills"
+                href="#projects"
                 className="text-shading hover:text-secondary"
               >
-                Skills
+                Projects
               </a>
             </li>
             <li>
               <a
                 onClick={toggleMenuShow}
-                href="#projects"
+                href="#skills"
                 className="text-shading hover:text-secondary"
               >
-                Projects
+                Skills
               </a>
             </li>
             <li>

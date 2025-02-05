@@ -10,7 +10,8 @@ import spotify from "../images/Spotify.png";
 import email from "../images/email.png";
 import india from "../images/india.png";
 import supply from "../images/supply.png";
-
+import hub from "../images/hub.png";
+import HealthCare from "../images/data-cleaning.png";
 
 const ProjectData = [
   {
@@ -109,6 +110,22 @@ const ProjectData = [
     pic: supply,
     code: "https://github.com/idowuemmao/Supply_chain_Report",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "13",
+    title: "HealthCare Report",
+    url: "https://docs.google.com/spreadsheets/d/1IAv51ATZFR9F0tO4JaN-zjdS8oVl98mmnCR7RBgSKTA/edit",
+    pic: hub,
+    code: "https://github.com/idowuemmao/Peace_HealthCare_Report",
+    stack: ["Google Sheet", "Ms Excel"],
+  },
+  {
+    id: "14",
+    title: "HealthCare Data Cleaning",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_datacleaningchallenge-greendatasolutions-activity-7292845953332514817-FdvO",
+    pic: HealthCare,
+    code: "https://github.com/idowuemmao/HealthCare_Data_Cleaning",
+    stack: ["Power Query", "Ms Excel"],
   },
 ];
 export default ProjectData;
