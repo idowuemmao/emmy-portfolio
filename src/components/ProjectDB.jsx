@@ -117,7 +117,7 @@ const ProjectData = [
     url: "https://docs.google.com/spreadsheets/d/1IAv51ATZFR9F0tO4JaN-zjdS8oVl98mmnCR7RBgSKTA/edit",
     pic: hub,
     code: "https://github.com/idowuemmao/Peace_HealthCare_Report",
-    stack: ["Google Sheet", "Ms Excel"],
+    stack: ["Google Sheet"],
   },
   {
     id: "14",
