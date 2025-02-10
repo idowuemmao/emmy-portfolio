@@ -58,7 +58,7 @@ const ExperienceDB = [
   {
     id: "4",
     JobRole: "Mentor (Tech4Governance)",
-    JobType: "",
+    JobType: "https://aspilosfoundation.org.ng/",
     StartDay: "September 2024",
     EndDay: "December 2024",
     Company: "Aspilos Foundation",
