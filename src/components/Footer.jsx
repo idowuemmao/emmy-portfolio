@@ -130,7 +130,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="text-center text-xs md:text-sm pb-8 italic">
-          &#169; 2023 Idowu Emmanuel. All Rights Reserved
+          &#169; 2025 Idowu Emmanuel. All Rights Reserved
         </p>
       </div>
     </footer>
