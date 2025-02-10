@@ -58,12 +58,12 @@ const ExperienceDB = [
   {
     id: "4",
     JobRole: "Mentor (Tech4Governance)",
-    JobType: "https://aspilosfoundation.org.ng/",
+    JobType: "",
     StartDay: "September 2024",
     EndDay: "December 2024",
     Company: "Aspilos Foundation",
     Nature: "Remote",
-    url: "",
+    url: "https://aspilosfoundation.org.ng/",
     Description: [
       "Guided young tech professionals in developing Civic Tech Solutions to address governance challenges.",
       "Provided mentorship on data-driven decision-making and the integration of technology for social impact.",
