@@ -65,31 +65,39 @@ const NavBar = () => {
           <div className=" gap-2 lg:gap-4 text-sm hidden md:flex items-center">
             <a
               href="https://github.com/idowuemmao"
+              target="_blank"
+              rel="noopener noreferrer"
               className=" text-shading hover:text-secondary"
             >
               <FaGithub />
             </a>
             <a
               href="https://twitter.com/emmygreatmusic"
+              target="_blank"
+              rel="noopener noreferrer"
               className=" text-shading hover:text-secondary"
             >
               <FaXTwitter />
             </a>
             <a
-              href="https://linkedin.com/in/emmanuel-idowu-973626249"
+              href="https://www.linkedin.com/in/emmanuel-idowu-analyst/"
+              target="_blank"
+              rel="noopener noreferrer"
               className=" text-shading hover:text-secondary"
             >
               <FaLinkedinIn />
             </a>
             <a
               href="mailto:idowuemmao@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className=" text-shading hover:text-secondary"
             >
               <IoMdMail />
             </a>
           </div>
           <button className="bg-primary p-4 shadow-lg text-secondary text-sm hover:bg-secondary hover:text-primary rounded-xl px-8">
-            <a href="#connect"> Let's Connect</a>
+            <a href="#connect">Let's Connect</a>
           </button>
         </div>
         <div>
@@ -142,6 +150,8 @@ const NavBar = () => {
           <div className="flex justify-around w-full">
             <a
               onClick={toggleMenuShow}
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/idowuemmao"
               className=" text-shading hover:text-secondary"
             >
@@ -149,6 +159,8 @@ const NavBar = () => {
             </a>
             <a
               onClick={toggleMenuShow}
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://twitter.com/emmygreatmusic"
               className=" text-shading hover:text-secondary"
             >
@@ -156,7 +168,9 @@ const NavBar = () => {
             </a>
             <a
               onClick={toggleMenuShow}
-              href="https://linkedin.com/in/emmanuel-idowu-973626249"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/emmanuel-idowu-analyst/   "
               className=" text-shading hover:text-secondary"
             >
               <FaLinkedinIn />
@@ -164,6 +178,8 @@ const NavBar = () => {
             <a
               onClick={toggleMenuShow}
               href="mailto:idowuemmao@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className=" text-shading hover:text-secondary"
             >
               <IoMdMail />

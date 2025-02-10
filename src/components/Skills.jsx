@@ -48,6 +48,34 @@ const Skills = () => {
             I employ a systematic and analytical approach to interpret data
             effectively. Skilled in the use of the following tools:
           </p>
+          <ul className="list-disc list-inside pl-4 text-xs text-justify space-y-2 ">
+            <li>
+              Advanced proficiency in Microsoft Excel, Google Sheets, and
+              Microsoft Visual Basic.
+            </li>
+            <li>
+              Skilled in database management with MS Excel and SQL; awarded a
+              5-star rating in SQL on HackerRank.
+            </li>
+            <li>
+              Expertise in data visualization and dashboard creation using Power
+              BI and Excel
+            </li>
+            <li>Familiar with Python and SPSS for Data Analysis.</li>
+            <li>
+              Strong understanding of statistical analysis techniques for data
+              modeling and interpretation.
+            </li>
+            <li>
+              Expert with online support resources (GitHub) for troubleshooting
+              and best practices.
+            </li>
+            <li>
+              Excellent communication abilities for effective collaboration with
+              project leaders and cross-functional teams.
+            </li>
+          </ul>
+          <p>Below are the following skills I use for analysis: </p>
         </div>
         <Carousel
           responsive={responsive}

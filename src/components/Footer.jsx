@@ -61,26 +61,34 @@ export default function Footer() {
                 />
               </div>
               <input
-                {...register("name")}
+                {...register("name", { required: "Name is required" })}
                 className="bg-transparent border-[1px] text-xs p-2"
                 type="text"
                 placeholder="Your name"
               />
+              {errors.name && (
+                <p className="text-red-500 text-xs">{errors.name.message}</p>
+              )}
               <input
-                {...register("subject")}
+                {...register("subject", { required: "Subject is required" })}
                 className="bg-transparent border-[1px] text-xs p-2"
                 type="text"
                 placeholder="The Subject"
               />
+              {errors.subject && (
+                <p className="text-red-500 text-xs">{errors.subject.message}</p>
+              )}
               <input
-                {...register("email")}
-                required
+                {...register("email", { required: "Email is required" })}
                 className="bg-transparent border-[1px] text-xs p-2"
                 type="email"
                 placeholder="Your email"
               />
+              {errors.email && (
+                <p className="text-red-500 text-xs">{errors.email.message}</p>
+              )}
               <textarea
-                {...register("message")}
+                {...register("message", { required: "Message is required" })}
                 name="message"
                 id="message"
                 cols="10"
@@ -88,6 +96,9 @@ export default function Footer() {
                 placeholder="Type the message here"
                 className="bg-transparent border-[1px] text-xs p-2"
               />
+              {errors.message && (
+                <p className="text-red-500 text-xs">{errors.message.message}</p>
+              )}
               <button
                 type="submit"
                 className="w-full mt-8 py-2 rounded-xl bg-primary hover:underline"

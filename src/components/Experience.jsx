@@ -34,8 +34,11 @@ const Experience = () => {
         </div>
 
         <div className="ml-8 text-sm text-justify ">
-          {Description.map((item) => (
-            <li key={id} className="list-disc p-1 md:p-2 text-gray-300">
+          {Description.map((item, index) => (
+            <li
+              key={`${id}-${index}`}
+              className="list-disc p-1 md:p-2 text-gray-300"
+            >
               {item}
             </li>
           ))}

@@ -15,7 +15,7 @@ import HealthCare from "../images/data-cleaning.png";
 
 const ProjectData = [
   {
-    id: "1",
+    id: "P1",
     title: "Merchandise Sale Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiYjBjMGViZWUtNGNlYS00MGVhLTlkNzUtMGU2NjJkMzk1NmRjIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: Merchandise,
@@ -23,7 +23,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "2",
+    id: "P2",
     title: "Adventure Works Report",
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_my-adventure-work-activity-7247515756182069248-VbCK",
     pic: adventureworks,
@@ -32,7 +32,7 @@ const ProjectData = [
   },
 
   {
-    id: "3",
+    id: "P3",
     title: "KPI Dashboard",
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_dataanalytics-excel-kpidashboard-activity-7219012388312801280-dOij",
     pic: KPI,
@@ -40,7 +40,7 @@ const ProjectData = [
     stack: ["Advanced Excel", "Google Sheet", "VBA", "Canva"],
   },
   {
-    id: "4",
+    id: "P4",
     title: "Regional Sales Dashboard",
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_dataanalytics-excel-datavisualization-activity-7221061450386010112-YBsB",
     pic: regional,
@@ -48,7 +48,7 @@ const ProjectData = [
     stack: ["Advanced Excel", "Google Sheet", "VBA", "Canva"],
   },
   {
-    id: "5",
+    id: "P5",
     title: "Candy Research Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiYjA0Y2IxZmMtZWU1OC00OWUzLWEwNjQtYTQ0ZmQ1NTc3YzdlIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: candy,
@@ -56,7 +56,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "6",
+    id: "P6",
     title: "Employees Performance Report",
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_datadna-dashboard-visualizations-activity-7255597262561509376-tzJe",
     pic: employee,
@@ -64,7 +64,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "7",
+    id: "P7",
     title: "Halloween Candy Report",
     url: "https://mavenanalytics.io/project/20500",
     pic: halloween,
@@ -72,7 +72,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "8",
+    id: "P8",
     title: "Christmas Holiday Sales Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiMTcyMzUyZTktNWZlYy00OWVmLWFiYjMtMWJlMDU2OTA0NTk2IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: christmas,
@@ -80,7 +80,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "9",
+    id: "P9",
     title: "Spotify Streaming Report",
     url: "https://mavenanalytics.io/project/26185",
     pic: spotify,
@@ -88,7 +88,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "10",
+    id: "P10",
     title: "Email Campaign Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiZGNiNjc5MWUtNjkxZi00ZTBlLTg5Y2QtMDU5NzI3NTlmMjc1IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: email,
@@ -96,7 +96,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "11",
+    id: "P11",
     title: "Indian Box Office Report",
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7287108125193646080",
     pic: india,
@@ -104,7 +104,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "12",
+    id: "P12",
     title: "Supply Chain Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiNDI2NTIxNjYtNTdmMi00NWRjLWE4NmQtMjE3YTU4NTliNjU4IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: supply,
@@ -112,7 +112,7 @@ const ProjectData = [
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
   },
   {
-    id: "13",
+    id: "P13",
     title: "HealthCare Report",
     url: "https://docs.google.com/spreadsheets/d/1IAv51ATZFR9F0tO4JaN-zjdS8oVl98mmnCR7RBgSKTA/edit",
     pic: hub,
@@ -120,7 +120,7 @@ const ProjectData = [
     stack: ["Google Sheet"],
   },
   {
-    id: "14",
+    id: "P14",
     title: "HealthCare Data Cleaning",
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_datacleaningchallenge-greendatasolutions-activity-7292845953332514817-FdvO",
     pic: HealthCare,

@@ -27,7 +27,7 @@ const Banner = () => {
               "Business Intelligence Analyst",
               "Microsoft Excel Expert",
               "SQL Developer",
-              "PowerBI Analyst",
+              "PowerBI Specialist",
               "Python Developer",
             ]}
             loop={10}
