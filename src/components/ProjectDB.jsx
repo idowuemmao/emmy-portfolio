@@ -12,8 +12,17 @@ import india from "../images/india.png";
 import supply from "../images/supply.png";
 import hub from "../images/hub.png";
 import HealthCare from "../images/data-cleaning.png";
+import Airline from "../images/Airline.png";
 
 const ProjectData = [
+  {
+    id: "P0",
+    title: "Airline Delay Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiNzEzNTBkYTEtMmI0Ni00ZGIzLTkxMGQtNTY1ZTgyOGVjNTRmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: Airline,
+    code: "https://github.com/idowuemmao/Airline_Delay_Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
   {
     id: "P1",
     title: "Merchandise Sale Report",
