@@ -18,7 +18,7 @@ const ProjectData = [
   {
     id: "P0",
     title: "Airline Delay Report",
-    url: "https://app.powerbi.com/view?r=eyJrIjoiNzEzNTBkYTEtMmI0Ni00ZGIzLTkxMGQtNTY1ZTgyOGVjNTRmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZGZiYzdmOTYtZDcyNC00NzQ1LWFlOGQtODk2MjMxOWFiNTQzIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: Airline,
     code: "https://github.com/idowuemmao/Airline_Delay_Report",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
