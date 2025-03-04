@@ -36,7 +36,7 @@ const Projects = () => {
           className="flex gap-1 items-center bg-gradient-to-r to-tertiary from-cyan-900 p-1 rounded-2xl px-3"
         >
           <FaExternalLinkAlt />
-          View Site
+          View Project
         </a>
         <a
           href={item.code}
