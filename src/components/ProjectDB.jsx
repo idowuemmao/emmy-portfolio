@@ -13,8 +13,17 @@ import supply from "../images/supply.png";
 import hub from "../images/hub.png";
 import HealthCare from "../images/data-cleaning.png";
 import Airline from "../images/Airline.png";
+import population from "../images/Population 1.png";
 
 const ProjectData = [
+  {
+    id: "P00",
+    title: "Airline Delay Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiNzYzOWJmNzktYTM0Mi00NTk1LWFhOWEtMTlmMmQwMTcxMGJmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: population,
+    code: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
   {
     id: "P0",
     title: "Airline Delay Report",
