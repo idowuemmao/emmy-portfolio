@@ -18,7 +18,7 @@ import population from "../images/Population 1.png";
 const ProjectData = [
   {
     id: "P00",
-    title: "Airline Delay Report",
+    title: "Urban Population Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiNzYzOWJmNzktYTM0Mi00NTk1LWFhOWEtMTlmMmQwMTcxMGJmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: population,
     code: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
