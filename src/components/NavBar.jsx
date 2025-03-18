@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../images/profile1.png";
+import logo from "../images/pic.jpg";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineMenu } from "react-icons/ai";
