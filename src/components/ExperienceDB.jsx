@@ -1,5 +1,20 @@
 const ExperienceDB = [
   {
+    id: "EX0",
+    JobRole: "Data Analyst",
+    JobType: "Volunteer",
+    StartDay: "March 2025",
+    EndDay: "Present",
+    Company: "The Analyst Hub",
+    Nature: "Remote",
+    url: "https://www.theanalysthub.ng/",
+    Description: [
+      "Contributing to the generation of actionable insights while maintaining compliance with applicable data protection regulations.",
+      "Collaborating with team members to support strategic decision-making processes, using only authorized data sources",
+      "Conducting data analysis under supervision of a senior analyst.",
+    ],
+  },
+  {
     id: "EX1",
     JobRole: "Data Analyst",
     JobType: "",

@@ -8,6 +8,7 @@ import git from "../images/git.png";
 import github from "../images/github.png";
 import canva from "../images/canva.svg";
 import powerquery from "../images/PowerQuery-Logo.png";
+import fabric from "../images/ms fabrics.webp";
 
 const SkillData = [
   {
@@ -42,30 +43,36 @@ const SkillData = [
   },
   {
     id: "S6",
+    title: "MICROSOFT FABRIC",
+    proficiency: "Beginner",
+    pic: fabric,
+  },
+  {
+    id: "S7",
     title: "PYTHON",
     proficiency: "Beginner",
     pic: Python,
   },
   {
-    id: "S7",
+    id: "S8",
     title: "GIT",
     proficiency: "Advance",
     pic: git,
   },
   {
-    id: "S8",
+    id: "S9",
     title: "GITHUB",
     proficiency: "Advance",
     pic: github,
   },
   {
-    id: "S9",
+    id: "S10",
     title: "POWER QUERY",
     proficiency: "Advance",
     pic: powerquery,
   },
   {
-    id: "S10",
+    id: "S11",
     title: "CANVA",
     proficiency: "Advance",
     pic: canva,
