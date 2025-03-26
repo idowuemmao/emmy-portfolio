@@ -25,12 +25,12 @@ const NavBar = () => {
   return (
     <nav className="sticky bg-gradient-to-r to-tertiary from-cyan-900 top-0 py-4 w-full px-10 md:px-20 z-50 ">
       <div className="flex justify-between items-center ">
-        <a href="/" className="w-20 max-h-16 mr-auto cursor-pointer">
+        <a href="/" className="w-20 max-h-20 mr-auto cursor-pointer">
           <img
             src={logo}
             alt="img"
             href="/"
-            className="rounded-full border-2"
+            className="rounded-full border-2 "
           />
         </a>
         <div className="sm:flex text-xs lg:text-sm gap-2 lg:gap-4 items-center hidden">
