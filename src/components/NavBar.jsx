@@ -33,7 +33,7 @@ const NavBar = () => {
             className="rounded-full border-2"
           />
         </a>
-        <div className="sm:flex text-sm lg:text-base gap-2 lg:gap-4 items-center hidden">
+        <div className="sm:flex text-xs lg:text-sm gap-2 lg:gap-4 items-center hidden">
           <ul className="flex gap-4 list-none">
             <li>
               <a href="/" className=" text-shading hover:text-secondary">
@@ -59,6 +59,14 @@ const NavBar = () => {
                 className=" text-shading hover:text-secondary"
               >
                 Experience
+              </a>
+            </li>
+            <li>
+              <a
+                href="#award_certifications"
+                className=" text-shading hover:text-secondary"
+              >
+                Awards/Cert
               </a>
             </li>
           </ul>
@@ -113,7 +121,7 @@ const NavBar = () => {
       </div>
       {isOpen && (
         <div className="sm:hidden flex flex-col w-full py-4 z-50 h-fit gap-8 items-center absolute bg-gradient-to-r to-tertiary from-cyan-900 left-0 top-24">
-          <ul className="flex flex-col text-lg gap-4 items-center ">
+          <ul className="flex flex-col text-base gap-4 items-center ">
             <li>
               <a href="/" className="text-shading hover:text-secondary">
                 Home
@@ -144,6 +152,15 @@ const NavBar = () => {
                 className="text-shading hover:text-secondary"
               >
                 Experience
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={toggleMenuShow}
+                href="#award_certifications"
+                className="text-shading hover:text-secondary"
+              >
+                Award/Cert
               </a>
             </li>
           </ul>
