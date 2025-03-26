@@ -33,7 +33,7 @@ const NavBar = () => {
             className="rounded-full border-2 "
           />
         </a>
-        <div className="sm:flex text-xs lg:text-sm gap-2 lg:gap-4 items-center hidden">
+        <div className="sm:flex text-xs lg:text-sm gap-4 items-center hidden">
           <ul className="flex gap-4 list-none">
             <li>
               <a href="/" className=" text-shading hover:text-secondary">
@@ -104,7 +104,7 @@ const NavBar = () => {
               <IoMdMail />
             </a>
           </div>
-          <button className="bg-primary p-4 shadow-lg text-secondary text-sm hover:bg-secondary hover:text-primary rounded-xl px-8">
+          <button className="bg-primary p-3 shadow-lg text-secondary text-sm hover:bg-secondary hover:text-primary rounded-xl">
             <a href="#connect">Let's Connect</a>
           </button>
         </div>
