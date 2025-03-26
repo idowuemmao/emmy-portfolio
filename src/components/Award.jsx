@@ -9,7 +9,7 @@ const Award = () => {
       <img
         src={item.pic}
         alt={item.title}
-        className="rounded-lg w-11/12 h-44 sm:h-48 md:h-52 "
+        className="rounded-lg w-11/12 h-52 sm:h-42 md:h-60 "
       />
       <h4 className="text-center items-center text-lg uppercase font-black mt-8 mb-4">
         {item.title}
@@ -41,7 +41,7 @@ const Award = () => {
       data-aos="fade-zoom-out"
       data-aos-duration="2000"
     >
-      <div className="grid gap-12 mt-28 bg-[url('./images/skills.jpg')] bg-cover p-8 md:px-24">
+      <div className="grid gap-8 mt-28 bg-[url('./images/award.jpg')] bg-cover p-4 md:px-24">
         <div className="flex flex-col gap-4 items-center">
           <h1 className="text-3xl md:text-5xl text-primary text-center">
             Awards and Certifications
@@ -54,7 +54,7 @@ const Award = () => {
         </div>
         <Carousel
           responsive={responsive}
-          className="md:h-[30rem] h-96 grid gap-8 z-0 "
+          className="md:h-80 h-72 grid gap-8 z-0 "
           swipeable={false}
           draggable={true}
           showDots={true}
