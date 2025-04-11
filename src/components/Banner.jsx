@@ -7,9 +7,10 @@ import "aos/dist/aos.css";
 const Banner = () => {
   return (
     <div
-      data-aos="fade-right"
+      data-aos="fade-up-right"
       data-aos-offset="500"
       data-aos-duration="1000"
+      data-aos-once="true"
       data-aos-easing="ease-in-sine"
       className="grid gap-4 px-10 md:px-20 h-screen pt-16"
     >
@@ -59,7 +60,7 @@ const Banner = () => {
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1500"
-          href="https://drive.google.com/file/d/1BEjwRWusRGWKPrzQ4DMPQTVs-6cq7p6z/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fxvbMcElBNZD2B7FYzfkscaupp8SN1pM/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-primary w-fit hover:underline"

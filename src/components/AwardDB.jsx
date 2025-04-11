@@ -9,6 +9,7 @@ import thinkinglikeananalyst from "../images/Thinking like an analyst.png";
 import dataandaiethics from "../images/Data & AI Ethics.png";
 import top5 from "../images/Top 5.png";
 import storyteller from "../images/storyteller badge.jpeg";
+import sqlint from "../images/sql intermediate.png";
 
 const AwardDB = [
   {
@@ -51,6 +52,12 @@ const AwardDB = [
     id: "P4",
     title: "SQL Basics",
     pic: sqlbasic,
+    code: "https://github.com/idowuemmao/Regional-Sales-Dashboard",
+  },
+  {
+    id: "P42",
+    title: "SQL Intermediate",
+    pic: sqlint,
     code: "https://github.com/idowuemmao/Regional-Sales-Dashboard",
   },
   {

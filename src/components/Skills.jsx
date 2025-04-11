@@ -54,9 +54,9 @@ const Skills = () => {
               Microsoft Visual Basic.
             </li>
             <li>
-              Skilled in database management with MS Excel and SQL; awarded a
-              5-star rating in SQL on HackerRank.
+              Skilled in database management with MS Excel and SQL, and Docker
             </li>
+            <li>awarded a 5-star rating in SQL on HackerRank.</li>
             <li>
               Expertise in data visualization and dashboard creation using Power
               BI and Excel
