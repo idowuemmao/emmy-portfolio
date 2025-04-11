@@ -14,8 +14,17 @@ import hub from "../images/hub.png";
 import HealthCare from "../images/data-cleaning.png";
 import Airline from "../images/Airline.png";
 import population from "../images/Population 1.png";
+import shipment from "../images/shipment.png";
 
 const ProjectData = [
+  {
+    id: "P0021",
+    title: "Shipment Performance Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiMGIxMWU0OGYtOGYzNC00N2ViLWExZTMtZGE4NTcwZGE5YWFiIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: shipment,
+    code: "https://github.com/idowuemmao/Transportation_Logistics_Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
   {
     id: "P00",
     title: "Urban Population Report",
