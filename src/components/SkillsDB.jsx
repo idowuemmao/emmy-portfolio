@@ -19,10 +19,16 @@ const SkillData = [
     pic: excel,
   },
   {
-    id: "S2",
-    title: "POSTGRE SQL",
+    id: "S4",
+    title: "POWER BI",
     proficiency: "Advance",
-    pic: postgre,
+    pic: powerbi,
+  },
+  {
+    id: "S7",
+    title: "PYTHON",
+    proficiency: "Beginner",
+    pic: Python,
   },
   {
     id: "S3",
@@ -31,10 +37,10 @@ const SkillData = [
     pic: mysql,
   },
   {
-    id: "S4",
-    title: "POWER BI",
+    id: "S2",
+    title: "POSTGRE SQL",
     proficiency: "Advance",
-    pic: powerbi,
+    pic: postgre,
   },
   {
     id: "S5",
@@ -53,12 +59,6 @@ const SkillData = [
     title: "MICROSOFT FABRIC",
     proficiency: "Beginner",
     pic: fabric,
-  },
-  {
-    id: "S7",
-    title: "PYTHON",
-    proficiency: "Beginner",
-    pic: Python,
   },
   {
     id: "S8",
