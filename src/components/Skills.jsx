@@ -53,27 +53,23 @@ const Skills = () => {
               Advanced proficiency in Microsoft Excel, Google Sheets, and
               Microsoft Visual Basic.
             </li>
+            <li>SQL (complex querying, ETL processes)</li>
+            <li>Database management with MySQL, PostgreSQL, SQLite</li>
             <li>
-              Skilled in database management with MS Excel and SQL, and Docker
+              Power BI, Tableau, Google Sheet and Excel for data visualization
+              and dashboard creation
             </li>
-            <li>Awarded a 5-star rating in SQL on HackerRank.</li>
-            <li>
-              Expertise in data visualization and dashboard creation using Power
-              BI and Excel
-            </li>
-            <li>Skilled in Python and SPSS for Data Analysis.</li>
+            <li>Python for Data manipulation, analysis and automation.</li>
             <li>
               Strong understanding of statistical analysis techniques for data
               modeling and interpretation.
             </li>
-            <li>
-              Expert with online support resources (GitHub) for troubleshooting
-              and best practices.
-            </li>
+            <li>GitHub for Version Control and Collaboration.</li>
             <li>
               Excellent communication abilities for effective collaboration with
               project leaders and cross-functional teams.
             </li>
+            <li>Awarded a 5-star rating in SQL on HackerRank.</li>
           </ul>
           <p>Below are the following skills I use for analysis: </p>
         </div>
