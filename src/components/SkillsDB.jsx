@@ -10,7 +10,6 @@ import canva from "../images/canva.svg";
 import powerquery from "../images/PowerQuery-Logo.png";
 import fabric from "../images/ms fabrics.webp";
 import docker from "../images/Docker.png";
-import Dbeaver from "../images/DBeaver.png";
 
 const SkillData = [
   {
@@ -48,12 +47,6 @@ const SkillData = [
     title: "DOCKER",
     proficiency: "Advance",
     pic: docker,
-  },
-  {
-    id: "S5",
-    title: "DBEAVER",
-    proficiency: "Advance",
-    pic: Dbeaver,
   },
   {
     id: "S6",

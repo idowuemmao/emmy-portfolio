@@ -15,6 +15,8 @@ import HealthCare from "../images/data-cleaning.png";
 import Airline from "../images/Airline.png";
 import population from "../images/Population 1.png";
 import shipment from "../images/shipment.png";
+import baby_name_trend from "../images/baby_name_trend.png";
+import restaurant_order from "../images/restaurant_order.png";
 
 const ProjectData = [
   {
@@ -48,6 +50,22 @@ const ProjectData = [
     pic: Merchandise,
     code: "https://github.com/idowuemmao/Merchandise_Sale_Report",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "P212",
+    title: "Baby Name Trend Analysis",
+    url: "https://mavenanalytics.io/project/31099",
+    pic: baby_name_trend,
+    code: "https://github.com/idowuemmao/baby_name_trend_analysis",
+    stack: ["SQL", "Postgresql", "PgAdmin"],
+  },
+  {
+    id: "P232",
+    title: "Restaurant Order Analysis",
+    url: "https://mavenanalytics.io/project/30934",
+    pic: restaurant_order,
+    code: "https://github.com/idowuemmao/Restaurant_Order_Analysis",
+    stack: ["SQL", "Postgresql", "PgAdmin"],
   },
   {
     id: "P2",

@@ -11,7 +11,7 @@ const Projects = () => {
       <img
         src={item.pic}
         alt={item.title}
-        className="rounded-lg w-11/12 lg:h-52 md:h-48 h-44"
+        className="rounded-lg w-fit lg:h-52 md:h-48 h-44"
       />
       <h4 className="text-center text-lg uppercase font-black mt-8 mb-4">
         {item.title}

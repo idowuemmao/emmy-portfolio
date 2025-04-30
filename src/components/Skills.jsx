@@ -56,12 +56,12 @@ const Skills = () => {
             <li>
               Skilled in database management with MS Excel and SQL, and Docker
             </li>
-            <li>awarded a 5-star rating in SQL on HackerRank.</li>
+            <li>Awarded a 5-star rating in SQL on HackerRank.</li>
             <li>
               Expertise in data visualization and dashboard creation using Power
               BI and Excel
             </li>
-            <li>Familiar with Python and SPSS for Data Analysis.</li>
+            <li>Skilled in Python and SPSS for Data Analysis.</li>
             <li>
               Strong understanding of statistical analysis techniques for data
               modeling and interpretation.
