@@ -11,6 +11,7 @@ import top5 from "../images/Top 5.png";
 import storyteller from "../images/storyteller badge.jpeg";
 import sqlint from "../images/sql intermediate.png";
 import python from "../images/python.png";
+import mysql from "../images/sqlmaven.png";
 
 const AwardDB = [
   {
@@ -36,6 +37,12 @@ const AwardDB = [
     title: "Python Foundations for Data Analysis",
     pic: python,
     view: "https://certificates.mavenanalytics.io/77a369ff-cbec-4704-bcdd-a911b3bc92ee#acc.aWmqMrnY",
+  },
+  {
+    id: "T012",
+    title: "MySQL Data Analysis",
+    pic: mysql,
+    view: "https://certificates.mavenanalytics.io/def6f191-3fbc-4812-b546-bb31681fc4fd#acc.X87mZ9qQ",
   },
   {
     id: "P0",
