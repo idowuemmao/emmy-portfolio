@@ -17,8 +17,17 @@ import population from "../images/Population 1.png";
 import shipment from "../images/shipment.png";
 import baby_name_trend from "../images/baby_name_trend.png";
 import restaurant_order from "../images/restaurant_order.png";
+import financial_report from "../images/Financial report.png";
 
 const ProjectData = [
+  {
+    id: "P002121",
+    title: "Financial Statement Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYzg0YTM2ODAtMTQ0Yi00OGUwLWE3M2YtYTU4NmViNTdhZjE3IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: financial_report,
+    code: "https://github.com/idowuemmao/Financial-Statements-Analysis-Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
   {
     id: "P0021",
     title: "Shipment Performance Report",

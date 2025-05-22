@@ -35,7 +35,7 @@ const Banner = () => {
             cursor
             className="text-primary"
             cursorStyle="|"
-            typeSpeed={80}
+            typeSpeed={150}
             deleteSpeed={50}
             delaySpeed={1500}
           />
