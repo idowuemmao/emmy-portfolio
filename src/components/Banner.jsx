@@ -47,17 +47,10 @@ const Banner = () => {
         datasets into actionable insights that drive well-informed business
         decisions. Drawing on a robust foundation in Data Analysis, Statistics
         and Mathematics, I employ a systematic and analytical approach to
-        interpret data effectively. I am skilled in the use of tools such as
-        Microsoft Excel, SQL, Power BI, Python and Tableau. I also excel in
-        collection, modelling, wrangling, transforming, analysis, interpretation
-        and visualization of data to discern patterns and trends providing
-        insights to aid my organization in strategic decision-making. My
-        collaborative nature, combined with effective communication skills,
-        enables me to work seamlessly with cross-functional teams and present
-        intricate findings in a clear and concise manner. Demonstrating a strong
-        commitment to continuous learning and staying updated on industry
-        trends, I am devoted to making valuable contributions that enhance
-        business performance through data-driven strategies.
+        interpret data effectively. My collaborative nature, combined with
+        effective communication skills, enables me to work seamlessly with
+        cross-functional teams and present intricate findings in a clear and
+        concise manner.
       </p>
       <div className="flex flex-col  items-center justify-center gap-4 md:flex-row ">
         <a
