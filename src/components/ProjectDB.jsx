@@ -30,7 +30,7 @@ const ProjectData = [
   },
   {
     id: "P0021",
-    title: "Shipment Performance Report",
+    title: "Transportation and Logistics Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiMGIxMWU0OGYtOGYzNC00N2ViLWExZTMtZGE4NTcwZGE5YWFiIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: shipment,
     code: "https://github.com/idowuemmao/Transportation_Logistics_Report",
