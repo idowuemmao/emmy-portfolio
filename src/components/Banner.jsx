@@ -42,18 +42,15 @@ const Banner = () => {
         </div>
       </div>
       <p className="w-full text-xs md:text-sm lg:text-lg xl:text-xl text-center text-secondary">
-        As a proficient and meticulous Data Analyst, I specialize in
-        transforming intricate datasets into actionable insights that drive
-        well-informed business decisions. Drawing on a robust foundation in Data
-        Analysis, Statistics, and Mathematics. I excel in the collection,
-        analysis, interpretation and visualization of data to discern patterns
-        and trends, thereby aiding my organization in strategic decision-making.
-        My collaborative nature, combined with effective communication skills,
-        enables me to work seamlessly with cross-functional teams and present
-        intricate findings in a clear and concise manner. Demonstrating a strong
-        commitment to continuous learning and staying updated on industry
-        trends, I am devoted to making valuable contributions that enhance
-        business performance through data-driven strategies.
+        I am an excellent Data Analyst that help company unlock growth through
+        insights and automation, I specializes in transforming intricate
+        datasets into actionable insights that drive well-informed business
+        decisions. Drawing on a robust foundation in Data Analysis, Statistics
+        and Mathematics, I employ a systematic and analytical approach to
+        interpret data effectively. My collaborative nature, combined with
+        effective communication skills, enables me to work seamlessly with
+        cross-functional teams and present intricate findings in a clear and
+        concise manner.
       </p>
       <div className="flex flex-col  items-center justify-center gap-4 md:flex-row ">
         <a

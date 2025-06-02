@@ -8,6 +8,7 @@ import powerbiservice from "../images/Power BI Service.png";
 import thinkinglikeananalyst from "../images/Thinking like an analyst.png";
 import dataandaiethics from "../images/Data & AI Ethics.png";
 import top5 from "../images/Top 5.png";
+import top5_2 from "../images/Top 5 2.png";
 import storyteller from "../images/storyteller badge.jpeg";
 import sqlint from "../images/sql intermediate.png";
 import python from "../images/python.png";
@@ -16,14 +17,20 @@ import mysql from "../images/sqlmaven.png";
 const AwardDB = [
   {
     id: "Y82",
-    title: "StoryTeller Badge",
+    title: "StoryTeller Badge March 2025",
     pic: storyteller,
     view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
   },
   {
     id: "Y88",
-    title: "Top 5 Finalists",
+    title: "Top 5 Finalists March 2025",
     pic: top5,
+    view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
+  {
+    id: "MM88",
+    title: "Top 5 Finalists May 2025",
+    pic: top5_2,
     view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
   },
   {
