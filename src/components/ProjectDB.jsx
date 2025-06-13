@@ -18,8 +18,18 @@ import shipment from "../images/shipment.png";
 import baby_name_trend from "../images/baby_name_trend.png";
 import restaurant_order from "../images/restaurant_order.png";
 import financial_report from "../images/Financial report.png";
+import panic_attack from "../images/Financial report.png";
+
 
 const ProjectData = [
+  {
+    id: "P2121",
+    title: "Panic Attack Report",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_powerbi-snowflake-healthcareanalytics-activity-7338573276513734657-Q33O",
+    pic: panic_attack,
+    code: "https://github.com/idowuemmao/Panic_Attack_Report",
+    stack: ["Snowflake","Power Query", "Power BI", "DAX and Measures"],
+  },
   {
     id: "P002121",
     title: "Financial Statement Report",
