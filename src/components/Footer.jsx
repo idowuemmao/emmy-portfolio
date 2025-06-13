@@ -121,7 +121,7 @@ export default function Footer() {
                 <FaXTwitter /> Twitter
               </a>
               <a
-                href="https://linkedin.com/in/emmanuel-idowu-973626249"
+                href="https://www.linkedin.com/in/emmanuel-idowu-analyst/"
                 className="flex gap-2 items-center"
               >
                 <FaLinkedinIn /> LinkedIn
