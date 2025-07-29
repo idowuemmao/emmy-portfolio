@@ -19,8 +19,27 @@ import baby_name_trend from "../images/baby_name_trend.png";
 import restaurant_order from "../images/restaurant_order.png";
 import financial_report from "../images/Financial report.png";
 import panic_attack from "../images/Screenshot_5.png";
+import customer_sat from "../images/CustomerSat.png";
+import ithelpdesk from "../images/IT Helpdesk.png";
+import cricket from "../images/cricket.png";
 
 const ProjectData = [
+  {
+    id: "P212",
+    title: "Customer Satisfaction Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYzU2OGIyMDgtMzdkYS00NWNhLWI2NjUtZDM3MDQ0ZWM1NGVhIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: customer_sat,
+    code: "https://github.com/idowuemmao/Customer_satisfaction_report",
+    stack: ["Power Query", "Power BI", "DAX and Measures"],
+  },
+  {
+    id: "P0302121",
+    title: "IT HelpDesk Report ",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiOWUwYjVlNmYtZDYyZC00MWNmLWI0YmEtNWViNzBlMDUxZTI5IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: ithelpdesk,
+    code: "https://github.com/idowuemmao/IT_HelpDesk_Report",
+    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
   {
     id: "P2121",
     title: "Panic Attack Report",
@@ -125,6 +144,14 @@ const ProjectData = [
     pic: employee,
     code: "https://github.com/idowuemmao/Employee_Performance",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+  },
+  {
+    id: "PR6",
+    title: "ODI Cricket Match Report",
+    url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_powerbi-cricketanalytics-datavisualization-activity-7348259587562569728-N8Mx",
+    pic: cricket,
+    code: "https://github.com/idowuemmao/Cricket_Report",
+    stack: ["Web Scraping", "Power Query", "Power BI", "DAX and Measures"],
   },
   {
     id: "P7",
