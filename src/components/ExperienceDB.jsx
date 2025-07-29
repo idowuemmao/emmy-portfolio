@@ -2,7 +2,7 @@ const ExperienceDB = [
   {
     id: "EX0",
     JobRole: "Data Analyst",
-    JobType: "Volunteer",
+    JobType: "Contract",
     StartDay: "March 2025",
     EndDay: "Present",
     Company: "The Analyst Hub",
