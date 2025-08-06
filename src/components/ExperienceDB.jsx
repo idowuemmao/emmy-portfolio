@@ -62,7 +62,7 @@ const ExperienceDB = [
     EndDay: "March 2025",
     Company: "Best Technologies Limited",
     Nature: "Part Time",
-    url: "",
+    url: "https://www.besttechnologiesltd.com/",
     Description: [
       "Mentor and guide data analysis newbies",
       "Organize data analysis tutorial classes but online and onsite for data analyst newbies",
