@@ -53,7 +53,7 @@ const ExperienceDB = [
   {
     id: "EX2",
     JobRole: "Quantity Surveyor",
-    JobType: "Onsite",
+    JobType: "",
     StartDay: "April 2022",
     EndDay: "March 2025",
     Company: "Best Technologies Limited",
@@ -68,7 +68,7 @@ const ExperienceDB = [
   {
     id: "EX3",
     JobRole: "Data Analysis Tutor",
-    JobType: "Onsite",
+    JobType: "",
     StartDay: "February 2023",
     EndDay: "March 2025",
     Company: "Best Technologies Limited",
