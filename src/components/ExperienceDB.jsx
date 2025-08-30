@@ -54,7 +54,7 @@ const ExperienceDB = [
     id: "EX2",
     JobRole: "Quantity Surveyor",
     JobType: "",
-    StartDay: "April 2022",
+    StartDay: "February 2022",
     EndDay: "March 2025",
     Company: "Best Technologies Limited",
     Nature: "OnSite",
