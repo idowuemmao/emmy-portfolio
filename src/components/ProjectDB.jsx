@@ -22,15 +22,48 @@ import panic_attack from "../images/Screenshot_5.png";
 import customer_sat from "../images/CustomerSat.png";
 import ithelpdesk from "../images/IT Helpdesk.png";
 import cricket from "../images/cricket.png";
+import fitness from "../images/fitness.png";
+import athletics from "../images/athletics.png";
+import pythonsummer from "../images/pythonsummer.png";
 
 const ProjectData = [
+  {
+    id: "MY212",
+    title: "Python Summer Party",
+    url: "https://github.com/idowuemmao/python-summer-party-solutions",
+    pic: pythonsummer,
+    code: "https://github.com/idowuemmao/python-summer-party-solutions",
+    stack: ["Python", "Pandas", "NumPy", "Interview Master AI"],
+  },
+  {
+    id: "PU2121",
+    title: "Fitness Membership Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZTNmMmVkNDMtZjA2YS00ZWFhLWFjMzQtNzMxZDJlYzZjN2NlIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9&disablecdnExpiration=1756500500",
+    pic: fitness,
+    code: "https://github.com/idowuemmao/fitness_membership_analysis",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
+  {
+    id: "99238W",
+    title: "Sport Injury Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYWJjZDYxY2EtM2I3Yy00ZDIwLTgzMGQtNWU3ZWEwZDVjYWZmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: athletics,
+    code: "https://github.com/idowuemmao/Athletics-and-Injury-Report",
+    stack: ["Power Query", "Power BI", "ZoomCharts", "DAX and Measures"],
+  },
   {
     id: "P212",
     title: "Customer Satisfaction Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiYzU2OGIyMDgtMzdkYS00NWNhLWI2NjUtZDM3MDQ0ZWM1NGVhIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: customer_sat,
     code: "https://github.com/idowuemmao/Customer_satisfaction_report",
-    stack: ["Power Query", "Power BI", "DAX and Measures"],
+    stack: ["Power Query", "Power BI", "ZoomCharts", "DAX and Measures"],
   },
   {
     id: "P0302121",
@@ -38,7 +71,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiOWUwYjVlNmYtZDYyZC00MWNmLWI0YmEtNWViNzBlMDUxZTI5IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: ithelpdesk,
     code: "https://github.com/idowuemmao/IT_HelpDesk_Report",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P2121",
@@ -54,7 +93,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiYzg0YTM2ODAtMTQ0Yi00OGUwLWE3M2YtYTU4NmViNTdhZjE3IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: financial_report,
     code: "https://github.com/idowuemmao/Financial-Statements-Analysis-Report",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P0021",
@@ -62,7 +107,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiMGIxMWU0OGYtOGYzNC00N2ViLWExZTMtZGE4NTcwZGE5YWFiIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: shipment,
     code: "https://github.com/idowuemmao/Transportation_Logistics_Report",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P00",
@@ -70,7 +121,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiNzYzOWJmNzktYTM0Mi00NTk1LWFhOWEtMTlmMmQwMTcxMGJmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: population,
     code: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P0",
@@ -78,7 +135,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiZGZiYzdmOTYtZDcyNC00NzQ1LWFlOGQtODk2MjMxOWFiNTQzIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: Airline,
     code: "https://github.com/idowuemmao/Airline_Delay_Report",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P1",
@@ -86,7 +149,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiYjBjMGViZWUtNGNlYS00MGVhLTlkNzUtMGU2NjJkMzk1NmRjIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: Merchandise,
     code: "https://github.com/idowuemmao/Merchandise_Sale_Report",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P212",
@@ -110,7 +179,13 @@ const ProjectData = [
     url: "https://www.linkedin.com/posts/emmanuel-idowu-analyst_my-adventure-work-activity-7247515756182069248-VbCK",
     pic: adventureworks,
     code: "https://github.com/idowuemmao/AdventureWorksDashboard",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
 
   {
@@ -167,7 +242,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiMTcyMzUyZTktNWZlYy00OWVmLWFiYjMtMWJlMDU2OTA0NTk2IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: christmas,
     code: "https://github.com/idowuemmao/Mavin-Halloween-Candy-Dashboard",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P9",
@@ -199,7 +280,13 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiNDI2NTIxNjYtNTdmMi00NWRjLWE4NmQtMjE3YTU4NTliNjU4IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: supply,
     code: "https://github.com/idowuemmao/Supply_chain_Report",
-    stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
   },
   {
     id: "P13",

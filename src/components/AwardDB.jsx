@@ -13,6 +13,7 @@ import storyteller from "../images/storyteller badge.jpeg";
 import sqlint from "../images/sql intermediate.png";
 import python from "../images/python.png";
 import mysql from "../images/sqlmaven.png";
+import pythonsummer from "../images/pythonsummer cert.png";
 
 const AwardDB = [
   {
@@ -31,6 +32,12 @@ const AwardDB = [
     id: "Y82",
     title: "StoryTeller Badge February 2025",
     pic: storyteller,
+    view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
+  {
+    id: "P0330",
+    title: "Python Summer Party",
+    pic: pythonsummer,
     view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
   },
   {
