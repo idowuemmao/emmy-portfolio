@@ -207,7 +207,7 @@ const ProjectData = [
   {
     id: "P5",
     title: "Candy Research Report",
-    url: "https://app.powerbi.com/view?r=eyJrIjoiYjA0Y2IxZmMtZWU1OC00OWUzLWEwNjQtYTQ0ZmQ1NTc3YzdlIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZDY3MTQxNWYtMjIyYS00MzY5LWFjNzItZGQwNGNhNjNiOTVmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: candy,
     code: "https://github.com/idowuemmao/Candy_Research_Report",
     stack: ["Power Query", "Power BI", "DAX and Measures", "Canva"],
