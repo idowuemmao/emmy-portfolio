@@ -29,7 +29,7 @@ import hr_report from "../images/HR.png";
 
 const ProjectData = [
   {
-    id: "MRE212",
+    id: "MY432",
     title: "HR Analytics Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiOWU0OTY5MDUtZWUwZi00OGMyLWE5ODItNzcyZmFmYmY4Njg0IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: hr_report,
