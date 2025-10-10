@@ -25,14 +25,14 @@ import cricket from "../images/cricket.png";
 import fitness from "../images/fitness.png";
 import athletics from "../images/athletics.png";
 import pythonsummer from "../images/pythonsummer.png";
-import hrreport from "../images/HR.png";
+import hr_report from "../images/HR.png";
 
 const ProjectData = [
   {
     id: "MRE212",
     title: "HR Analytics Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiOWU0OTY5MDUtZWUwZi00OGMyLWE5ODItNzcyZmFmYmY4Njg0IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
-    pic: hrreport,
+    pic: hr_report,
     code: "https://github.com/idowuemmao/HR_Analysis_Report",
     stack: [
       "Power Query",
