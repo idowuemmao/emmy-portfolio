@@ -44,15 +44,18 @@ const Banner = () => {
         </div>
       </div>
       <p className="w-full text-xs md:text-sm lg:text-lg xl:text-xl text-center text-secondary">
-        I am an excellent Data Analyst that help company unlock growth through
-        insights and automation, I specializes in transforming intricate
-        datasets into actionable insights that drive well-informed business
-        decisions. Drawing on a robust foundation in Data Analysis, Statistics
-        and Mathematics, I employ a systematic and analytical approach to
-        interpret data effectively. My collaborative nature, combined with
-        effective communication skills, enables me to work seamlessly with
-        cross-functional teams and present intricate findings in a clear and
-        concise manner.
+        I am a results driven BI Analyst & Data Analyst with 2+ years of
+        experience designing scalable data models, building ETL pipelines,
+        developing interactive BI solutions, and delivering insights that drive
+        strategic decision-making. Skilled in Power BI, SQL, Python, and
+        familiar with cloud-based data workflows, with hands-on experience
+        improving data integrity, automating reporting, and optimizing data
+        infrastructure across publishing, education, real estate, and
+        manufacturing sectors. Strong ability to translate business requirements
+        into technical solutions, collaborate with cross-functional teams, and
+        communicate complex insights clearly. Passionate about building robust
+        data systems that enable accuracy, transparency, and operational
+        efficiency.
       </p>
       <div className="flex flex-col  items-center justify-center gap-4 md:flex-row ">
         <a
