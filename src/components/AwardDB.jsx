@@ -14,8 +14,29 @@ import sqlint from "../images/sql intermediate.png";
 import python from "../images/python.png";
 import mysql from "../images/sqlmaven.png";
 import pythonsummer from "../images/pythonsummer cert.png";
+import top5_3 from "../images/top5_3.png";
+import cloud_basics from "../images/cloud_basics.png";
+import finmodel from "../images/fin_model.png";
 
 const AwardDB = [
+  {
+    id: "M38",
+    title: "Top 5 Finalists October 2025",
+    pic: top5_3,
+    view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
+  {
+    id: "MI00",
+    title: "Intro to Financial Modeling",
+    pic: finmodel,
+    view: "",
+  },
+  {
+    id: "MI48",
+    title: "Cloud Basics for Data Professional",
+    pic: cloud_basics,
+    view: "",
+  },
   {
     id: "MM88",
     title: "Top 5 Finalists May 2025",

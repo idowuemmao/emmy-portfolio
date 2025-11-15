@@ -26,8 +26,24 @@ import fitness from "../images/fitness.png";
 import athletics from "../images/athletics.png";
 import pythonsummer from "../images/pythonsummer.png";
 import hr_report from "../images/HR.png";
+import cust_compl from "../images/complaint.png";
+import socialMedia from "../images/socialmedia.png";
 
 const ProjectData = [
+  {
+    id: "BBY432",
+    title: "Consumer Complaint Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiMzM5NGEzYjEtYzdlZC00ZGVkLWEyMjctMjc0ODNmMmU1M2U5IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: cust_compl,
+    code: "https://github.com/idowuemmao/Customer-Complaint-Report",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
   {
     id: "MY432",
     title: "HR Analytics Report",
@@ -86,6 +102,20 @@ const ProjectData = [
     url: "https://app.powerbi.com/view?r=eyJrIjoiOWUwYjVlNmYtZDYyZC00MWNmLWI0YmEtNWViNzBlMDUxZTI5IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: ithelpdesk,
     code: "https://github.com/idowuemmao/IT_HelpDesk_Report",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
+  {
+    id: "PE2121",
+    title: "Social Media Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiNGQ3ZDI3ZTUtZTE0YS00Y2VmLThjM2EtOWJmMDYwZTliYzgwIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: socialMedia,
+    code: "https://github.com/idowuemmao/Social_Media_Report",
     stack: [
       "Power Query",
       "Power BI",

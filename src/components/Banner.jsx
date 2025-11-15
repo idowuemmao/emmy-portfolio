@@ -26,6 +26,8 @@ const Banner = () => {
             words={[
               "Data Analyst",
               "Business Intelligence Analyst",
+              "Data Analysis Tutor @YouTube",
+              "Financial Analyst",
               "Microsoft Excel Expert",
               "SQL Developer",
               "PowerBI Specialist",
