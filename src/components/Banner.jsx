@@ -64,7 +64,7 @@ const Banner = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-4 p-2 cursor-pointer px-8 rounded-xl bg-primary w-fit hover:underline"
         >
-          Youtube Channel
+          Visit my Youtube Channel
           <FaArrowCircleRight />
         </a>
         <a
