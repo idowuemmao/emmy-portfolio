@@ -29,8 +29,17 @@ import hr_report from "../images/HR.png";
 import cust_compl from "../images/complaint.png";
 import socialMedia from "../images/socialmedia.png";
 import animal1 from "../images/animal1.png";
+import sqladvent from "../images/sql_advent_1.png";
 
 const ProjectData = [
+  {
+    id: "IUE212",
+    title: "SQL Advent Calender",
+    url: "https://github.com/idowuemmao/SQL_Advent_Calender",
+    pic: sqladvent,
+    code: "https://github.com/idowuemmao/SQL_Advent_Calender",
+    stack: ["SQL", "PostgreSQL", "SQLite", "Interview Master AI"],
+  },
   {
     id: "ruwY40232",
     title: "Animal Shelter Operation Report",
