@@ -16,7 +16,8 @@ import mysql from "../images/sqlmaven.png";
 import pythonsummer from "../images/pythonsummer cert.png";
 import top5_3 from "../images/top5_3.png";
 import cloud_basics from "../images/cloud_basics.png";
-import finmodel from "../images/fin_model.png";
+import fin_model from "../images/fin_model.png";
+import sql_advent_2 from "../images/sql_advent_2.png";
 
 const AwardDB = [
   {
@@ -28,7 +29,7 @@ const AwardDB = [
   {
     id: "MI00",
     title: "Intro to Financial Modeling",
-    pic: finmodel,
+    pic: fin_model,
     view: "",
   },
   {
@@ -53,6 +54,12 @@ const AwardDB = [
     id: "Y82",
     title: "StoryTeller Badge February 2025",
     pic: storyteller,
+    view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
+  {
+    id: "M098",
+    title: "SQL Advent Calender",
+    pic: sql_advent_2,
     view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
   },
   {

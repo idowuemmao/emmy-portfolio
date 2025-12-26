@@ -28,8 +28,23 @@ import pythonsummer from "../images/pythonsummer.png";
 import hr_report from "../images/HR.png";
 import cust_compl from "../images/complaint.png";
 import socialMedia from "../images/socialmedia.png";
+import animal1 from "../images/animal1.png";
 
 const ProjectData = [
+  {
+    id: "ruwY40232",
+    title: "Animal Shelter Operation Report",
+    url: "",
+    pic: animal1,
+    code: "https://github.com/idowuemmao/Animal-Shelter-Operation-Report",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
   {
     id: "BBY432",
     title: "Consumer Complaint Report",
