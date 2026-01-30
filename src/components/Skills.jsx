@@ -54,7 +54,9 @@ const Skills = () => {
           {/* Skills Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 text-xs md:text-sm lg:text-base text-justify w-full max-w-5xl">
             <div className="space-y-4">
-              <p className="font-semibold">Data Analysis & Statistics</p>
+              <p className="font-semibold underline">
+                Data Analysis & Statistics
+              </p>
               <ul className="list-disc list-inside pl-4 space-y-1">
                 <li>Exploratory Data Analysis (EDA) and trend analysis</li>
                 <li>Descriptive statistics and frequency analysis</li>
@@ -64,7 +66,7 @@ const Skills = () => {
                 </li>
               </ul>
 
-              <p className="font-semibold">
+              <p className="font-semibold underline">
                 Data Cleaning, Validation & Quality
               </p>
               <ul className="list-disc list-inside pl-4 space-y-1">
@@ -78,7 +80,7 @@ const Skills = () => {
             </div>
 
             <div className="space-y-4">
-              <p className="font-semibold">Tools & Technologies</p>
+              <p className="font-semibold underline">Tools & Technologies</p>
               <ul className="list-disc list-inside pl-4 space-y-1">
                 <li>SQL (joins, aggregations, CTEs, optimized queries)</li>
                 <li>
@@ -93,7 +95,9 @@ const Skills = () => {
                 </li>
               </ul>
 
-              <p className="font-semibold">Reporting & Visualization</p>
+              <p className="font-semibold underline">
+                Reporting & Visualization
+              </p>
               <ul className="list-disc list-inside pl-4 space-y-1">
                 <li>Power BI dashboards and data modeling</li>
                 <li>KPI tracking and performance reporting</li>
@@ -101,7 +105,9 @@ const Skills = () => {
                 <li>Stakeholder-ready reports and summaries</li>
               </ul>
 
-              <p className="font-semibold">Data Workflows & Collaboration</p>
+              <p className="font-semibold underline">
+                Data Workflows & Collaboration
+              </p>
               <ul className="list-disc list-inside pl-4 space-y-1">
                 <li>
                   Working with large, structured and semi-structured datasets
@@ -116,6 +122,31 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        {/* Soft Skills */}
+        <div className="flex flex-col gap-4 items-center mt-10">
+          <h2 className="text-2xl md:text-3xl text-primary">
+            Professional Strengths
+          </h2>
+
+          <p className="text-shading text-center text-xs md:text-sm lg:text-base max-w-3xl">
+            In addition to technical expertise, I bring strong professional and
+            interpersonal skills that support effective collaboration, accurate
+            analysis, and reliable delivery across projects.
+          </p>
+
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-xs md:text-sm lg:text-base list-disc list-inside max-w-4xl">
+            <li>Analytical thinking and structured problem-solving</li>
+            <li>High attention to detail and data accuracy</li>
+            <li>Clear written and verbal communication of insights</li>
+            <li>Ability to work independently in remote environments</li>
+            <li>Strong documentation and reporting discipline</li>
+            <li>
+              Cross-functional collaboration with technical and business teams
+            </li>
+            <li>Effective time management and deadline ownership</li>
+          </ul>
+        </div>
+
         <Carousel
           responsive={responsive}
           className="h-72 z-0"
