@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Typewriter } from "react-simple-typewriter";
 import { useForm } from "react-hook-form";
@@ -126,11 +126,17 @@ export default function Footer() {
               >
                 <FaLinkedinIn /> LinkedIn
               </a>
+              <a
+                href="https://www.youtube.com/@Emmy-The-Analyst"
+                className="flex gap-2 items-center"
+              >
+                <FaYoutube /> YouTube
+              </a>
             </div>
           </div>
         </div>
         <p className="text-center text-xs md:text-sm pb-8 italic">
-          &#169; 2025 Idowu Emmanuel. All Rights Reserved
+          &#169; 2026 Idowu Emmanuel. All Rights Reserved
         </p>
       </div>
     </footer>
