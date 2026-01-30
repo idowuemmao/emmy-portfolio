@@ -42,36 +42,66 @@ const Skills = () => {
         data-aos-duration="1000"
         className="grid mx-10 md:mx-20 gap-12 mt-28 bg-[url('./images/w000562.jpg')] bg-cover p-8 md:px-24 rounded-3xl"
       >
-        <div className="flex flex-col gap-4 items-center ">
-          <h1 className="text-4xl md:text-6xl text-primary ">Skills</h1>
-          <p className="text-shading text-center text-sm md:text-base lg:text-xl ">
-            I employ a systematic and analytical approach to interpret data
-            effectively. Skilled in the use of the following tools:
+        <div className="flex flex-col gap-4 items-center">
+          <h1 className="text-4xl md:text-6xl text-primary">Skills</h1>
+
+          <p className="text-shading text-center text-sm md:text-base lg:text-xl">
+            I employ a structured and analytical approach to working with data,
+            focusing on accuracy, clarity, and insight generation. Below are the
+            core technical skills and tools I use across projects:
           </p>
-          <ul className="list-disc list-inside pl-4 text-xs text-justify space-y-2 ">
-            <li>
-              Advanced proficiency in Microsoft Excel, Google Sheets, and
-              Microsoft Visual Basic.
-            </li>
-            <li>SQL (complex querying, ETL processes)</li>
-            <li>Database management with MySQL, PostgreSQL, SQLite</li>
-            <li>
-              Power BI, Tableau, Google Sheet and Excel for data visualization
-              and dashboard creation
-            </li>
-            <li>Python for Data manipulation, analysis and automation.</li>
-            <li>
-              Strong understanding of statistical analysis techniques for data
-              modeling and interpretation.
-            </li>
-            <li>GitHub for Version Control and Collaboration.</li>
-            <li>
-              Excellent communication abilities for effective collaboration with
-              project leaders and cross-functional teams.
-            </li>
-            <li>Awarded a 5-star rating in SQL on HackerRank.</li>
-          </ul>
-          <p>Below are the following skills I use for analysis: </p>
+
+          <div className="text-xs md:text-sm lg:text-base text-justify space-y-4">
+            <p className="font-semibold">Data Analysis & Statistics</p>
+            <ul className="list-disc list-inside pl-4 space-y-1">
+              <li>Exploratory Data Analysis (EDA) and trend analysis</li>
+              <li>Descriptive statistics and frequency analysis</li>
+              <li>Pattern, gap, and anomaly detection in datasets</li>
+              <li>Data segmentation by region, category, and key attributes</li>
+            </ul>
+
+            <p className="font-semibold">Data Cleaning, Validation & Quality</p>
+            <ul className="list-disc list-inside pl-4 space-y-1">
+              <li>Data cleaning, transformation, and standardization</li>
+              <li>
+                Data validation, reconciliation, and quality assurance checks
+              </li>
+              <li>Handling missing, inconsistent, and duplicate data</li>
+              <li>Ensuring data accuracy across reporting workflows</li>
+            </ul>
+
+            <p className="font-semibold">Tools & Technologies</p>
+            <ul className="list-disc list-inside pl-4 space-y-1">
+              <li>SQL (joins, aggregations, CTEs, optimized queries)</li>
+              <li>Python (pandas, numpy) for data manipulation and analysis</li>
+              <li>
+                Advanced Excel (Power Query, PivotTables, formulas, data
+                modeling)
+              </li>
+              <li>Google Sheets for analysis, reporting, and collaboration</li>
+            </ul>
+
+            <p className="font-semibold">Reporting & Visualization</p>
+            <ul className="list-disc list-inside pl-4 space-y-1">
+              <li>Power BI dashboards and data modeling</li>
+              <li>KPI tracking and performance reporting</li>
+              <li>Clear data visualization and storytelling</li>
+              <li>Stakeholder-ready reports and summaries</li>
+            </ul>
+
+            <p className="font-semibold">Data Workflows & Collaboration</p>
+            <ul className="list-disc list-inside pl-4 space-y-1">
+              <li>
+                Working with large, structured and semi-structured datasets
+              </li>
+              <li>
+                Multi-source data integration (databases, spreadsheets, cloud
+                files)
+              </li>
+              <li>Independent analysis in remote environments</li>
+              <li>Clear written communication and documentation</li>
+            </ul>
+          </div>
         </div>
         <Carousel
           responsive={responsive}
