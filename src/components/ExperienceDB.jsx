@@ -9,9 +9,12 @@ const ExperienceDB = [
     Nature: "Remote",
     url: "https://www.theanalysthub.ng/",
     Description: [
-      "Collaborated with cross-functional teams to analyze datasets from education, healthcare, real estate, and manufacturing sectors.",
-      "Cleaned, explored, and visualized large datasets to uncover trends and deliver actionable insights.",
-      "Developed dashboards and reports that improved internal reporting and supported executive decision-making.",
+      "I supported ongoing analytics initiatives by working with structured datasets to deliver accurate reporting and actionable insights. My responsibilities focused on data preparation, analysis, and visualization to help stakeholders understand performance trends and data quality issues.",
+      "Extracted, cleaned, and transformed datasets using SQL, Python, and Excel to support analytics and reporting needs.",
+      "Conducted exploratory data analysis to identify trends, patterns, and performance gaps across marketing and engagement data.",
+      "Built and maintained Power BI dashboards to visualize key metrics and track performance over time.",
+      "Performed data validation and consistency checks to ensure reliable outputs across reporting workflows.",
+      "Translated stakeholder requirements into structured analytical approaches and documented findings for clarity and reuse.",
     ],
   },
   {
@@ -24,9 +27,13 @@ const ExperienceDB = [
     Nature: "Remote",
     url: "",
     Description: [
-      "Built custom Excel and Power BI dashboards for SMEs, visualizing KPIs on sales, marketing campaigns, and operational efficiency. Also automated recurring reporting processes using Power Query and scheduled refreshes in Power BI.",
-      "Delivered SQL-driven insights from relational databases for client projects, supporting performance tracking and revenue optimization.",
-      "Collaborated with business owners to translate requirements into data models, visuals, and actionable insights.",
+      "I worked with clients across different industries, supporting short-term and ongoing data analysis needs. I independently managed projects from data collection through reporting, ensuring accuracy and clarity in all deliverables.",
+      "Extracted and analyzed data from SQL databases, Excel files, Google Sheets, and cloud-based sources.",
+      "Designed Excel-based analysis workflows using Power Query, PivotTables, formulas, and validation rules to standardize reporting.",
+      "Performed descriptive and trend analysis to identify patterns, inefficiencies, and opportunities for improvement.",
+      "Conducted data quality checks, reconciliation, and error reviews to maintain reporting accuracy.",
+      "Built dashboards and summary reports that translated complex datasets into clear, decision-ready insights.",
+      "Managed multiple projects concurrently while meeting deadlines and maintaining high attention to detail.",
     ],
   },
   {

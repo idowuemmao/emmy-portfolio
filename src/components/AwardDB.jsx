@@ -18,6 +18,12 @@ import top5_3 from "../images/top5_3.png";
 import cloud_basics from "../images/cloud_basics.png";
 import fin_model from "../images/fin_model.png";
 import sql_advent_2 from "../images/sql_advent_2.png";
+import data_literacy from "../images/Data Literacy Foundation.png";
+import critical_thinking from "../images/Critical thinking.png";
+import gen_ai from "../images/gen ai.png";
+import prompt_eng from "../images/prompt eng.png";
+
+
 
 const AwardDB = [
   {
@@ -25,6 +31,30 @@ const AwardDB = [
     title: "Top 5 Finalists October 2025",
     pic: top5_3,
     view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
+  {
+    id: "M02200",
+    title: "Critical Thinking in the Age of AI",
+    pic: critical_thinking,
+    view: "",
+  },
+  {
+    id: "M42I48",
+    title: "Gen AI Essential",
+    pic: gen_ai,
+    view: "",
+  },
+  {
+    id: "MI00",
+    title: "Prompt Engineering Masterclass",
+    pic: prompt_eng,
+    view: "",
+  },
+  {
+    id: "MI48",
+    title: "Data Literacy Foundations",
+    pic: data_literacy,
+    view: "",
   },
   {
     id: "MI00",

@@ -44,18 +44,19 @@ const Banner = () => {
         </div>
       </div>
       <p className="w-full text-xs md:text-sm lg:text-lg xl:text-xl text-center text-secondary">
-        I am a results driven BI Analyst & Data Analyst with 2+ years of
-        experience designing scalable data models, building ETL pipelines,
-        developing interactive BI solutions, and delivering insights that drive
-        strategic decision-making. Skilled in Power BI, SQL, Python, and
-        familiar with cloud-based data workflows, with hands-on experience
-        improving data integrity, automating reporting, and optimizing data
-        infrastructure across publishing, education, real estate, and
-        manufacturing sectors. Strong ability to translate business requirements
-        into technical solutions, collaborate with cross-functional teams, and
-        communicate complex insights clearly. Passionate about building robust
-        data systems that enable accuracy, transparency, and operational
-        efficiency.
+        I am a detail-oriented Data Analyst with over two years of hands-on
+        experience working with structured and semi-structured data to support
+        analysis, reporting, and decision-making. I specialize in cleaning,
+        validating, and analyzing datasets using SQL, Python, Excel, and Power
+        BI to uncover trends, patterns, and data quality gaps. My work spans
+        business reporting, financial analysis, product analysis, survey-style analysis, and operational analytics,
+        where I have supported stakeholders by transforming raw data into clear,
+        actionable insights. I am comfortable working independently in remote
+        environments, collaborating with cross-functional teams, and ensuring
+        data accuracy across end-to-end analytical workflows. I focus on
+        building reliable analysis, meaningful visualizations, and
+        well-documented outputs that help teams understand their data and make
+        informed decisions.
       </p>
       <div className="flex flex-col  items-center justify-center gap-4 md:flex-row ">
         <a
