@@ -30,8 +30,23 @@ import cust_compl from "../images/complaint.png";
 import socialMedia from "../images/socialmedia.png";
 import animal1 from "../images/animal1.png";
 import sqladvent from "../images/sql_advent_1.png";
+import Pharma from "../images/pharma sales.png";
 
 const ProjectData = [
+  {
+    id: "PP98s32",
+    title: "Pharmacy  Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiODcwYjI5ODgtZDFlNi00MmFjLWI2ZjAtNDFmYTVjZWNiOTM0IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9&disablecdnExpiration=1771951054",
+    pic: Pharma,
+    code: "https://github.com/idowuemmao/pharmacy-sales-promotion-analytics-powerbi",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
   {
     id: "IUE212",
     title: "SQL Advent Calender",
@@ -43,7 +58,7 @@ const ProjectData = [
   {
     id: "ruwY40232",
     title: "Animal Shelter Operation Report",
-    url: "",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiNDg0ZTIzNDEtYjc2Zi00ZTA4LTk1ZDUtNjA2ZTEzNzAyZTY0IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
     pic: animal1,
     code: "https://github.com/idowuemmao/Animal-Shelter-Operation-Report",
     stack: [

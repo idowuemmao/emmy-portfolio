@@ -10,6 +10,7 @@ import canva from "../images/canva.svg";
 import powerquery from "../images/PowerQuery-Logo.png";
 import fabric from "../images/ms fabrics.webp";
 import docker from "../images/Docker.png";
+import lookerstudio from "../images/google-looker-seeklogo.png";
 
 const SkillData = [
   {
@@ -44,12 +45,18 @@ const SkillData = [
   },
   {
     id: "S5",
+    title: "LOOKER STUDIO",
+    proficiency: "Advance",
+    pic: lookerstudio,
+  },
+  {
+    id: "S55",
     title: "TABLEAU",
     proficiency: "Advance",
     pic: tableau,
   },
   {
-    id: "S5",
+    id: "S45",
     title: "DOCKER",
     proficiency: "Advance",
     pic: docker,

@@ -22,15 +22,27 @@ import data_literacy from "../images/Data Literacy Foundation.png";
 import critical_thinking from "../images/Critical thinking.png";
 import gen_ai from "../images/gen ai.png";
 import prompt_eng from "../images/prompt eng.png";
-
-
+import associate_da from "../images/Associate DA.png";
+import runner_up from "../images/runner up awards.png";
 
 const AwardDB = [
+  {
+    id: "M4r38",
+    title: "Runner Up Awards ",
+    pic: runner_up,
+    view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
   {
     id: "M38",
     title: "Top 5 Finalists October 2025",
     pic: top5_3,
     view: "https://github.com/idowuemmao/Population_and_Urbanization_Trend",
+  },
+  {
+    id: "M534j200",
+    title: "Associate Data Analyst",
+    pic: associate_da,
+    view: "",
   },
   {
     id: "M02200",
