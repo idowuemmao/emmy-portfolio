@@ -35,7 +35,7 @@ import Pharma from "../images/pharma sales.png";
 const ProjectData = [
   {
     id: "PP98s32",
-    title: "Pharmacy  Report",
+    title: "Pharmacy Sales & Promotion Report",
     url: "https://app.powerbi.com/view?r=eyJrIjoiODcwYjI5ODgtZDFlNi00MmFjLWI2ZjAtNDFmYTVjZWNiOTM0IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9&disablecdnExpiration=1771951054",
     pic: Pharma,
     code: "https://github.com/idowuemmao/pharmacy-sales-promotion-analytics-powerbi",
