@@ -37,8 +37,25 @@ import Ecommerce from "../images/E-commerce.png";
 import supplychain from "../images/supplychain.png";
 import clinical from "../images/clinicalreport.png";
 import procurement from "../images/procurement.png";
+import oilgas from "../images/oil&gas.png";
 
 const ProjectData = [
+  {
+    id: "OILGAS22",
+    title: "Oil, Gas & Energy Operations Analytics Report",
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZDA5ZGRhZGItMDY2ZS00N2MwLTgwYmEtNzE3OTM1ZjNmODQ5IiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9",
+    pic: oilgas,
+    description:
+      "A comprehensive Oil, Gas & Energy Operations Analytics Report. This report is designed to provide valuable insights into the operations of the oil and gas industry, helping stakeholders optimize their processes and make informed decisions. Through the use of advanced analytics and data visualization techniques, this report offers a deep dive into key performance indicators, production metrics, and operational efficiency. Whether you're an industry professional or simply interested in understanding the complexities of oil and gas operations, this report is a must-read. Check it out and let me know your thoughts!",
+    code: "https://github.com/idowuemmao/oil-gas-operations-analytics-powerbi",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
   {
     id: "WOEIE2",
     title: "Supply Chain Analytics Report",
