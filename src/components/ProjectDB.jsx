@@ -63,7 +63,7 @@ const ProjectData = [
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7477439034701561856/",
     pic: glowmart,
     description:
-      "A comprehensive GlowMart E-Commerce Analytics Report. This report is designed to provide valuable insights into the operations of the e-commerce industry, helping stakeholders optimize their processes and make informed decisions. Through the use of advanced analytics and data visualization techniques, this report offers a deep dive into key performance indicators, sales metrics, and customer behavior. Whether you're an industry professional or simply interested in understanding the complexities of e-commerce operations, this report is a must-read. Check it out and let me know your thoughts!",
+      "A 3-page Power BI analytics report resolving a real-world inventory allocation conflict for a simulated FMCG beauty & personal care retailer, built for the SkillAhead Data Analytics Challenge. Emeka (Sales Manager) said: Inventory isn't stocking the right products in the right cities. Port Harcourt and Kano customers are ready to buy — but shelves are empty. Tunde (Inventory Manager) said: I stock based on what Sales tells me. My records show equal allocation across all five cities. Show me the data.The MD stepped in. So I built the report to solve the question backed with data.",
     code: "https://github.com/idowuemmao/glowmart-nigeria-sales-inventory-bi",
     stack: [
       "Power Query",
