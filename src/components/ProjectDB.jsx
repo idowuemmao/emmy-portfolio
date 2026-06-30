@@ -38,6 +38,7 @@ import supplychain from "../images/supplychain.png";
 import clinical from "../images/clinicalreport.png";
 import procurement from "../images/procurement.png";
 import oilgas from "../images/oil&gas.png";
+import glowmart from "../images/glowmart.png";
 
 const ProjectData = [
   {
@@ -48,6 +49,22 @@ const ProjectData = [
     description:
       "A comprehensive Oil, Gas & Energy Operations Analytics Report. This report is designed to provide valuable insights into the operations of the oil and gas industry, helping stakeholders optimize their processes and make informed decisions. Through the use of advanced analytics and data visualization techniques, this report offers a deep dive into key performance indicators, production metrics, and operational efficiency. Whether you're an industry professional or simply interested in understanding the complexities of oil and gas operations, this report is a must-read. Check it out and let me know your thoughts!",
     code: "https://github.com/idowuemmao/oil-gas-operations-analytics-powerbi",
+    stack: [
+      "Power Query",
+      "Power BI",
+      "ZoomCharts",
+      "DAX and Measures",
+      "Canva",
+    ],
+  },
+  {
+    id: "GLOWM12",
+    title: "GlowMart E-Commerce Analytics Report",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7477439034701561856/",
+    pic: glowmart,
+    description:
+      "A comprehensive GlowMart E-Commerce Analytics Report. This report is designed to provide valuable insights into the operations of the e-commerce industry, helping stakeholders optimize their processes and make informed decisions. Through the use of advanced analytics and data visualization techniques, this report offers a deep dive into key performance indicators, sales metrics, and customer behavior. Whether you're an industry professional or simply interested in understanding the complexities of e-commerce operations, this report is a must-read. Check it out and let me know your thoughts!",
+    code: "https://github.com/idowuemmao/glowmart-nigeria-sales-inventory-bi",
     stack: [
       "Power Query",
       "Power BI",
